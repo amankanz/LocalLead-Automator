@@ -1,0 +1,870 @@
+2026-01-08 19:58:52,168 - INFO - ==================================================
+2026-01-08 19:58:52,168 - INFO - DENTAL CLINIC LEAD GENERATOR - STARTING
+2026-01-08 19:58:52,169 - INFO - ==================================================
+2026-01-08 19:58:52,169 - INFO - 
+--- PHASE 1: SCRAPING ---
+2026-01-08 19:58:52,169 - INFO - Setting up Chrome WebDriver...
+2026-01-08 19:58:52,169 - INFO - ====== WebDriver manager ======
+2026-01-08 19:58:55,695 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-08 19:58:57,013 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-08 19:58:58,155 - INFO - There is no [win64] chromedriver "143.0.7499.192" for browser google-chrome "143.0.7499" in cache
+2026-01-08 19:58:58,156 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-08 19:59:00,879 - INFO - WebDriver version 143.0.7499.192 selected
+2026-01-08 19:59:00,887 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-08 19:59:00,887 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-08 19:59:01,900 - INFO - Driver downloading response is 200
+2026-01-08 19:59:02,441 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-08 19:59:03,904 - INFO - Driver has been saved in cache [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192]
+2026-01-08 19:59:07,392 - INFO - WebDriver setup complete
+2026-01-08 19:59:07,393 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+KAMPALA, Uganda
+2026-01-08 19:59:14,350 - INFO - Scrolling to load results...
+2026-01-08 19:59:16,381 - INFO - Scroll 1/5 complete
+2026-01-08 19:59:18,852 - INFO - Scroll 2/5 complete
+2026-01-08 19:59:20,866 - INFO - Scroll 3/5 complete
+2026-01-08 19:59:22,919 - INFO - Scroll 4/5 complete
+2026-01-08 19:59:24,942 - INFO - Scroll 5/5 complete
+2026-01-08 19:59:24,942 - INFO - Finding business listings...
+2026-01-08 19:59:24,969 - INFO - Found 26 listings, scraping 20...
+2026-01-08 19:59:24,970 - INFO - Processing 1/20...
+2026-01-08 19:59:27,865 - INFO - Extracted: N/A
+2026-01-08 19:59:28,867 - INFO - Processing 2/20...
+2026-01-08 19:59:28,887 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:29,888 - INFO - Processing 3/20...
+2026-01-08 19:59:29,903 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:30,904 - INFO - Processing 4/20...
+2026-01-08 19:59:30,918 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:31,919 - INFO - Processing 5/20...
+2026-01-08 19:59:31,952 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:32,952 - INFO - Processing 6/20...
+2026-01-08 19:59:33,013 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:34,019 - INFO - Processing 7/20...
+2026-01-08 19:59:34,040 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:35,042 - INFO - Processing 8/20...
+2026-01-08 19:59:35,169 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:36,196 - INFO - Processing 9/20...
+2026-01-08 19:59:38,100 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:39,100 - INFO - Processing 10/20...
+2026-01-08 19:59:39,119 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:40,122 - INFO - Processing 11/20...
+2026-01-08 19:59:40,339 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:41,341 - INFO - Processing 12/20...
+2026-01-08 19:59:41,355 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:42,358 - INFO - Processing 13/20...
+2026-01-08 19:59:42,379 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:43,379 - INFO - Processing 14/20...
+2026-01-08 19:59:43,386 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:44,403 - INFO - Processing 15/20...
+2026-01-08 19:59:44,437 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:45,438 - INFO - Processing 16/20...
+2026-01-08 19:59:45,450 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:46,451 - INFO - Processing 17/20...
+2026-01-08 19:59:46,464 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:47,464 - INFO - Processing 18/20...
+2026-01-08 19:59:47,477 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:48,479 - INFO - Processing 19/20...
+2026-01-08 19:59:48,504 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:49,505 - INFO - Processing 20/20...
+2026-01-08 19:59:49,516 - ERROR - Error extracting business data: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=143.0.7499.192); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7c1213
+	0x7c1254
+	0x5ae6dd
+	0x5b5323
+	0x5b76c1
+	0x5b7758
+	0x5fb122
+	0x5ef14f
+	0x61b4ec
+	0x5eec34
+	0x61b6a4
+	0x63db13
+	0x61b2e6
+	0x5ed321
+	0x5ee1d4
+	0xa15254
+	0xa1080b
+	0xa2d0ea
+	0x7db118
+	0x7e311d
+	0x7c9518
+	0x7c96d9
+	0x7b3a68
+	0x76c6fcc9
+	0x778082ae
+	0x7780827e
+
+2026-01-08 19:59:50,517 - INFO - Scraping complete! Collected 20 businesses
+2026-01-08 19:59:52,845 - INFO - Browser closed
+2026-01-08 19:59:52,884 - INFO - Data saved to data/leads_raw.csv
+2026-01-08 19:59:56,941 - INFO - 
+--- PHASE 2: FILTERING ---
+2026-01-08 19:59:56,941 - INFO - Loading data from data/leads_raw.csv...
+2026-01-08 19:59:56,961 - INFO - Loaded 20 businesses
+2026-01-08 19:59:56,976 - INFO - After website filter: 0 businesses (removed 20)
+2026-01-08 19:59:56,978 - INFO - After contact filter: 0 businesses
+2026-01-08 19:59:56,982 - INFO - After rating filter: 0 businesses
+2026-01-08 19:59:56,984 - INFO - After review filter: 0 businesses
+2026-01-08 19:59:56,984 - INFO - After duplicate removal: 0 businesses
+2026-01-08 19:59:56,989 - INFO - Filtered data saved to data/leads_qualified.csv
+2026-01-08 19:59:57,045 - INFO - 
+==================================================
+2026-01-08 19:59:57,045 - INFO - PIPELINE COMPLETE!
+2026-01-08 19:59:57,045 - INFO - Qualified leads ready: 0
+2026-01-08 19:59:57,046 - INFO - Check: data/leads_qualified.csv
+2026-01-08 19:59:57,046 - INFO - ==================================================
+2026-01-09 00:16:42,597 - INFO - ==================================================
+2026-01-09 00:16:42,597 - INFO - DENTAL CLINIC LEAD GENERATOR - STARTING
+2026-01-09 00:16:42,598 - INFO - ==================================================
+2026-01-09 00:16:42,598 - INFO - 
+--- PHASE 1: SCRAPING ---
+2026-01-09 00:16:42,598 - INFO - Setting up Chrome WebDriver...
+2026-01-09 00:16:42,598 - INFO - ====== WebDriver manager ======
+2026-01-09 00:16:45,585 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:16:48,966 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:16:51,497 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:17:24,784 - INFO - WebDriver version 143.0.7499.192 selected
+2026-01-09 00:17:24,793 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-09 00:17:24,793 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-09 00:17:26,716 - INFO - Driver downloading response is 200
+2026-01-09 00:20:00,928 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:20:02,758 - INFO - Driver has been saved in cache [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192]
+2026-01-09 00:20:07,462 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-09 00:20:07,462 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+KAMPALA, Uganda
+2026-01-09 00:20:13,865 - INFO - Search page loaded - you should see results now
+2026-01-09 00:20:13,866 - INFO - Scrolling to load results...
+2026-01-09 00:20:20,941 - INFO - Scroll 1/3 complete
+2026-01-09 00:20:22,963 - INFO - Scroll 2/3 complete
+2026-01-09 00:20:24,985 - INFO - Scroll 3/3 complete
+2026-01-09 00:20:24,986 - INFO - Finding business listings...
+2026-01-09 00:20:25,017 - INFO - Processing business 1/5...
+2026-01-09 00:20:46,175 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://www.google.com/url?q=https://sterlingdentalclinickampala.com/&opi=79508299&sa=U&ved=0ahUKEwjG1IbS7_yRAxV9U6QEHSTrKGAQ61gIFCgQ&usg=AOvVaw1gqiqRgJFvEbksxYsz8SqM
+2026-01-09 00:20:47,196 - INFO - Processing business 2/5...
+2026-01-09 00:20:54,412 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwihmNbc7_yRAxV_OfsDHXaWKf0Q61gIEigO&usg=AOvVaw18a-CaP1PD1inZ6ukApPPm
+2026-01-09 00:20:55,444 - INFO - Processing business 3/5...
+2026-01-09 00:21:02,297 - INFO - ✓ Extracted: Code Clinic | Phone: 0394836298 | Website: https://www.google.com/url?q=https://www.codeclinic.ug/&opi=79508299&sa=U&ved=0ahUKEwj_uePg7_yRAxVGOPsDHZkwM04Q61gIFigS&usg=AOvVaw1uZ2FM619XdKScMu6UFcTk
+2026-01-09 00:21:03,408 - INFO - Processing business 4/5...
+2026-01-09 00:21:53,556 - INFO - ✓ Extracted: Basil's Dental - Moyo lane | Phone: N/A | Website: N/A
+2026-01-09 00:21:54,666 - INFO - Processing business 5/5...
+2026-01-09 00:21:59,906 - INFO - ✓ Extracted: Kay's Dental Clinic | Phone: 0200741500 | Website: https://www.google.com/url?q=http://www.kaysdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwih3ej87_yRAxWXNPsDHStXEF4Q61gIEigO&usg=AOvVaw17Z0OX18u6GnA1u7trZvxa
+2026-01-09 00:22:00,907 - INFO - Scraping complete! Collected 5 businesses
+2026-01-09 00:22:00,907 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-09 00:22:08,548 - INFO - Browser closed
+2026-01-09 00:22:08,619 - INFO - Data saved to data/leads_raw.csv
+2026-01-09 00:22:08,619 - INFO - 
+=== DATA PREVIEW ===
+2026-01-09 00:22:08,629 - INFO - 1. Sterling Dental Clinic | Website: https://www.google.com/url?q=https://sterlingdentalclinickampala.com/&opi=79508299&sa=U&ved=0ahUKEwjG1IbS7_yRAxV9U6QEHSTrKGAQ61gIFCgQ&usg=AOvVaw1gqiqRgJFvEbksxYsz8SqM | Phone: 0766526236
+2026-01-09 00:22:08,630 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwihmNbc7_yRAxV_OfsDHXaWKf0Q61gIEigO&usg=AOvVaw18a-CaP1PD1inZ6ukApPPm | Phone: 0744000777
+2026-01-09 00:22:08,630 - INFO - 3. Code Clinic | Website: https://www.google.com/url?q=https://www.codeclinic.ug/&opi=79508299&sa=U&ved=0ahUKEwj_uePg7_yRAxVGOPsDHZkwM04Q61gIFigS&usg=AOvVaw1uZ2FM619XdKScMu6UFcTk | Phone: 0394836298
+2026-01-09 00:22:08,631 - INFO - 4. Basil's Dental - Moyo lane | Website: N/A | Phone: N/A
+2026-01-09 00:22:08,631 - INFO - 5. Kay's Dental Clinic | Website: https://www.google.com/url?q=http://www.kaysdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwih3ej87_yRAxWXNPsDHStXEF4Q61gIEigO&usg=AOvVaw17Z0OX18u6GnA1u7trZvxa | Phone: 0200741500
+2026-01-09 00:22:12,748 - INFO - 
+--- PHASE 2: FILTERING ---
+2026-01-09 00:22:12,749 - INFO - Loading data from data/leads_raw.csv...
+2026-01-09 00:22:12,787 - INFO - Loaded 5 businesses
+2026-01-09 00:22:12,789 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-09 00:22:12,796 - INFO - Businesses with websites: 5
+2026-01-09 00:22:12,808 - INFO - Businesses without websites: 0
+2026-01-09 00:22:12,813 - INFO - Businesses with phone: 5
+2026-01-09 00:22:12,815 - INFO - Businesses with email: 5
+2026-01-09 00:22:12,815 - INFO - Website filter disabled - keeping all businesses: 5 businesses
+2026-01-09 00:22:12,820 - INFO - After contact filter (must have phone OR email): 5 businesses (removed 0)
+2026-01-09 00:22:12,831 - INFO - After rating filter (>= 2.5): 5 businesses (removed 0)
+2026-01-09 00:22:12,836 - INFO - After review filter (>= 1 reviews): 5 businesses (removed 0)
+2026-01-09 00:22:12,844 - INFO - After duplicate removal: 5 businesses (removed 0 duplicates)
+2026-01-09 00:22:12,865 - INFO - Filtered data saved to data/leads_qualified.csv
+2026-01-09 00:22:12,866 - INFO - SUMMARY: 5 scraped -> 5 qualified leads
+2026-01-09 00:22:12,866 - INFO - 
+=== QUALIFIED LEADS ===
+2026-01-09 00:22:12,868 - INFO - 1. Sterling Dental Clinic | Website: https://www.google.com/url?q=https://sterlingdentalclinickampala.com/&opi=79508299&sa=U&ved=0ahUKEwjG1IbS7_yRAxV9U6QEHSTrKGAQ61gIFCgQ&usg=AOvVaw1gqiqRgJFvEbksxYsz8SqM | Phone: 766526236.0
+2026-01-09 00:22:12,869 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwihmNbc7_yRAxV_OfsDHXaWKf0Q61gIEigO&usg=AOvVaw18a-CaP1PD1inZ6ukApPPm | Phone: 744000777.0
+2026-01-09 00:22:12,870 - INFO - 3. Code Clinic | Website: https://www.google.com/url?q=https://www.codeclinic.ug/&opi=79508299&sa=U&ved=0ahUKEwj_uePg7_yRAxVGOPsDHZkwM04Q61gIFigS&usg=AOvVaw1uZ2FM619XdKScMu6UFcTk | Phone: 394836298.0
+2026-01-09 00:22:12,874 - INFO - 4. Basil's Dental - Moyo lane | Website: nan | Phone: nan
+2026-01-09 00:22:12,875 - INFO - 5. Kay's Dental Clinic | Website: https://www.google.com/url?q=http://www.kaysdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwih3ej87_yRAxWXNPsDHStXEF4Q61gIEigO&usg=AOvVaw17Z0OX18u6GnA1u7trZvxa | Phone: 200741500.0
+2026-01-09 00:22:12,876 - INFO - 
+==================================================
+2026-01-09 00:22:12,877 - INFO - PIPELINE COMPLETE!
+2026-01-09 00:22:12,878 - INFO - Qualified leads ready: 5
+2026-01-09 00:22:12,879 - INFO - Check: data/leads_qualified.csv
+2026-01-09 00:22:12,881 - INFO - ==================================================
+2026-01-09 00:27:11,052 - INFO - ==================================================
+2026-01-09 00:27:11,052 - INFO - DENTAL CLINIC LEAD GENERATOR - STARTING
+2026-01-09 00:27:11,053 - INFO - ==================================================
+2026-01-09 00:27:11,053 - INFO - 
+--- PHASE 1: SCRAPING ---
+2026-01-09 00:27:11,053 - INFO - Setting up Chrome WebDriver...
+2026-01-09 00:27:11,053 - INFO - ====== WebDriver manager ======
+2026-01-09 00:27:13,109 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:27:14,616 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:27:16,746 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-09 00:27:18,573 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-09 00:27:18,574 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+KAMPALA, Uganda
+2026-01-09 00:28:19,784 - INFO - Search page loaded - you should see results now
+2026-01-09 00:28:19,784 - INFO - Scrolling to load results...
+2026-01-09 00:28:22,381 - INFO - Scroll 1/3 complete
+2026-01-09 00:28:24,927 - INFO - Scroll 2/3 complete
+2026-01-09 00:28:28,285 - INFO - Scroll 3/3 complete
+2026-01-09 00:28:28,288 - INFO - Finding business listings...
+2026-01-09 00:28:28,313 - INFO - Processing business 1/5...
+2026-01-09 00:28:44,461 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwiM1sS48fyRAxW6VqQEHVlsMMMQ61gIEigO&usg=AOvVaw3h0P2-9jzksFTRjJV4W9aF
+2026-01-09 00:28:45,492 - INFO - Processing business 2/5...
+2026-01-09 00:28:52,044 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://www.google.com/url?q=https://sterlingdentalclinickampala.com/&opi=79508299&sa=U&ved=0ahUKEwiy9OfA8fyRAxXxT6QEHaAxEwUQ61gIFCgQ&usg=AOvVaw3coN_m4SNp1MmHoPkLVGn8
+2026-01-09 00:28:53,090 - INFO - Processing business 3/5...
+2026-01-09 00:28:58,902 - INFO - ✓ Extracted: Code Clinic | Phone: 0394836298 | Website: https://www.google.com/url?q=https://www.codeclinic.ug/&opi=79508299&sa=U&ved=0ahUKEwjdw8HE8fyRAxUeVKQEHZAEL5gQ61gIFigS&usg=AOvVaw2wIonEC4p2at_iTvdVJLDs
+2026-01-09 00:28:59,942 - INFO - Processing business 4/5...
+2026-01-09 00:29:49,599 - INFO - ✓ Extracted: Basil's Dental - Moyo lane | Phone: N/A | Website: N/A
+2026-01-09 00:29:50,671 - INFO - Processing business 5/5...
+2026-01-09 00:29:58,398 - INFO - ✓ Extracted: Kay's Dental Clinic | Phone: 0200741500 | Website: https://www.google.com/url?q=http://www.kaysdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwjAv4-x8fyRAxUogP0HHSWsJjIQ61gIlwEoDQ&usg=AOvVaw2yh6kpaQ_E74fjOSMBSC_o
+2026-01-09 00:29:59,399 - INFO - Scraping complete! Collected 5 businesses
+2026-01-09 00:29:59,400 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-09 00:30:06,930 - INFO - Browser closed
+2026-01-09 00:30:06,962 - INFO - Data saved to data/leads_raw.csv
+2026-01-09 00:30:06,963 - INFO - 
+=== DATA PREVIEW ===
+2026-01-09 00:30:06,971 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwiM1sS48fyRAxW6VqQEHVlsMMMQ61gIEigO&usg=AOvVaw3h0P2-9jzksFTRjJV4W9aF | Phone: 0744000777
+2026-01-09 00:30:06,974 - INFO - 2. Sterling Dental Clinic | Website: https://www.google.com/url?q=https://sterlingdentalclinickampala.com/&opi=79508299&sa=U&ved=0ahUKEwiy9OfA8fyRAxXxT6QEHaAxEwUQ61gIFCgQ&usg=AOvVaw3coN_m4SNp1MmHoPkLVGn8 | Phone: 0766526236
+2026-01-09 00:30:06,978 - INFO - 3. Code Clinic | Website: https://www.google.com/url?q=https://www.codeclinic.ug/&opi=79508299&sa=U&ved=0ahUKEwjdw8HE8fyRAxUeVKQEHZAEL5gQ61gIFigS&usg=AOvVaw2wIonEC4p2at_iTvdVJLDs | Phone: 0394836298
+2026-01-09 00:30:06,980 - INFO - 4. Basil's Dental - Moyo lane | Website: N/A | Phone: N/A
+2026-01-09 00:30:06,981 - INFO - 5. Kay's Dental Clinic | Website: https://www.google.com/url?q=http://www.kaysdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwjAv4-x8fyRAxUogP0HHSWsJjIQ61gIlwEoDQ&usg=AOvVaw2yh6kpaQ_E74fjOSMBSC_o | Phone: 0200741500
+2026-01-09 00:30:11,082 - INFO - 
+--- PHASE 2: FILTERING ---
+2026-01-09 00:30:11,083 - INFO - Loading data from data/leads_raw.csv...
+2026-01-09 00:30:11,096 - INFO - Loaded 5 businesses
+2026-01-09 00:30:11,097 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-09 00:30:11,099 - INFO - Businesses with websites: 5
+2026-01-09 00:30:11,103 - INFO - Businesses without websites: 0
+2026-01-09 00:30:11,105 - INFO - Businesses with phone: 5
+2026-01-09 00:30:11,106 - INFO - Businesses with email: 5
+2026-01-09 00:30:11,108 - INFO - After website filter (kept businesses WITHOUT websites): 0 businesses
+2026-01-09 00:30:11,110 - INFO - After contact filter (must have phone OR email): 0 businesses (removed 0)
+2026-01-09 00:30:11,114 - INFO - After rating filter (>= 2.5): 0 businesses (removed 0)
+2026-01-09 00:30:11,117 - INFO - After review filter (>= 1 reviews): 0 businesses (removed 0)
+2026-01-09 00:30:11,118 - INFO - After duplicate removal: 0 businesses (removed 0 duplicates)
+2026-01-09 00:30:11,126 - INFO - Filtered data saved to data/leads_qualified.csv
+2026-01-09 00:30:11,127 - INFO - SUMMARY: 5 scraped -> 0 qualified leads
+2026-01-09 00:30:11,127 - INFO - 
+==================================================
+2026-01-09 00:30:11,127 - INFO - PIPELINE COMPLETE!
+2026-01-09 00:30:11,127 - INFO - Qualified leads ready: 0
+2026-01-09 00:30:11,128 - INFO - Check: data/leads_qualified.csv
+2026-01-09 00:30:11,128 - INFO - ==================================================
+2026-01-09 00:39:05,832 - INFO - ==================================================
+2026-01-09 00:39:05,833 - INFO - DENTAL CLINIC LEAD GENERATOR - STARTING
+2026-01-09 00:39:05,833 - INFO - ==================================================
+2026-01-09 00:39:05,834 - INFO - 
+--- PHASE 1: SCRAPING ---
+2026-01-09 00:39:05,834 - INFO - Setting up Chrome WebDriver...
+2026-01-09 00:39:05,835 - INFO - ====== WebDriver manager ======
+2026-01-09 00:39:07,660 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:39:09,674 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 00:39:11,095 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-09 00:39:12,901 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-09 00:39:12,902 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+KAMPALA, Uganda
+2026-01-09 00:39:23,485 - INFO - Search page loaded - you should see results now
+2026-01-09 00:39:23,485 - INFO - Scrolling to load results...
+2026-01-09 00:39:26,297 - INFO - Scroll 1/3 complete
+2026-01-09 00:39:28,310 - INFO - Scroll 2/3 complete
+2026-01-09 00:39:30,330 - INFO - Scroll 3/3 complete
+2026-01-09 00:39:30,330 - INFO - Finding business listings...
+2026-01-09 00:39:30,632 - INFO - Processing business 1/10...
+2026-01-09 00:39:36,765 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwib2s_08_yRAxWPMfsDHR7aAOUQ61gIEigO&usg=AOvVaw3NWRosqk7rj0UPyeRwCb8H
+2026-01-09 00:39:37,798 - INFO - Processing business 2/10...
+2026-01-09 00:39:45,788 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0394836298 | Website: https://www.google.com/url?q=https://www.codeclinic.ug/&opi=79508299&sa=U&ved=0ahUKEwjepuH38_yRAxXbTKQEHeYkIFwQ61gIFigS&usg=AOvVaw3KQ05blDySsfPpCQPVE_gW
+2026-01-09 00:39:46,834 - INFO - Processing business 3/10...
+2026-01-09 00:39:56,740 - INFO - ✓ Extracted: Code Clinic | Phone: 0200741500 | Website: https://www.google.com/url?q=http://www.kaysdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwju76D88_yRAxV0U6QEHYaYFO4Q61gIEigO&usg=AOvVaw3ltzSKULNJXjZWHd3CO71X
+2026-01-09 00:39:57,896 - INFO - Processing business 4/10...
+2026-01-09 00:40:46,880 - INFO - ✓ Extracted: Basil's Dental - Moyo lane | Phone: N/A | Website: N/A
+2026-01-09 00:40:47,924 - INFO - Processing business 5/10...
+2026-01-09 00:40:53,118 - INFO - ✓ Extracted: Basil's dental clinic kampala | Phone: 0772728222 | Website: https://www.google.com/url?q=http://www.basilsdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwi85t6Z9PyRAxVCV6QEHVJhD0sQ61gIECgM&usg=AOvVaw3JuV7NCPO_JX_6kaQbHEcY
+2026-01-09 00:40:54,155 - INFO - Processing business 6/10...
+2026-01-09 00:41:19,983 - INFO - ✓ Extracted: Riverstone Dental Care Limited | Phone: 0756833350 | Website: N/A
+2026-01-09 00:41:21,010 - INFO - Processing business 7/10...
+2026-01-09 00:41:47,304 - INFO - ✓ Extracted: Dental World Clinic | Phone: 0703337738 | Website: N/A
+2026-01-09 00:41:48,369 - INFO - Processing business 8/10...
+2026-01-09 00:41:53,537 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwib2s_08_yRAxWPMfsDHR7aAOUQ61gIEigO&usg=AOvVaw3NWRosqk7rj0UPyeRwCb8H
+2026-01-09 00:41:54,606 - INFO - Processing business 9/10...
+2026-01-09 00:42:02,622 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0200955799 | Website: https://www.google.com/url?q=https://www.urieldentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwi7p4a59PyRAxXLLPsDHayjM_wQ61gIFCgQ&usg=AOvVaw3TFryezrMDXWygkwUzIV1_
+2026-01-09 00:42:03,696 - INFO - Processing business 10/10...
+2026-01-09 00:42:11,061 - INFO - ✓ Extracted: URIEL DENTAL CLINIC | Phone: 0756721086 | Website: https://www.google.com/url?q=http://www.bhandaridentalcare.co.ug/&opi=79508299&sa=U&ved=0ahUKEwix-7G99PyRAxWmUqQEHavkDD8Q61gIFCgQ&usg=AOvVaw0lMvoi_yxweJJBaYge6P-P
+2026-01-09 00:42:12,062 - INFO - Scraping complete! Collected 10 businesses
+2026-01-09 00:42:12,062 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-09 00:42:21,206 - INFO - Browser closed
+2026-01-09 00:42:21,246 - INFO - Data saved to data/leads_raw.csv
+2026-01-09 00:42:21,247 - INFO - 
+=== DATA PREVIEW ===
+2026-01-09 00:42:21,256 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwib2s_08_yRAxWPMfsDHR7aAOUQ61gIEigO&usg=AOvVaw3NWRosqk7rj0UPyeRwCb8H | Phone: 0744000777
+2026-01-09 00:42:21,257 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: https://www.google.com/url?q=https://www.codeclinic.ug/&opi=79508299&sa=U&ved=0ahUKEwjepuH38_yRAxXbTKQEHeYkIFwQ61gIFigS&usg=AOvVaw3KQ05blDySsfPpCQPVE_gW | Phone: 0394836298
+2026-01-09 00:42:21,258 - INFO - 3. Code Clinic | Website: https://www.google.com/url?q=http://www.kaysdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwju76D88_yRAxV0U6QEHYaYFO4Q61gIEigO&usg=AOvVaw3ltzSKULNJXjZWHd3CO71X | Phone: 0200741500
+2026-01-09 00:42:21,258 - INFO - 4. Basil's Dental - Moyo lane | Website: N/A | Phone: N/A
+2026-01-09 00:42:21,259 - INFO - 5. Basil's dental clinic kampala | Website: https://www.google.com/url?q=http://www.basilsdentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwi85t6Z9PyRAxVCV6QEHVJhD0sQ61gIECgM&usg=AOvVaw3JuV7NCPO_JX_6kaQbHEcY | Phone: 0772728222
+2026-01-09 00:42:21,260 - INFO - 6. Riverstone Dental Care Limited | Website: N/A | Phone: 0756833350
+2026-01-09 00:42:21,260 - INFO - 7. Dental World Clinic | Website: N/A | Phone: 0703337738
+2026-01-09 00:42:21,261 - INFO - 8. Dental clinic in kampala - Victory dental hub | Website: https://www.google.com/url?q=http://victorydentalhub.com/&opi=79508299&sa=U&ved=0ahUKEwib2s_08_yRAxWPMfsDHR7aAOUQ61gIEigO&usg=AOvVaw3NWRosqk7rj0UPyeRwCb8H | Phone: 0744000777
+2026-01-09 00:42:21,262 - INFO - 9. Dental clinic in kampala - Victory dental hub | Website: https://www.google.com/url?q=https://www.urieldentalclinic.com/&opi=79508299&sa=U&ved=0ahUKEwi7p4a59PyRAxXLLPsDHayjM_wQ61gIFCgQ&usg=AOvVaw3TFryezrMDXWygkwUzIV1_ | Phone: 0200955799
+2026-01-09 00:42:21,262 - INFO - 10. URIEL DENTAL CLINIC | Website: https://www.google.com/url?q=http://www.bhandaridentalcare.co.ug/&opi=79508299&sa=U&ved=0ahUKEwix-7G99PyRAxWmUqQEHavkDD8Q61gIFCgQ&usg=AOvVaw0lMvoi_yxweJJBaYge6P-P | Phone: 0756721086
+2026-01-09 00:42:25,332 - INFO - 
+--- PHASE 2: FILTERING ---
+2026-01-09 00:42:25,333 - INFO - Loading data from data/leads_raw.csv...
+2026-01-09 00:42:25,355 - INFO - Loaded 10 businesses
+2026-01-09 00:42:25,355 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-09 00:42:25,358 - INFO - Businesses with websites: 10
+2026-01-09 00:42:25,365 - INFO - Businesses without websites: 0
+2026-01-09 00:42:25,366 - INFO - Businesses with phone: 10
+2026-01-09 00:42:25,367 - INFO - Businesses with email: 10
+2026-01-09 00:42:25,367 - INFO - After website filter (kept businesses WITHOUT websites): 0 businesses
+2026-01-09 00:42:25,369 - INFO - After contact filter (must have phone OR email): 0 businesses (removed 0)
+2026-01-09 00:42:25,373 - INFO - After rating filter (>= 2.5): 0 businesses (removed 0)
+2026-01-09 00:42:25,374 - INFO - After review filter (>= 1 reviews): 0 businesses (removed 0)
+2026-01-09 00:42:25,375 - INFO - After duplicate removal: 0 businesses (removed 0 duplicates)
+2026-01-09 00:42:25,382 - INFO - Filtered data saved to data/leads_qualified.csv
+2026-01-09 00:42:25,382 - INFO - SUMMARY: 10 scraped -> 0 qualified leads
+2026-01-09 00:42:25,383 - INFO - 
+==================================================
+2026-01-09 00:42:25,383 - INFO - PIPELINE COMPLETE!
+2026-01-09 00:42:25,383 - INFO - Qualified leads ready: 0
+2026-01-09 00:42:25,383 - INFO - Check: data/leads_qualified.csv
+2026-01-09 00:42:25,383 - INFO - ==================================================
