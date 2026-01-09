@@ -41,11 +41,12 @@ Configuration settings for the scraper
 # Search Parameters
 SEARCH_QUERY = "dental clinics"
 SEARCH_LOCATION = "Kampala, Uganda"
-MAX_RESULTS = 20  # How many businesses to scrape per run
+MAX_RESULTS = 30  # How many businesses to scrape per run
 
 # CSV File Paths
 RAW_DATA_FILE = "data/leads_raw.csv"
 QUALIFIED_DATA_FILE = "data/leads_qualified.csv"
+ENRICHED_DATA_FILE = "data/leads_enriched.csv"  # NEW: Phase 2 output
 LOG_FILE = "logs/scraper.log"
 
 # Scraping Settings
@@ -53,6 +54,10 @@ HEADLESS_MODE = False  # Set to True to hide browser window
 SCROLL_PAUSE_TIME = 2  # seconds between scrolls
 PAGE_LOAD_WAIT = 4     # seconds to wait for page load
 ELEMENT_WAIT = 10      # seconds to wait for elements to load
+
+# Phase 2: Enrichment Settings
+ENRICHMENT_DELAY = 3   # seconds to wait on each Maps page
+MAX_REVIEWS_TO_SCRAPE = 3  # number of reviews to collect per business
 
 # Filtering Criteria
 MIN_RATING = 2.5       # Minimum Google rating to keep

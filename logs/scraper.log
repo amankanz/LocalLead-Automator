@@ -1471,3 +1471,537 @@ Symbols not available. Dumping unresolved backtrace:
 2026-01-09 14:01:51,580 - INFO - Qualified leads ready: 7
 2026-01-09 14:01:51,580 - INFO - Check: data/leads_qualified.csv
 2026-01-09 14:01:51,581 - INFO - ==================================================
+2026-01-09 14:21:57,707 - INFO - ==================================================
+2026-01-09 14:21:57,707 - INFO - DENTAL CLINIC LEAD GENERATOR - STARTING
+2026-01-09 14:21:57,707 - INFO - ==================================================
+2026-01-09 14:21:57,708 - INFO - 
+--- PHASE 1: SCRAPING ---
+2026-01-09 14:21:57,708 - INFO - Setting up Chrome WebDriver...
+2026-01-09 14:21:57,708 - INFO - ====== WebDriver manager ======
+2026-01-09 14:21:59,814 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 14:22:01,215 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 14:22:02,712 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-09 14:22:04,800 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-09 14:22:04,800 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+Mbarara, Uganda
+2026-01-09 14:22:11,473 - INFO - Search page loaded - you should see results now
+2026-01-09 14:22:11,474 - INFO - Scrolling to load results...
+2026-01-09 14:22:13,661 - INFO - Scroll 1/3 complete
+2026-01-09 14:22:16,676 - INFO - Scroll 2/3 complete
+2026-01-09 14:22:18,691 - INFO - Scroll 3/3 complete
+2026-01-09 14:22:18,692 - INFO - Finding business listings...
+2026-01-09 14:22:18,727 - INFO - Processing business 1/20...
+2026-01-09 14:23:28,242 - INFO - ✓ Extracted: Palm dental clinic | Phone: N/A | Website: N/A
+2026-01-09 14:23:29,284 - INFO - Processing business 2/20...
+2026-01-09 14:23:34,593 - INFO - ✓ Extracted: iDental Care - Equatorial Mall | Phone: 0704021094 | Website: https://identalcare.ug/
+2026-01-09 14:23:35,616 - INFO - Processing business 3/20...
+2026-01-09 14:24:02,056 - INFO - ✓ Extracted: The Hub Dental Practice Kampala | Phone: 0779101638 | Website: N/A
+2026-01-09 14:24:03,099 - INFO - Processing business 4/20...
+2026-01-09 14:24:08,421 - INFO - ✓ Extracted: Bhandari Dental Care | Phone: 0756721086 | Website: http://www.bhandaridentalcare.co.ug/
+2026-01-09 14:24:09,440 - INFO - Processing business 5/20...
+2026-01-09 14:24:14,518 - INFO - ✓ Extracted: Donau Dental Centre, Nakasero | Phone: 0776943280 | Website: http://www.donaudental.org/
+2026-01-09 14:24:15,536 - INFO - Processing business 6/20...
+2026-01-09 14:24:20,688 - INFO - ✓ Extracted: Jubilee Dental | Kololo | Phone: 0392713613 | Website: http://www.jubileedentalclinic.com/
+2026-01-09 14:24:21,703 - INFO - Processing business 7/20...
+2026-01-09 14:24:26,880 - INFO - ✓ Extracted: Sinai Dental Practice | Phone: 0776045352 | Website: https://dentist.ug/
+2026-01-09 14:24:27,901 - INFO - Processing business 8/20...
+2026-01-09 14:24:54,436 - INFO - ✓ Extracted: The Dental center - Kololo | Phone: 0393202698 | Website: N/A
+2026-01-09 14:24:55,462 - INFO - Processing business 9/20...
+2026-01-09 14:25:00,563 - INFO - ✓ Extracted: Basil's dental clinic kampala | Phone: 0772728222 | Website: http://www.basilsdentalclinic.com/
+2026-01-09 14:25:01,580 - INFO - Processing business 10/20...
+2026-01-09 14:25:06,635 - INFO - ✓ Extracted: Pan Dental Surgery | Phone: 0414251525 | Website: http://www.pandentalsurgery.com/
+2026-01-09 14:25:07,655 - INFO - Processing business 11/20...
+2026-01-09 14:25:12,798 - INFO - ✓ Extracted: i DENTAL CARE - BWAISE | Phone: 0702801040 | Website: http://www.identalcare.ug/
+2026-01-09 14:25:13,824 - INFO - Processing business 12/20...
+2026-01-09 14:25:18,921 - INFO - ✓ Extracted: iDental Care - Ntinda Branch | Phone: 0704021094 | Website: https://identalcare.ug/
+2026-01-09 14:25:19,944 - INFO - Processing business 13/20...
+2026-01-09 14:25:25,186 - INFO - ✓ Extracted: The Medical Hub Kampala | Phone: 0750939905 | Website: http://themedicalhub.co.ug/
+2026-01-09 14:25:26,212 - INFO - Processing business 14/20...
+2026-01-09 14:25:31,269 - INFO - ✓ Extracted: C-Care Uganda | Phone: 0771801902 | Website: https://c-care.com/ug
+2026-01-09 14:25:32,310 - INFO - Processing business 15/20...
+2026-01-09 14:25:37,425 - INFO - ✓ Extracted: Uganda Medical and Dental Practitioners Council | Phone: 0200904427 | Website: http://www.umdpc.go.ug/
+2026-01-09 14:25:38,444 - INFO - Processing business 16/20...
+2026-01-09 14:26:04,880 - INFO - ✓ Extracted: MK Dental Hub Clinic | Phone: 0771435963 | Website: N/A
+2026-01-09 14:26:05,912 - INFO - Processing business 17/20...
+2026-01-09 14:26:11,075 - INFO - ✓ Extracted: Jubilee Dental Ntinda | Phone: 0414698939 | Website: http://www.jubileedentalclinic.com/
+2026-01-09 14:26:12,096 - INFO - Processing business 18/20...
+2026-01-09 14:26:17,161 - INFO - ✓ Extracted: Afri Pyramids Eygpt dental care clinic's | Phone: 0756414998 | Website: https://www.afripyramid.com/
+2026-01-09 14:26:18,181 - INFO - Processing business 19/20...
+2026-01-09 14:27:06,055 - INFO - ✓ Extracted: World Wide Smiles | Phone: 0704670003 | Website: N/A
+2026-01-09 14:27:07,079 - INFO - Processing business 20/20...
+2026-01-09 14:27:33,645 - INFO - ✓ Extracted: AAR HEALTHCARE NATETE CLINIC | Phone: 0758332175 | Website: N/A
+2026-01-09 14:27:34,646 - INFO - Scraping complete! Collected 20 businesses
+2026-01-09 14:27:34,646 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-09 14:27:44,662 - INFO - Browser closed
+2026-01-09 14:27:44,681 - INFO - Data saved to data/leads_raw.csv
+2026-01-09 14:27:44,682 - INFO - 
+=== DATA PREVIEW ===
+2026-01-09 14:27:44,688 - INFO - 1. Palm dental clinic | Website: N/A | Phone: N/A
+2026-01-09 14:27:44,690 - INFO - 2. iDental Care - Equatorial Mall | Website: https://identalcare.ug/ | Phone: 0704021094
+2026-01-09 14:27:44,692 - INFO - 3. The Hub Dental Practice Kampala | Website: N/A | Phone: 0779101638
+2026-01-09 14:27:44,693 - INFO - 4. Bhandari Dental Care | Website: http://www.bhandaridentalcare.co.ug/ | Phone: 0756721086
+2026-01-09 14:27:44,694 - INFO - 5. Donau Dental Centre, Nakasero | Website: http://www.donaudental.org/ | Phone: 0776943280
+2026-01-09 14:27:44,695 - INFO - 6. Jubilee Dental | Kololo | Website: http://www.jubileedentalclinic.com/ | Phone: 0392713613
+2026-01-09 14:27:44,696 - INFO - 7. Sinai Dental Practice | Website: https://dentist.ug/ | Phone: 0776045352
+2026-01-09 14:27:44,697 - INFO - 8. The Dental center - Kololo | Website: N/A | Phone: 0393202698
+2026-01-09 14:27:44,698 - INFO - 9. Basil's dental clinic kampala | Website: http://www.basilsdentalclinic.com/ | Phone: 0772728222
+2026-01-09 14:27:44,699 - INFO - 10. Pan Dental Surgery | Website: http://www.pandentalsurgery.com/ | Phone: 0414251525
+2026-01-09 14:27:44,700 - INFO - 11. i DENTAL CARE - BWAISE | Website: http://www.identalcare.ug/ | Phone: 0702801040
+2026-01-09 14:27:44,701 - INFO - 12. iDental Care - Ntinda Branch | Website: https://identalcare.ug/ | Phone: 0704021094
+2026-01-09 14:27:44,703 - INFO - 13. The Medical Hub Kampala | Website: http://themedicalhub.co.ug/ | Phone: 0750939905
+2026-01-09 14:27:44,704 - INFO - 14. C-Care Uganda | Website: https://c-care.com/ug | Phone: 0771801902
+2026-01-09 14:27:44,705 - INFO - 15. Uganda Medical and Dental Practitioners Council | Website: http://www.umdpc.go.ug/ | Phone: 0200904427
+2026-01-09 14:27:44,706 - INFO - 16. MK Dental Hub Clinic | Website: N/A | Phone: 0771435963
+2026-01-09 14:27:44,707 - INFO - 17. Jubilee Dental Ntinda | Website: http://www.jubileedentalclinic.com/ | Phone: 0414698939
+2026-01-09 14:27:44,708 - INFO - 18. Afri Pyramids Eygpt dental care clinic's | Website: https://www.afripyramid.com/ | Phone: 0756414998
+2026-01-09 14:27:44,709 - INFO - 19. World Wide Smiles | Website: N/A | Phone: 0704670003
+2026-01-09 14:27:44,710 - INFO - 20. AAR HEALTHCARE NATETE CLINIC | Website: N/A | Phone: 0758332175
+2026-01-09 14:27:48,778 - INFO - 
+--- PHASE 2: FILTERING ---
+2026-01-09 14:27:48,778 - INFO - Loading data from data/leads_raw.csv...
+2026-01-09 14:27:48,794 - INFO - Loaded 20 businesses
+2026-01-09 14:27:48,794 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-09 14:27:48,794 - INFO - Total businesses: 20
+2026-01-09 14:27:48,795 - INFO - Businesses WITH websites: 14
+2026-01-09 14:27:48,795 - INFO - Businesses WITHOUT websites: 6
+2026-01-09 14:27:48,795 - INFO - Businesses with phone: 20
+2026-01-09 14:27:48,796 - INFO - Businesses with email: 20
+2026-01-09 14:27:48,803 - INFO - 
+✓ After NO WEBSITE filter: 6 businesses (removed 14 with websites)
+2026-01-09 14:27:48,803 - INFO - 
+📞 Checking contact info...
+2026-01-09 14:27:48,804 - INFO -   Businesses with phone: 6
+2026-01-09 14:27:48,804 - INFO -   Businesses with email: 6
+2026-01-09 14:27:48,805 - INFO - ✓ After CONTACT filter: 6 businesses (removed 0 without contact)
+2026-01-09 14:27:48,805 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-09 14:27:48,806 - INFO -   - Palm dental clinic | Rating: nan
+2026-01-09 14:27:48,807 - INFO -   - The Hub Dental Practice Kampala | Rating: 4.8
+2026-01-09 14:27:48,807 - INFO -   - The Dental center - Kololo | Rating: 3.7
+2026-01-09 14:27:48,807 - INFO -   - MK Dental Hub Clinic | Rating: 4.9
+2026-01-09 14:27:48,807 - INFO -   - World Wide Smiles | Rating: nan
+2026-01-09 14:27:48,807 - INFO -   - AAR HEALTHCARE NATETE CLINIC | Rating: 3.9
+2026-01-09 14:27:48,809 - INFO - ✓ After RATING filter: 6 businesses (removed 0 with low ratings)
+2026-01-09 14:27:48,809 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-09 14:27:48,817 - INFO - 
+✓ Filtered data saved to data/leads_qualified.csv
+2026-01-09 14:27:48,817 - INFO - 📊 SUMMARY: 20 scraped -> 6 QUALIFIED LEADS
+2026-01-09 14:27:48,818 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-09 14:27:48,818 - INFO - 1. Palm dental clinic | Phone: nan | Rating: nan
+2026-01-09 14:27:48,818 - INFO - 3. The Hub Dental Practice Kampala | Phone: 779101638.0 | Rating: 4.8
+2026-01-09 14:27:48,818 - INFO - 8. The Dental center - Kololo | Phone: 393202698.0 | Rating: 3.7
+2026-01-09 14:27:48,819 - INFO - 16. MK Dental Hub Clinic | Phone: 771435963.0 | Rating: 4.9
+2026-01-09 14:27:48,819 - INFO - 19. World Wide Smiles | Phone: 704670003.0 | Rating: nan
+2026-01-09 14:27:48,820 - INFO - 20. AAR HEALTHCARE NATETE CLINIC | Phone: 758332175.0 | Rating: 3.9
+2026-01-09 14:27:48,820 - INFO - 
+==================================================
+2026-01-09 14:27:48,820 - INFO - PIPELINE COMPLETE!
+2026-01-09 14:27:48,820 - INFO - Qualified leads ready: 6
+2026-01-09 14:27:48,820 - INFO - Check: data/leads_qualified.csv
+2026-01-09 14:27:48,820 - INFO - ==================================================
+2026-01-09 16:18:09,992 - INFO - ==================================================
+2026-01-09 16:18:09,993 - INFO - DENTAL CLINIC LEAD GENERATOR - STARTING
+2026-01-09 16:18:09,993 - INFO - ==================================================
+2026-01-09 16:18:09,994 - INFO - 
+--- PHASE 1: SCRAPING ---
+2026-01-09 16:18:09,994 - INFO - Setting up Chrome WebDriver...
+2026-01-09 16:18:09,995 - INFO - ====== WebDriver manager ======
+2026-01-09 16:18:12,582 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:18:14,103 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:18:15,698 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-09 16:18:18,408 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-09 16:18:18,409 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+Mbarara, Uganda
+2026-01-09 16:18:25,189 - INFO - Search page loaded - you should see results now
+2026-01-09 16:18:25,189 - INFO - Scrolling to load results...
+2026-01-09 16:18:27,967 - INFO - Scroll 1/3 complete
+2026-01-09 16:18:30,856 - INFO - Scroll 2/3 complete
+2026-01-09 16:18:33,686 - INFO - Scroll 3/3 complete
+2026-01-09 16:18:33,686 - INFO - Finding business listings...
+2026-01-09 16:18:34,174 - INFO - Processing business 1/20...
+2026-01-09 16:18:41,414 - INFO - ✓ Extracted: EZZA DENTAL CARE | Phone: 0784232232 | Website: http://ezzadentalcare.com/
+2026-01-09 16:18:42,572 - INFO - Processing business 2/20...
+2026-01-09 16:18:48,785 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-09 16:18:49,830 - INFO - Processing business 3/20...
+2026-01-09 16:19:58,838 - INFO - ✓ Extracted: Palm dental clinic | Phone: N/A | Website: N/A
+2026-01-09 16:19:59,881 - INFO - Processing business 4/20...
+2026-01-09 16:20:05,653 - INFO - ✓ Extracted: iDental Care - Equatorial Mall | Phone: 0704021094 | Website: https://identalcare.ug/
+2026-01-09 16:20:06,694 - INFO - Processing business 5/20...
+2026-01-09 16:20:33,470 - INFO - ✓ Extracted: The Hub Dental Practice Kampala | Phone: 0779101638 | Website: N/A
+2026-01-09 16:20:34,520 - INFO - Processing business 6/20...
+2026-01-09 16:20:40,754 - INFO - ✓ Extracted: Bhandari Dental Care | Phone: 0756721086 | Website: http://www.bhandaridentalcare.co.ug/
+2026-01-09 16:20:41,792 - INFO - Processing business 7/20...
+2026-01-09 16:20:48,390 - INFO - ✓ Extracted: Sinai Dental Practice | Phone: 0776045352 | Website: https://dentist.ug/
+2026-01-09 16:20:49,426 - INFO - Processing business 8/20...
+2026-01-09 16:21:18,095 - INFO - ✓ Extracted: The Dental center - Kololo | Phone: 0393202698 | Website: N/A
+2026-01-09 16:21:19,126 - INFO - Processing business 9/20...
+2026-01-09 16:21:24,787 - INFO - ✓ Extracted: Donau Dental Centre, Nakasero | Phone: 0776943280 | Website: http://www.donaudental.org/
+2026-01-09 16:21:25,816 - INFO - Processing business 10/20...
+2026-01-09 16:21:32,639 - INFO - ✓ Extracted: Basil's dental clinic kampala | Phone: 0772728222 | Website: http://www.basilsdentalclinic.com/
+2026-01-09 16:21:33,748 - INFO - Processing business 11/20...
+2026-01-09 16:21:42,933 - INFO - ✓ Extracted: Jubilee Dental | Kololo | Phone: 0392713613 | Website: http://www.jubileedentalclinic.com/
+2026-01-09 16:21:43,965 - INFO - Processing business 12/20...
+2026-01-09 16:21:49,718 - INFO - ✓ Extracted: Pan Dental Surgery | Phone: 0414251525 | Website: http://www.pandentalsurgery.com/
+2026-01-09 16:21:50,761 - INFO - Processing business 13/20...
+2026-01-09 16:21:56,336 - INFO - ✓ Extracted: i DENTAL CARE - BWAISE | Phone: 0702801040 | Website: http://www.identalcare.ug/
+2026-01-09 16:21:57,368 - INFO - Processing business 14/20...
+2026-01-09 16:22:02,722 - INFO - ✓ Extracted: iDental Care - Ntinda Branch | Phone: 0704021094 | Website: https://identalcare.ug/
+2026-01-09 16:22:03,748 - INFO - Processing business 15/20...
+2026-01-09 16:22:08,961 - INFO - ✓ Extracted: The Medical Hub Kampala | Phone: 0750939905 | Website: http://themedicalhub.co.ug/
+2026-01-09 16:22:09,989 - INFO - Processing business 16/20...
+2026-01-09 16:22:16,933 - INFO - ✓ Extracted: The Medical Hub Kampala | Phone: 0771801902 | Website: https://c-care.com/ug
+2026-01-09 16:22:17,958 - INFO - Processing business 17/20...
+2026-01-09 16:22:46,920 - INFO - ✓ Extracted: C-Care Uganda | Phone: 0771435963 | Website: N/A
+2026-01-09 16:22:47,975 - INFO - Processing business 18/20...
+2026-01-09 16:22:54,475 - INFO - ✓ Extracted: Uganda Medical and Dental Practitioners Council | Phone: 0200904427 | Website: http://www.umdpc.go.ug/
+2026-01-09 16:22:55,510 - INFO - Processing business 19/20...
+2026-01-09 16:23:02,319 - INFO - ✓ Extracted: Uganda Medical and Dental Practitioners Council | Phone: 0756414998 | Website: https://www.afripyramid.com/
+2026-01-09 16:23:03,367 - INFO - Processing business 20/20...
+2026-01-09 16:23:15,080 - INFO - ✓ Extracted: Afri Pyramids Eygpt dental care clinic's | Phone: 0756414998 | Website: http://www.jubileedentalclinic.com/
+2026-01-09 16:23:16,081 - INFO - Scraping complete! Collected 20 businesses
+2026-01-09 16:23:16,082 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-09 16:23:25,217 - INFO - Browser closed
+2026-01-09 16:23:25,238 - INFO - Data saved to data/leads_raw.csv
+2026-01-09 16:23:25,239 - INFO - 
+=== DATA PREVIEW ===
+2026-01-09 16:23:25,245 - INFO - 1. EZZA DENTAL CARE | Website: http://ezzadentalcare.com/ | Phone: 0784232232
+2026-01-09 16:23:25,245 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-09 16:23:25,246 - INFO - 3. Palm dental clinic | Website: N/A | Phone: N/A
+2026-01-09 16:23:25,246 - INFO - 4. iDental Care - Equatorial Mall | Website: https://identalcare.ug/ | Phone: 0704021094
+2026-01-09 16:23:25,246 - INFO - 5. The Hub Dental Practice Kampala | Website: N/A | Phone: 0779101638
+2026-01-09 16:23:25,246 - INFO - 6. Bhandari Dental Care | Website: http://www.bhandaridentalcare.co.ug/ | Phone: 0756721086
+2026-01-09 16:23:25,247 - INFO - 7. Sinai Dental Practice | Website: https://dentist.ug/ | Phone: 0776045352
+2026-01-09 16:23:25,247 - INFO - 8. The Dental center - Kololo | Website: N/A | Phone: 0393202698
+2026-01-09 16:23:25,247 - INFO - 9. Donau Dental Centre, Nakasero | Website: http://www.donaudental.org/ | Phone: 0776943280
+2026-01-09 16:23:25,247 - INFO - 10. Basil's dental clinic kampala | Website: http://www.basilsdentalclinic.com/ | Phone: 0772728222
+2026-01-09 16:23:25,247 - INFO - 11. Jubilee Dental | Kololo | Website: http://www.jubileedentalclinic.com/ | Phone: 0392713613
+2026-01-09 16:23:25,248 - INFO - 12. Pan Dental Surgery | Website: http://www.pandentalsurgery.com/ | Phone: 0414251525
+2026-01-09 16:23:25,248 - INFO - 13. i DENTAL CARE - BWAISE | Website: http://www.identalcare.ug/ | Phone: 0702801040
+2026-01-09 16:23:25,248 - INFO - 14. iDental Care - Ntinda Branch | Website: https://identalcare.ug/ | Phone: 0704021094
+2026-01-09 16:23:25,249 - INFO - 15. The Medical Hub Kampala | Website: http://themedicalhub.co.ug/ | Phone: 0750939905
+2026-01-09 16:23:25,249 - INFO - 16. The Medical Hub Kampala | Website: https://c-care.com/ug | Phone: 0771801902
+2026-01-09 16:23:25,249 - INFO - 17. C-Care Uganda | Website: N/A | Phone: 0771435963
+2026-01-09 16:23:25,250 - INFO - 18. Uganda Medical and Dental Practitioners Council | Website: http://www.umdpc.go.ug/ | Phone: 0200904427
+2026-01-09 16:23:25,250 - INFO - 19. Uganda Medical and Dental Practitioners Council | Website: https://www.afripyramid.com/ | Phone: 0756414998
+2026-01-09 16:23:25,250 - INFO - 20. Afri Pyramids Eygpt dental care clinic's | Website: http://www.jubileedentalclinic.com/ | Phone: 0756414998
+2026-01-09 16:23:29,327 - INFO - 
+--- PHASE 2: FILTERING ---
+2026-01-09 16:23:29,327 - INFO - Loading data from data/leads_raw.csv...
+2026-01-09 16:23:29,339 - INFO - Loaded 20 businesses
+2026-01-09 16:23:29,339 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-09 16:23:29,340 - INFO - Total businesses: 20
+2026-01-09 16:23:29,341 - INFO - Businesses WITH websites: 16
+2026-01-09 16:23:29,341 - INFO - Businesses WITHOUT websites: 4
+2026-01-09 16:23:29,342 - INFO - Businesses with phone: 20
+2026-01-09 16:23:29,343 - INFO - Businesses with email: 20
+2026-01-09 16:23:29,351 - INFO - 
+✓ After NO WEBSITE filter: 4 businesses (removed 16 with websites)
+2026-01-09 16:23:29,351 - INFO - 
+📞 Checking contact info...
+2026-01-09 16:23:29,351 - INFO -   Businesses with phone: 4
+2026-01-09 16:23:29,352 - INFO -   Businesses with email: 4
+2026-01-09 16:23:29,352 - INFO - ✓ After CONTACT filter: 4 businesses (removed 0 without contact)
+2026-01-09 16:23:29,352 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-09 16:23:29,354 - INFO -   - Palm dental clinic | Rating: nan
+2026-01-09 16:23:29,354 - INFO -   - The Hub Dental Practice Kampala | Rating: 4.8
+2026-01-09 16:23:29,354 - INFO -   - The Dental center - Kololo | Rating: 3.7
+2026-01-09 16:23:29,355 - INFO -   - C-Care Uganda | Rating: 3.6
+2026-01-09 16:23:29,356 - INFO - ✓ After RATING filter: 4 businesses (removed 0 with low ratings)
+2026-01-09 16:23:29,357 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-09 16:23:29,367 - INFO - 
+✓ Filtered data saved to data/leads_qualified.csv
+2026-01-09 16:23:29,367 - INFO - 📊 SUMMARY: 20 scraped -> 4 QUALIFIED LEADS
+2026-01-09 16:23:29,367 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-09 16:23:29,368 - INFO - 3. Palm dental clinic | Phone: nan | Rating: nan
+2026-01-09 16:23:29,368 - INFO - 5. The Hub Dental Practice Kampala | Phone: 779101638.0 | Rating: 4.8
+2026-01-09 16:23:29,368 - INFO - 8. The Dental center - Kololo | Phone: 393202698.0 | Rating: 3.7
+2026-01-09 16:23:29,368 - INFO - 17. C-Care Uganda | Phone: 771435963.0 | Rating: 3.6
+2026-01-09 16:23:29,368 - INFO - 
+--- PHASE 3: ENRICHMENT ---
+2026-01-09 16:23:29,369 - INFO - Loading qualified leads from data/leads_qualified.csv...
+2026-01-09 16:23:29,372 - INFO - Found 4 qualified leads to enrich
+2026-01-09 16:23:29,372 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-09 16:23:29,372 - INFO - ====== WebDriver manager ======
+2026-01-09 16:23:32,827 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:23:34,294 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:23:35,669 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-09 16:23:40,752 - INFO - WebDriver ready for enrichment!
+2026-01-09 16:23:40,756 - INFO - 
+--- Enriching 1/4 ---
+2026-01-09 16:23:40,757 - INFO - 🔍 Enriching: Palm dental clinic
+2026-01-09 16:24:08,804 - INFO - ✅ Enriched: Palm dental clinic | About: 3 chars | Reviews: 3
+2026-01-09 16:24:09,814 - INFO - 
+--- Enriching 2/4 ---
+2026-01-09 16:24:09,816 - INFO - 🔍 Enriching: The Hub Dental Practice Kampala
+2026-01-09 16:24:39,680 - INFO - ✅ Enriched: The Hub Dental Practice Kampala | About: 3 chars | Reviews: 3
+2026-01-09 16:24:40,685 - INFO - 
+--- Enriching 3/4 ---
+2026-01-09 16:24:40,686 - INFO - 🔍 Enriching: The Dental center - Kololo
+2026-01-09 16:25:07,940 - INFO - ✅ Enriched: The Dental center - Kololo | About: 3 chars | Reviews: 3
+2026-01-09 16:25:08,941 - INFO - 
+--- Enriching 4/4 ---
+2026-01-09 16:25:08,941 - INFO - 🔍 Enriching: C-Care Uganda
+2026-01-09 16:25:37,066 - INFO - ✅ Enriched: C-Care Uganda | About: 3 chars | Reviews: 3
+2026-01-09 16:25:38,072 - INFO - 
+✅ Enrichment complete! Saved to data/leads_enriched.csv
+2026-01-09 16:25:38,072 - INFO - 📊 Enriched 4 businesses
+2026-01-09 16:25:38,073 - INFO - Keeping browser open for 5 seconds...
+2026-01-09 16:25:45,942 - INFO - Browser closed
+2026-01-09 16:25:50,156 - INFO - 
+==================================================
+2026-01-09 16:25:50,156 - INFO - PIPELINE COMPLETE!
+2026-01-09 16:25:50,156 - INFO - Qualified leads ready: 4
+2026-01-09 16:25:50,156 - INFO - Check: data/leads_qualified.csv
+2026-01-09 16:25:50,156 - INFO - ==================================================
+2026-01-09 16:25:50,156 - INFO - 
+==================================================
+2026-01-09 16:25:50,156 - INFO - PIPELINE COMPLETE!
+2026-01-09 16:25:50,156 - INFO - Enriched leads ready: 4
+2026-01-09 16:25:50,157 - INFO - Check: data/leads_enriched.csv
+2026-01-09 16:25:50,157 - INFO - ==================================================
+2026-01-09 16:44:02,802 - INFO - ==================================================
+2026-01-09 16:44:02,804 - INFO - DENTAL CLINIC LEAD GENERATOR - STARTING
+2026-01-09 16:44:02,804 - INFO - ==================================================
+2026-01-09 16:44:02,807 - INFO - 
+--- PHASE 1: SCRAPING ---
+2026-01-09 16:44:02,808 - INFO - Setting up Chrome WebDriver...
+2026-01-09 16:44:02,809 - INFO - ====== WebDriver manager ======
+2026-01-09 16:44:05,230 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:44:06,541 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:44:07,852 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-09 16:44:10,278 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-09 16:44:10,279 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+Kampala, Uganda
+2026-01-09 16:44:16,996 - INFO - Search page loaded - you should see results now
+2026-01-09 16:44:16,996 - INFO - Scrolling to load results...
+2026-01-09 16:44:19,173 - INFO - Scroll 1/3 complete
+2026-01-09 16:44:21,199 - INFO - Scroll 2/3 complete
+2026-01-09 16:44:23,214 - INFO - Scroll 3/3 complete
+2026-01-09 16:44:23,214 - INFO - Finding business listings...
+2026-01-09 16:44:23,281 - INFO - Processing business 1/30...
+2026-01-09 16:44:29,846 - INFO - ✓ Extracted: EZZA DENTAL CARE | Phone: 0784232232 | Website: http://ezzadentalcare.com/
+2026-01-09 16:44:30,908 - INFO - Processing business 2/30...
+2026-01-09 16:44:36,112 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-09 16:44:37,132 - INFO - Processing business 3/30...
+2026-01-09 16:45:24,140 - INFO - ✓ Extracted: Nex Dental CARE Clinic | Phone: 0706050229 | Website: N/A
+2026-01-09 16:45:25,170 - INFO - Processing business 4/30...
+2026-01-09 16:45:30,557 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://sterlingdentalclinickampala.com/
+2026-01-09 16:45:31,583 - INFO - Processing business 5/30...
+2026-01-09 16:45:57,847 - INFO - ✓ Extracted: Impressions Dental Clinic | Phone: 0392002015 | Website: N/A
+2026-01-09 16:45:58,881 - INFO - Processing business 6/30...
+2026-01-09 16:46:04,321 - INFO - ✓ Extracted: Run Dental Clinic | Phone: 0772642592 | Website: http://www.runfoundationug.org/
+2026-01-09 16:46:05,349 - INFO - Processing business 7/30...
+2026-01-09 16:46:31,285 - INFO - ✓ Extracted: K.H Dental | Phone: 0704605561 | Website: http://www.kaysdentalclinic.com/
+2026-01-09 16:46:32,310 - INFO - Processing business 8/30...
+2026-01-09 16:46:58,592 - INFO - ✓ Extracted: The Hub Dental Practice Kampala | Phone: 0779101638 | Website: N/A
+2026-01-09 16:46:59,618 - INFO - Processing business 9/30...
+2026-01-09 16:47:26,016 - INFO - ✓ Extracted: Exploits Dental Clinic | Phone: 0704552045 | Website: N/A
+2026-01-09 16:47:27,036 - INFO - Processing business 10/30...
+2026-01-09 16:48:34,369 - INFO - ✓ Extracted: Riverside church international kampala lungujja near kalema road. | Phone: N/A | Website: N/A
+2026-01-09 16:48:35,431 - INFO - Processing business 11/30...
+2026-01-09 16:49:43,558 - INFO - ✓ Extracted: Rhino dental clinic | Phone: N/A | Website: N/A
+2026-01-09 16:49:44,598 - INFO - Processing business 12/30...
+2026-01-09 16:49:49,910 - INFO - ✓ Extracted: iDental Care - Equatorial Mall | Phone: 0704021094 | Website: https://identalcare.ug/
+2026-01-09 16:49:50,938 - INFO - Processing business 13/30...
+2026-01-09 16:49:56,178 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-09 16:49:57,204 - INFO - Processing business 14/30...
+2026-01-09 16:50:23,148 - INFO - ✓ Extracted: Mwatu dental clinic | Phone: 0754668822 | Website: N/A
+2026-01-09 16:50:24,172 - INFO - Processing business 15/30...
+2026-01-09 16:51:31,698 - INFO - ✓ Extracted: Red bank market 202 | Phone: N/A | Website: N/A
+2026-01-09 16:51:32,735 - INFO - Processing business 16/30...
+2026-01-09 16:52:00,616 - INFO - ✓ Extracted: The Dental Office Kampala (The D.O.K) | Phone: 0742395879 | Website: N/A
+2026-01-09 16:52:01,639 - INFO - Processing business 17/30...
+2026-01-09 16:52:06,822 - INFO - ✓ Extracted: Max dental clinics , Nakasero clinic | Phone: 0200906509 | Website: https://www.maxdentalclinics.com/
+2026-01-09 16:52:07,859 - INFO - Processing business 18/30...
+2026-01-09 16:52:13,062 - INFO - ✓ Extracted: Baksmiles Dental Kampala | Phone: 0703893291 | Website: https://baksmiles.netlify.app/
+2026-01-09 16:52:14,087 - INFO - Processing business 19/30...
+2026-01-09 16:52:19,260 - INFO - ✓ Extracted: MAWANO Dental Clinic | Phone: 0414344787 | Website: http://www.mawanodental.com/
+2026-01-09 16:52:20,286 - INFO - Processing business 20/30...
+2026-01-09 16:52:26,890 - INFO - ✓ Extracted: Pan Dental Surgery | Phone: 0414251525 | Website: http://www.pandentalsurgery.com/
+2026-01-09 16:52:27,988 - INFO - Processing business 21/30...
+2026-01-09 16:52:38,609 - INFO - ✓ Extracted: Pan Dental Surgery | Phone: 0414251525 | Website: http://www.pandentalsurgery.com/
+2026-01-09 16:52:39,773 - INFO - Processing business 22/30...
+2026-01-09 16:52:46,284 - INFO - ✓ Extracted: Jubilee Dental | Kololo | Phone: 0392713613 | Website: http://www.jubileedentalclinic.com/
+2026-01-09 16:52:47,308 - INFO - Processing business 23/30...
+2026-01-09 16:53:14,487 - INFO - ✓ Extracted: Hi-Lash Beauty Lounge Uganda | Phone: 0752437565 | Website: N/A
+2026-01-09 16:53:15,534 - INFO - Processing business 24/30...
+2026-01-09 16:53:20,762 - INFO - ✓ Extracted: EZZA DENTAL CARE | Phone: 0784232232 | Website: http://ezzadentalcare.com/
+2026-01-09 16:53:21,785 - INFO - Processing business 25/30...
+2026-01-09 16:53:48,452 - INFO - ✓ Extracted: Roswell Dental Clinic | Phone: 0703854898 | Website: N/A
+2026-01-09 16:53:49,521 - INFO - Processing business 26/30...
+2026-01-09 16:53:55,391 - INFO - ✓ Extracted: Bhandari Dental Care | Phone: 0756721086 | Website: http://www.bhandaridentalcare.co.ug/
+2026-01-09 16:53:56,416 - INFO - Processing business 27/30...
+2026-01-09 16:54:24,937 - INFO - ✓ Extracted: RUBAGA DENTAL SURGERY | Phone: 0705364980 | Website: N/A
+2026-01-09 16:54:25,955 - INFO - Processing business 28/30...
+2026-01-09 16:54:31,182 - INFO - ✓ Extracted: EZZA DENTAL CARE | Phone: 0784232232 | Website: http://ezzadentalcare.com/
+2026-01-09 16:54:32,232 - INFO - Processing business 29/30...
+2026-01-09 16:54:58,608 - INFO - ✓ Extracted: Magical smiles dental clinic | Phone: 0700644711 | Website: N/A
+2026-01-09 16:54:59,756 - INFO - Processing business 30/30...
+2026-01-09 16:55:25,849 - INFO - ✓ Extracted: Salaam Medical Centre | Phone: 0754111888 | Website: N/A
+2026-01-09 16:55:26,849 - INFO - Scraping complete! Collected 30 businesses
+2026-01-09 16:55:26,850 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-09 16:55:36,173 - INFO - Browser closed
+2026-01-09 16:55:36,191 - INFO - Data saved to data/leads_raw.csv
+2026-01-09 16:55:36,191 - INFO - 
+=== DATA PREVIEW ===
+2026-01-09 16:55:36,197 - INFO - 1. EZZA DENTAL CARE | Website: http://ezzadentalcare.com/ | Phone: 0784232232
+2026-01-09 16:55:36,197 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-09 16:55:36,198 - INFO - 3. Nex Dental CARE Clinic | Website: N/A | Phone: 0706050229
+2026-01-09 16:55:36,198 - INFO - 4. Sterling Dental Clinic | Website: https://sterlingdentalclinickampala.com/ | Phone: 0766526236
+2026-01-09 16:55:36,198 - INFO - 5. Impressions Dental Clinic | Website: N/A | Phone: 0392002015
+2026-01-09 16:55:36,198 - INFO - 6. Run Dental Clinic | Website: http://www.runfoundationug.org/ | Phone: 0772642592
+2026-01-09 16:55:36,199 - INFO - 7. K.H Dental | Website: http://www.kaysdentalclinic.com/ | Phone: 0704605561
+2026-01-09 16:55:36,199 - INFO - 8. The Hub Dental Practice Kampala | Website: N/A | Phone: 0779101638
+2026-01-09 16:55:36,199 - INFO - 9. Exploits Dental Clinic | Website: N/A | Phone: 0704552045
+2026-01-09 16:55:36,199 - INFO - 10. Riverside church international kampala lungujja near kalema road. | Website: N/A | Phone: N/A
+2026-01-09 16:55:36,199 - INFO - 11. Rhino dental clinic | Website: N/A | Phone: N/A
+2026-01-09 16:55:36,200 - INFO - 12. iDental Care - Equatorial Mall | Website: https://identalcare.ug/ | Phone: 0704021094
+2026-01-09 16:55:36,200 - INFO - 13. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-09 16:55:36,200 - INFO - 14. Mwatu dental clinic | Website: N/A | Phone: 0754668822
+2026-01-09 16:55:36,200 - INFO - 15. Red bank market 202 | Website: N/A | Phone: N/A
+2026-01-09 16:55:36,200 - INFO - 16. The Dental Office Kampala (The D.O.K) | Website: N/A | Phone: 0742395879
+2026-01-09 16:55:36,201 - INFO - 17. Max dental clinics , Nakasero clinic | Website: https://www.maxdentalclinics.com/ | Phone: 0200906509
+2026-01-09 16:55:36,201 - INFO - 18. Baksmiles Dental Kampala | Website: https://baksmiles.netlify.app/ | Phone: 0703893291
+2026-01-09 16:55:36,201 - INFO - 19. MAWANO Dental Clinic | Website: http://www.mawanodental.com/ | Phone: 0414344787
+2026-01-09 16:55:36,201 - INFO - 20. Pan Dental Surgery | Website: http://www.pandentalsurgery.com/ | Phone: 0414251525
+2026-01-09 16:55:36,201 - INFO - 21. Pan Dental Surgery | Website: http://www.pandentalsurgery.com/ | Phone: 0414251525
+2026-01-09 16:55:36,202 - INFO - 22. Jubilee Dental | Kololo | Website: http://www.jubileedentalclinic.com/ | Phone: 0392713613
+2026-01-09 16:55:36,202 - INFO - 23. Hi-Lash Beauty Lounge Uganda | Website: N/A | Phone: 0752437565
+2026-01-09 16:55:36,202 - INFO - 24. EZZA DENTAL CARE | Website: http://ezzadentalcare.com/ | Phone: 0784232232
+2026-01-09 16:55:36,202 - INFO - 25. Roswell Dental Clinic | Website: N/A | Phone: 0703854898
+2026-01-09 16:55:36,202 - INFO - 26. Bhandari Dental Care | Website: http://www.bhandaridentalcare.co.ug/ | Phone: 0756721086
+2026-01-09 16:55:36,203 - INFO - 27. RUBAGA DENTAL SURGERY | Website: N/A | Phone: 0705364980
+2026-01-09 16:55:36,203 - INFO - 28. EZZA DENTAL CARE | Website: http://ezzadentalcare.com/ | Phone: 0784232232
+2026-01-09 16:55:36,203 - INFO - 29. Magical smiles dental clinic | Website: N/A | Phone: 0700644711
+2026-01-09 16:55:36,203 - INFO - 30. Salaam Medical Centre | Website: N/A | Phone: 0754111888
+2026-01-09 16:55:40,264 - INFO - 
+--- PHASE 2: FILTERING ---
+2026-01-09 16:55:40,264 - INFO - Loading data from data/leads_raw.csv...
+2026-01-09 16:55:40,276 - INFO - Loaded 30 businesses
+2026-01-09 16:55:40,277 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-09 16:55:40,277 - INFO - Total businesses: 30
+2026-01-09 16:55:40,278 - INFO - Businesses WITH websites: 16
+2026-01-09 16:55:40,278 - INFO - Businesses WITHOUT websites: 14
+2026-01-09 16:55:40,278 - INFO - Businesses with phone: 30
+2026-01-09 16:55:40,279 - INFO - Businesses with email: 30
+2026-01-09 16:55:40,285 - INFO - 
+✓ After NO WEBSITE filter: 14 businesses (removed 16 with websites)
+2026-01-09 16:55:40,285 - INFO - 
+📞 Checking contact info...
+2026-01-09 16:55:40,286 - INFO -   Businesses with phone: 14
+2026-01-09 16:55:40,286 - INFO -   Businesses with email: 14
+2026-01-09 16:55:40,287 - INFO - ✓ After CONTACT filter: 14 businesses (removed 0 without contact)
+2026-01-09 16:55:40,287 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-09 16:55:40,289 - INFO -   - Nex Dental CARE Clinic | Rating: nan
+2026-01-09 16:55:40,289 - INFO -   - Impressions Dental Clinic | Rating: 3.7
+2026-01-09 16:55:40,289 - INFO -   - The Hub Dental Practice Kampala | Rating: 4.8
+2026-01-09 16:55:40,290 - INFO -   - Exploits Dental Clinic | Rating: 4.9
+2026-01-09 16:55:40,290 - INFO -   - Riverside church international kampala lungujja near kalema road. | Rating: nan
+2026-01-09 16:55:40,290 - INFO -   - Rhino dental clinic | Rating: nan
+2026-01-09 16:55:40,290 - INFO -   - Mwatu dental clinic | Rating: 3.5
+2026-01-09 16:55:40,290 - INFO -   - Red bank market 202 | Rating: nan
+2026-01-09 16:55:40,290 - INFO -   - The Dental Office Kampala (The D.O.K) | Rating: 5.0
+2026-01-09 16:55:40,291 - INFO -   - Hi-Lash Beauty Lounge Uganda | Rating: 4.9
+2026-01-09 16:55:40,291 - INFO -   - Roswell Dental Clinic | Rating: 4.7
+2026-01-09 16:55:40,291 - INFO -   - RUBAGA DENTAL SURGERY | Rating: 4.7
+2026-01-09 16:55:40,291 - INFO -   - Magical smiles dental clinic | Rating: 4.8
+2026-01-09 16:55:40,291 - INFO -   - Salaam Medical Centre | Rating: 5.0
+2026-01-09 16:55:40,293 - INFO - ✓ After RATING filter: 14 businesses (removed 0 with low ratings)
+2026-01-09 16:55:40,293 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-09 16:55:40,297 - INFO - ✓ Removed 2 duplicate phone numbers
+2026-01-09 16:55:40,302 - INFO - 
+✓ Filtered data saved to data/leads_qualified.csv
+2026-01-09 16:55:40,302 - INFO - 📊 SUMMARY: 30 scraped -> 12 QUALIFIED LEADS
+2026-01-09 16:55:40,302 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-09 16:55:40,302 - INFO - 3. Nex Dental CARE Clinic | Phone: 706050229.0 | Rating: nan
+2026-01-09 16:55:40,303 - INFO - 5. Impressions Dental Clinic | Phone: 392002015.0 | Rating: 3.7
+2026-01-09 16:55:40,303 - INFO - 8. The Hub Dental Practice Kampala | Phone: 779101638.0 | Rating: 4.8
+2026-01-09 16:55:40,303 - INFO - 9. Exploits Dental Clinic | Phone: 704552045.0 | Rating: 4.9
+2026-01-09 16:55:40,303 - INFO - 10. Riverside church international kampala lungujja near kalema road. | Phone: nan | Rating: nan
+2026-01-09 16:55:40,304 - INFO - 14. Mwatu dental clinic | Phone: 754668822.0 | Rating: 3.5
+2026-01-09 16:55:40,304 - INFO - 16. The Dental Office Kampala (The D.O.K) | Phone: 742395879.0 | Rating: 5.0
+2026-01-09 16:55:40,304 - INFO - 23. Hi-Lash Beauty Lounge Uganda | Phone: 752437565.0 | Rating: 4.9
+2026-01-09 16:55:40,304 - INFO - 25. Roswell Dental Clinic | Phone: 703854898.0 | Rating: 4.7
+2026-01-09 16:55:40,305 - INFO - 27. RUBAGA DENTAL SURGERY | Phone: 705364980.0 | Rating: 4.7
+2026-01-09 16:55:40,305 - INFO - 29. Magical smiles dental clinic | Phone: 700644711.0 | Rating: 4.8
+2026-01-09 16:55:40,305 - INFO - 30. Salaam Medical Centre | Phone: 754111888.0 | Rating: 5.0
+2026-01-09 16:55:40,305 - INFO - 
+--- PHASE 3: ENRICHMENT ---
+2026-01-09 16:55:40,305 - INFO - Loading qualified leads from data/leads_qualified.csv...
+2026-01-09 16:55:40,309 - INFO - Found 12 qualified leads to enrich
+2026-01-09 16:55:40,309 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-09 16:55:40,309 - INFO - ====== WebDriver manager ======
+2026-01-09 16:55:42,412 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:55:43,891 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-09 16:55:45,102 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-09 16:55:47,657 - INFO - WebDriver ready for enrichment!
+2026-01-09 16:55:47,658 - INFO - 
+--- Enriching 1/12 ---
+2026-01-09 16:55:47,658 - INFO - 🔍 Enriching: Nex Dental CARE Clinic
+2026-01-09 16:56:13,554 - INFO - ✅ Enriched: Nex Dental CARE Clinic | About: 3 chars | Reviews: 3
+2026-01-09 16:56:14,555 - INFO - 
+--- Enriching 2/12 ---
+2026-01-09 16:56:14,555 - INFO - 🔍 Enriching: Impressions Dental Clinic
+2026-01-09 16:56:44,867 - INFO - ✅ Enriched: Impressions Dental Clinic | About: 3 chars | Reviews: 3
+2026-01-09 16:56:45,868 - INFO - 
+--- Enriching 3/12 ---
+2026-01-09 16:56:45,868 - INFO - 🔍 Enriching: The Hub Dental Practice Kampala
+2026-01-09 16:57:15,196 - INFO - ✅ Enriched: The Hub Dental Practice Kampala | About: 3 chars | Reviews: 3
+2026-01-09 16:57:16,197 - INFO - 
+--- Enriching 4/12 ---
+2026-01-09 16:57:16,197 - INFO - 🔍 Enriching: Exploits Dental Clinic
+2026-01-09 16:57:45,760 - INFO - ✅ Enriched: Exploits Dental Clinic | About: 3 chars | Reviews: 3
+2026-01-09 16:57:46,762 - INFO - 
+--- Enriching 5/12 ---
+2026-01-09 16:57:46,763 - INFO - 🔍 Enriching: Riverside church international kampala lungujja near kalema road.
+2026-01-09 16:58:12,018 - INFO - ✅ Enriched: Riverside church international kampala lungujja near kalema road. | About: 3 chars | Reviews: 3
+2026-01-09 16:58:13,019 - INFO - 
+--- Enriching 6/12 ---
+2026-01-09 16:58:13,019 - INFO - 🔍 Enriching: Mwatu dental clinic
+2026-01-09 16:58:41,530 - INFO - ✅ Enriched: Mwatu dental clinic | About: 3 chars | Reviews: 3
+2026-01-09 16:58:42,531 - INFO - 
+--- Enriching 7/12 ---
+2026-01-09 16:58:42,531 - INFO - 🔍 Enriching: The Dental Office Kampala (The D.O.K)
+2026-01-09 16:59:09,539 - INFO - ✅ Enriched: The Dental Office Kampala (The D.O.K) | About: 3 chars | Reviews: 3
+2026-01-09 16:59:10,540 - INFO - 
+--- Enriching 8/12 ---
+2026-01-09 16:59:10,540 - INFO - 🔍 Enriching: Hi-Lash Beauty Lounge Uganda
+2026-01-09 16:59:37,818 - INFO - ✅ Enriched: Hi-Lash Beauty Lounge Uganda | About: 3 chars | Reviews: 3
+2026-01-09 16:59:38,819 - INFO - 
+--- Enriching 9/12 ---
+2026-01-09 16:59:38,819 - INFO - 🔍 Enriching: Roswell Dental Clinic
+2026-01-09 17:00:05,669 - INFO - ✅ Enriched: Roswell Dental Clinic | About: 3 chars | Reviews: 3
+2026-01-09 17:00:06,670 - INFO - 
+--- Enriching 10/12 ---
+2026-01-09 17:00:06,670 - INFO - 🔍 Enriching: RUBAGA DENTAL SURGERY
+2026-01-09 17:00:35,193 - INFO - ✅ Enriched: RUBAGA DENTAL SURGERY | About: 3 chars | Reviews: 3
+2026-01-09 17:00:36,194 - INFO - 
+--- Enriching 11/12 ---
+2026-01-09 17:00:36,194 - INFO - 🔍 Enriching: Magical smiles dental clinic
+2026-01-09 17:01:03,938 - INFO - ✅ Enriched: Magical smiles dental clinic | About: 3 chars | Reviews: 3
+2026-01-09 17:01:04,939 - INFO - 
+--- Enriching 12/12 ---
+2026-01-09 17:01:04,939 - INFO - 🔍 Enriching: Salaam Medical Centre
+2026-01-09 17:01:32,478 - INFO - ✅ Enriched: Salaam Medical Centre | About: 3 chars | Reviews: 3
+2026-01-09 17:01:33,490 - INFO - 
+✅ Enrichment complete! Saved to data/leads_enriched.csv
+2026-01-09 17:01:33,490 - INFO - 📊 Enriched 12 businesses
+2026-01-09 17:01:33,491 - INFO - Keeping browser open for 5 seconds...
+2026-01-09 17:01:42,569 - INFO - Browser closed
+2026-01-09 17:01:46,621 - INFO - 
+==================================================
+2026-01-09 17:01:46,621 - INFO - PIPELINE COMPLETE!
+2026-01-09 17:01:46,621 - INFO - Qualified leads ready: 12
+2026-01-09 17:01:46,621 - INFO - Check: data/leads_qualified.csv
+2026-01-09 17:01:46,621 - INFO - ==================================================
+2026-01-09 17:01:46,621 - INFO - 
+==================================================
+2026-01-09 17:01:46,621 - INFO - PIPELINE COMPLETE!
+2026-01-09 17:01:46,621 - INFO - Enriched leads ready: 12
+2026-01-09 17:01:46,621 - INFO - Check: data/leads_enriched.csv
+2026-01-09 17:01:46,622 - INFO - ==================================================
