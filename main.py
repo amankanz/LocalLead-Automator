@@ -61,6 +61,8 @@ from utils import ensure_directories, setup_logging
 import config
 from scraper import run_scraper
 from filter import run_filter
+from enricher import run_enricher
+
 
 logger = setup_logging(config.LOG_FILE)
 
@@ -87,10 +89,24 @@ def main():
         logger.info("\n--- PHASE 2: FILTERING ---")
         df_qualified = run_filter()
 
+        if df_qualified is None or len(df_qualified) == 0:
+            logger.error("No qualified leads after filtering. Exiting.")
+            return
+
+            # Phase 3: Enrich with Google Maps data
+        logger.info("\n--- PHASE 3: ENRICHMENT ---")
+        df_enriched = run_enricher()
+
         logger.info("\n" + "=" * 50)
         logger.info("PIPELINE COMPLETE!")
         logger.info(f"Qualified leads ready: {len(df_qualified)}")
         logger.info(f"Check: {config.QUALIFIED_DATA_FILE}")
+        logger.info("=" * 50)
+
+        logger.info("\n" + "=" * 50)
+        logger.info("PIPELINE COMPLETE!")
+        logger.info(f"Enriched leads ready: {len(df_enriched)}")
+        logger.info(f"Check: {config.ENRICHED_DATA_FILE}")
         logger.info("=" * 50)
 
     except KeyboardInterrupt:
