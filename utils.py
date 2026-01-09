@@ -1,9 +1,10 @@
 # # LocalLead Automator/config.py
 # # helper functions
 
-"""
-Helper utility functions
-"""
+
+# """
+# Helper utility functions
+# """
 # import re
 # import os
 # import logging
@@ -18,7 +19,7 @@ Helper utility functions
 #         level=logging.INFO,
 #         format='%(asctime)s - %(levelname)s - %(message)s',
 #         handlers=[
-#             logging.FileHandler(log_file),
+#             logging.FileHandler(log_file, encoding='utf-8'),  # FIXED: Added UTF-8 encoding
 #             logging.StreamHandler()
 #         ]
 #     )
@@ -43,12 +44,27 @@ Helper utility functions
 #
 #
 # def clean_website(url):
-#     """Clean website URL"""
-#     if not url or url == "N/A":
+#     """Clean website URL and extract from Google redirects"""
+#     if not url or url == "N/A" or url == "":
 #         return "N/A"
+#
 #     url = url.strip()
+#
+#     # Extract real URL from Google redirect
+#     # Example: https://www.google.com/url?q=https://example.com/&...
+#     if 'google.com/url?q=' in url:
+#         try:
+#             # Extract the actual URL after "q="
+#             actual_url = url.split('google.com/url?q=')[1].split('&')[0]
+#             # Decode URL encoding (%2F, etc.)
+#             from urllib.parse import unquote
+#             url = unquote(actual_url)
+#         except:
+#             pass
+#
 #     if not url.startswith('http'):
 #         url = 'https://' + url
+#
 #     return url
 #
 #
@@ -100,12 +116,27 @@ def clean_phone(phone):
 
 
 def clean_website(url):
-    """Clean website URL"""
+    """Clean website URL and extract from Google redirects"""
     if not url or url == "N/A" or url == "":
         return "N/A"
+
     url = url.strip()
+
+    # Extract real URL from Google redirect
+    # Example: https://www.google.com/url?q=https://example.com/&...
+    if 'google.com/url?q=' in url:
+        try:
+            # Extract the actual URL after "q="
+            actual_url = url.split('google.com/url?q=')[1].split('&')[0]
+            # Decode URL encoding (%2F, etc.)
+            from urllib.parse import unquote
+            url = unquote(actual_url)
+        except:
+            pass
+
     if not url.startswith('http'):
         url = 'https://' + url
+
     return url
 
 
@@ -113,3 +144,20 @@ def ensure_directories():
     """Create necessary directories if they don't exist"""
     os.makedirs('data', exist_ok=True)
     os.makedirs('logs', exist_ok=True)
+
+
+def has_valid_website(website):
+    """
+    Determine if a business has a real website
+    """
+    if not website:
+        return False
+
+    website = str(website).strip().lower()
+
+    if website in ["n/a", "na", "none", "null", ""]:
+        return False
+
+    return website.startswith("http")
+
+

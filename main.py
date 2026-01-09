@@ -1,9 +1,9 @@
 # LocalLead Automator/main.py
 # main entry point
 
-"""
-Main entry point - run the complete pipeline
-"""
+# """
+# Main entry point - run the complete pipeline
+# """
 # import sys
 # from utils import ensure_directories, setup_logging
 # import config
@@ -50,7 +50,7 @@ Main entry point - run the complete pipeline
 #
 #
 # if __name__ == "__main__":
-#     main
+#     main()
 
 
 """
