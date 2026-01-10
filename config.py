@@ -41,7 +41,7 @@ Configuration settings for the scraper
 # Search Parameters
 SEARCH_QUERY = "dental clinics"
 SEARCH_LOCATION = "Kampala, Uganda"
-MAX_RESULTS = 30  # How many businesses to scrape per run
+MAX_RESULTS = 10  # How many businesses to scrape per run
 
 # CSV File Paths
 RAW_DATA_FILE = "data/leads_raw.csv"
