@@ -59,6 +59,9 @@ ELEMENT_WAIT = 10      # seconds to wait for elements to load
 ENRICHMENT_DELAY = 3   # seconds to wait on each Maps page
 MAX_REVIEWS_TO_SCRAPE = 3  # number of reviews to collect per business
 
+# Phase 3: Preview Generation Settings
+PREVIEW_OUTPUT_DIR = "previews"
+
 # Filtering Criteria
 MIN_RATING = 2.5       # Minimum Google rating to keep
 MIN_REVIEWS = 0        # Minimum number of reviews (0 = accept all)
