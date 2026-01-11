@@ -1,0 +1,17 @@
+{
+  "project": "LocalLead Automator",
+  "data_version": "1.0",
+  "generated_at": "2026-01-11T09:59:02.760128Z",
+  "source_file": "data/leads_enriched.csv",
+  "templates": [
+    {
+      "id": "dental-v1",
+      "name": "Dental Clinic Template v1",
+      "status": "active"
+    }
+  ],
+  "routing": {
+    "mode": "slug",
+    "base_path": "/preview"
+  }
+}
