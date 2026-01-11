@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-01-11T09:59:02.757600Z",
+  "count": 7,
+  "businesses": [
+    {
+      "id": "impressions-dental-clinic",
+      "name": "Impressions Dental Clinic",
+      "category": "Dental clinic",
+      "city": "Kampala, Uganda",
+      "address": "Coral Cres, Kampala",
+      "phone": "392002015.0",
+      "email": "",
+      "website": "",
+      "rating": 3.7,
+      "review_count": 3,
+      "about": "",
+      "services": [],
+      "highlights": [],
+      "opening_hours": {},
+      "location": {
+        "maps_url": "https://www.google.com/maps/place/Impressions+Dental+Clinic/@0.3287896,32.5569652,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbb9ae56a8f37:0xf011be605e44bb05!8m2!3d0.3145651!4d32.5839546!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGGSAQ1kZW50YWxfY2xpbmlj4AEA!16s%2Fg%2F11c6cbngbb?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "reviews": []
+    },
+    {
+      "id": "exploits-dental-clinic",
+      "name": "Exploits Dental Clinic",
+      "category": "Dental clinic",
+      "city": "Kampala, Uganda",
+      "address": "8H9F+5RF, Ben Kiwanuka Rd, Kampala",
+      "phone": "704552045.0",
+      "email": "",
+      "website": "",
+      "rating": 4.9,
+      "review_count": 47,
+      "about": "",
+      "services": [],
+      "highlights": [],
+      "opening_hours": {},
+      "location": {
+        "maps_url": "https://www.google.com/maps/place/Exploits+Dental+Clinic/@0.3287896,32.5569652,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbbbbbeb4b0bf:0xfabe53d9fe187219!8m2!3d0.3179955!4d32.5745015!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGFaIiIgZGVudGFsIGNsaW5pY3MgaW4ga2FtcGFsYSB1Z2FuZGGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJrZERSUU5WaG5FQUXgAQD6AQQIABA3!16s%2Fg%2F11t6qdm_d_?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "reviews": [
+        {
+          "author": "Derrick Kenyi",
+          "rating": 5,
+          "text": "Best dental clinic with good services,  and favourable prices, please visit"
+        },
+        {
+          "author": "Mutyaba Lydia",
+          "rating": 5,
+          "text": "You\u2019ve transformed my smile and am so thankful for your expertise and careful attention to detail, you truly are the best!\u201d"
+        },
+        {
+          "author": "Alisha Bernadette",
+          "rating": 5,
+          "text": "My smile was restored\nIt's the best clinic with good services"
+        }
+      ]
+    },
+    {
+      "id": "the-hub-dental-practice-kampala",
+      "name": "The Hub Dental Practice Kampala",
+      "category": "Dental clinic",
+      "city": "Kampala, Uganda",
+      "address": "71812, Kampala",
+      "phone": "779101638.0",
+      "email": "",
+      "website": "",
+      "rating": 4.8,
+      "review_count": 114,
+      "about": "",
+      "services": [],
+      "highlights": [],
+      "opening_hours": {},
+      "location": {
+        "maps_url": "https://www.google.com/maps/place/The+Hub+Dental+Practice+Kampala/@0.3280444,32.5344236,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbbf69914e0af:0x16f55b739af25609!8m2!3d0.3280444!4d32.5704725!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGFaIiIgZGVudGFsIGNsaW5pY3MgaW4ga2FtcGFsYSB1Z2FuZGGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJRT0hCeGVVdG5FQUXgAQD6AQQIaBBA!16s%2Fg%2F11scx0j3cy?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "reviews": []
+    },
+    {
+      "id": "nex-dental-care-clinic",
+      "name": "Nex Dental CARE Clinic",
+      "category": "Dental clinic",
+      "city": "Kampala, Uganda",
+      "address": "Kampala",
+      "phone": "706050229.0",
+      "email": "",
+      "website": "",
+      "rating": NaN,
+      "review_count": 0,
+      "about": "",
+      "services": [],
+      "highlights": [],
+      "opening_hours": {},
+      "location": {
+        "maps_url": "https://www.google.com/maps/place/Nex+Dental+CARE+Clinic/@0.3280444,32.5344236,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbb233910561b:0x2c69084a0eb3dac1!8m2!3d0.3151692!4d32.5816313!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGGSAQ1kZW50YWxfY2xpbmlj4AEA!16s%2Fg%2F11krnwq2gd?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "reviews": []
+    },
+    {
+      "id": "riverside-church-international-kampala-lungujja-near-kalema-road",
+      "name": "Riverside church international kampala lungujja near kalema road.",
+      "category": "Dental clinic",
+      "city": "Kampala, Uganda",
+      "address": "8H8J+3M6, Kampala",
+      "phone": "",
+      "email": "",
+      "website": "",
+      "rating": NaN,
+      "review_count": 0,
+      "about": "",
+      "services": [],
+      "highlights": [],
+      "opening_hours": {},
+      "location": {
+        "maps_url": "https://www.google.com/maps/place/Riverside+church+international+kampala+lungujja+near+kalema+road./@0.3280444,32.5344236,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbd000a26a037:0xf845e384a56039ca!8m2!3d0.3151692!4d32.5816313!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGGSAQ1kZW50YWxfY2xpbmlj4AEA!16s%2Fg%2F11w_mk7m4n?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "reviews": []
+    },
+    {
+      "id": "the-dental-office-kampala-the-d-o-k",
+      "name": "The Dental Office Kampala (The D.O.K)",
+      "category": "Dentist",
+      "city": "Kampala, Uganda",
+      "address": "10 Jinja Road, Kampala",
+      "phone": "742395879.0",
+      "email": "",
+      "website": "",
+      "rating": 5.0,
+      "review_count": 3,
+      "about": "",
+      "services": [],
+      "highlights": [],
+      "opening_hours": {},
+      "location": {
+        "maps_url": "https://www.google.com/maps/place/The+Dental+Office+Kampala+(The+D.O.K)/@0.3280444,32.5344236,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbd007daa00bf:0x8e32cc3c38ba49e!8m2!3d0.3142707!4d32.5897234!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGFaIiIgZGVudGFsIGNsaW5pY3MgaW4ga2FtcGFsYSB1Z2FuZGGSAQdkZW50aXN0mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxT1RWZEZORFJPU0ZadVlqSTVTVmRIWkVaU1ZYUTJXWHBvY2xSdFl4QULgAQD6AQQIVhA5!16s%2Fg%2F11yqsy4nty?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "reviews": [
+        {
+          "author": "Faith Peter Aketch",
+          "rating": 5,
+          "text": "Best dental care I\u2019ve received\u2026They handled my dental anxiety with care and patience. Modern equipment and excellent follow-up after treatment. Five stars all the way\u2026"
+        },
+        {
+          "author": "Courage Hassan",
+          "rating": 5,
+          "text": "Such a flexible appointment schedule at this clinic.Amazing dental treatments delivered with care and professionalism."
+        },
+        {
+          "author": "Wamani Barnabas",
+          "rating": 5,
+          "text": "It's an excellent clinic with wonderful services"
+        }
+      ]
+    },
+    {
+      "id": "mwatu-dental-clinic",
+      "name": "Mwatu dental clinic",
+      "category": "Hospital",
+      "city": "Kampala, Uganda",
+      "address": "8H6P+R22, Kampala Road, Kampala",
+      "phone": "754668822.0",
+      "email": "",
+      "website": "",
+      "rating": 3.5,
+      "review_count": 4,
+      "about": "",
+      "services": [],
+      "highlights": [],
+      "opening_hours": {},
+      "location": {
+        "maps_url": "https://www.google.com/maps/place/Mwatu+dental+clinic/@0.3280444,32.5344236,14z/data=!4m10!1m2!2m1!1sdental+clinics+in+Kampala,+Uganda!3m6!1s0x177dbdcafe3cffc3:0x35934a437669d1ff!8m2!3d0.3120091!4d32.5850013!15sCiFkZW50YWwgY2xpbmljcyBpbiBLYW1wYWxhLCBVZ2FuZGGSAQhob3NwaXRhbOABAA!16s%2Fg%2F11h1djntvj?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "reviews": [
+        {
+          "author": "Victoria Escodatah",
+          "rating": 0,
+          "text": "Did 3 root canal sessions but the tooth was still paining. Went to a different dental clinic and did an X-ray and the nerves were still there. Had to redo the root canal at jubilee"
+        },
+        {
+          "author": "Duncan Cedric",
+          "rating": 4,
+          "text": "Nice location easily accessible plus it's near some good parking space(required payment depending on time)"
+        },
+        {
+          "author": "hadijah nambi",
+          "rating": 4,
+          "text": "Dr. Ben is very good and caring."
+        }
+      ]
+    }
+  ]
+}
