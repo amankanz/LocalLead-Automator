@@ -3549,3 +3549,10 @@ Symbols not available. Dumping unresolved backtrace:
 2026-01-11 12:59:02,762 - INFO - ✅ meta.json generated
 2026-01-11 12:59:02,762 - INFO - ✅ Done!
 2026-01-11 12:59:02,762 - INFO - 🌐 Open previews/index.html
+2026-01-12 15:35:23,636 - INFO - ============================================================
+2026-01-12 15:35:23,637 - INFO - PHASE 4 ONLY: GENERATING PREVIEW WEBSITES
+2026-01-12 15:35:23,638 - INFO - ============================================================
+2026-01-12 15:35:23,676 - INFO - ✅ businesses.json generated (7 businesses)
+2026-01-12 15:35:23,679 - INFO - ✅ meta.json generated
+2026-01-12 15:35:23,680 - INFO - ✅ Done!
+2026-01-12 15:35:23,680 - INFO - 🌐 Open previews/index.html
