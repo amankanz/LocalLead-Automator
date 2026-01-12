@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T09:59:02.757600Z",
+  "generated_at": "2026-01-12T12:35:23.673916Z",
   "count": 7,
   "businesses": [
     {
@@ -87,7 +87,7 @@
       "phone": "706050229.0",
       "email": "",
       "website": "",
-      "rating": NaN,
+      "rating": null,
       "review_count": 0,
       "about": "",
       "services": [],
@@ -107,7 +107,7 @@
       "phone": "",
       "email": "",
       "website": "",
-      "rating": NaN,
+      "rating": null,
       "review_count": 0,
       "about": "",
       "services": [],
