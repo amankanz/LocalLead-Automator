@@ -296,6 +296,8 @@
 
 ###################### UP UNTOUCHED ###########
 
+#
+#
 # """
 # Phase 3: Data Export
 # Generate JSON for frontend templates (NO HTML, NO UI)
@@ -308,7 +310,6 @@
 # from datetime import datetime
 # import config
 # from utils import setup_logging
-# from pathlib import Path
 #
 # logger = setup_logging(config.LOG_FILE)
 #
@@ -330,6 +331,8 @@
 #
 # def safe_int(value):
 #     try:
+#         if value is None or pd.isna(value):
+#             return 0
 #         return int(float(value))
 #     except Exception:
 #         return 0
@@ -337,6 +340,8 @@
 #
 # def safe_float(value):
 #     try:
+#         if value is None or pd.isna(value):
+#             return None
 #         return float(value)
 #     except Exception:
 #         return None
@@ -377,7 +382,7 @@
 #             "reviews": []
 #         }
 #
-#         # Reviews
+#         # Reviews (up to 3)
 #         for i in range(1, 4):
 #             text = clean_value(row.get(f"review_{i}_text"))
 #             if text:
@@ -396,7 +401,10 @@
 #     }
 #
 #     out_file = OUTPUT_DIR / "businesses.json"
-#     out_file.write_text(json.dumps(output, indent=2), encoding="utf-8")
+#     out_file.write_text(
+#         json.dumps(output, indent=2, allow_nan=False),
+#         encoding="utf-8"
+#     )
 #
 #     logger.info(f"✅ businesses.json generated ({len(businesses)} businesses)")
 #     return out_file
@@ -422,7 +430,10 @@
 #     }
 #
 #     out_file = OUTPUT_DIR / "meta.json"
-#     out_file.write_text(json.dumps(meta, indent=2), encoding="utf-8")
+#     out_file.write_text(
+#         json.dumps(meta, indent=2, allow_nan=False),
+#         encoding="utf-8"
+#     )
 #
 #     logger.info("✅ meta.json generated")
 #     return out_file
@@ -431,6 +442,18 @@
 # def run_generator():
 #     generate_businesses_json(Path(config.ENRICHED_DATA_FILE))
 #     generate_meta_json()
+#
+#
+#
+# if __name__ == "__main__":
+#     run_generator()
+#
+#     # Sync generated data to frontend
+#     try:
+#         import sync_to_frontend
+#     except Exception as e:
+#         logger.error(f"❌ Sync to frontend failed: {e}")
+#
 
 
 """
@@ -443,28 +466,38 @@ import re
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
+
 import config
 from utils import setup_logging
 
+
+# -------------------------
+# Setup
+# -------------------------
 logger = setup_logging(config.LOG_FILE)
 
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "output"
-OUTPUT_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+FRONTEND_BUSINESSES_DIR = (
+    BASE_DIR.parent / "Dental Clinic Website Template" / "public" / "data" / "businesses"
+)
+FRONTEND_BUSINESSES_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # -------------------------
 # Helpers
 # -------------------------
-def clean_value(value):
-    if value is None:
+def clean_value(value) -> str:
+    if value is None or pd.isna(value):
         return ""
-    if isinstance(value, float) and pd.isna(value):
-        return ""
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
     return str(value).strip()
 
 
-def safe_int(value):
+def safe_int(value) -> int:
     try:
         if value is None or pd.isna(value):
             return 0
@@ -482,7 +515,7 @@ def safe_float(value):
         return None
 
 
-def slugify(text):
+def slugify(text: str) -> str:
     text = clean_value(text).lower()
     text = re.sub(r"[^a-z0-9]+", "-", text)
     return text.strip("-")
@@ -492,12 +525,19 @@ def slugify(text):
 # Main generator
 # -------------------------
 def generate_businesses_json(input_csv: Path):
+    logger.info(f"Reading enriched CSV: {input_csv}")
+
     df = pd.read_csv(input_csv)
-    businesses = []
+
+    businesses_index = []
+    per_business_files = []
 
     for _, row in df.iterrows():
+        slug = slugify(row.get("business_name"))
+
         business = {
-            "id": slugify(row.get("business_name")),
+            "id": slug,
+            "slug": slug,
             "name": clean_value(row.get("business_name")),
             "category": clean_value(row.get("category")),
             "city": clean_value(row.get("city")),
@@ -508,9 +548,11 @@ def generate_businesses_json(input_csv: Path):
             "rating": safe_float(row.get("rating")),
             "review_count": safe_int(row.get("review_count")),
             "about": clean_value(row.get("about_business")),
-            "services": [],
-            "highlights": [],
-            "opening_hours": {},
+            "preview": f"Trusted {clean_value(row.get('category'))} in {clean_value(row.get('city'))}",
+            "cta": {
+                "type": "whatsapp",
+                "label": "Contact Business"
+            },
             "location": {
                 "maps_url": clean_value(row.get("maps_url"))
             },
@@ -527,22 +569,37 @@ def generate_businesses_json(input_csv: Path):
                     "text": text
                 })
 
-        businesses.append(business)
+        # -------------------------
+        # Write per-business JSON
+        # -------------------------
+        business_file = FRONTEND_BUSINESSES_DIR / f"{slug}.json"
+        business_file.write_text(
+            json.dumps(business, indent=2, allow_nan=False),
+            encoding="utf-8"
+        )
 
-    output = {
+        businesses_index.append(business)
+        per_business_files.append(business_file.name)
+
+    # -------------------------
+    # Master index JSON
+    # -------------------------
+    index_output = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "count": len(businesses),
-        "businesses": businesses
+        "count": len(businesses_index),
+        "businesses": businesses_index
     }
 
-    out_file = OUTPUT_DIR / "businesses.json"
-    out_file.write_text(
-        json.dumps(output, indent=2, allow_nan=False),
+    index_file = OUTPUT_DIR / "businesses.json"
+    index_file.write_text(
+        json.dumps(index_output, indent=2, allow_nan=False),
         encoding="utf-8"
     )
 
-    logger.info(f"✅ businesses.json generated ({len(businesses)} businesses)")
-    return out_file
+    logger.info(f"✅ businesses.json generated ({len(businesses_index)} businesses)")
+    logger.info(f"✅ {len(per_business_files)} per-business JSON files created")
+
+    return index_file
 
 
 def generate_meta_json():
@@ -551,13 +608,6 @@ def generate_meta_json():
         "data_version": "1.0",
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "source_file": str(config.ENRICHED_DATA_FILE),
-        "templates": [
-            {
-                "id": "dental-v1",
-                "name": "Dental Clinic Template v1",
-                "status": "active"
-            }
-        ],
         "routing": {
             "mode": "slug",
             "base_path": "/preview"
@@ -578,3 +628,6 @@ def run_generator():
     generate_businesses_json(Path(config.ENRICHED_DATA_FILE))
     generate_meta_json()
 
+
+if __name__ == "__main__":
+    run_generator()

@@ -3556,3 +3556,21 @@ Symbols not available. Dumping unresolved backtrace:
 2026-01-12 15:35:23,679 - INFO - ✅ meta.json generated
 2026-01-12 15:35:23,680 - INFO - ✅ Done!
 2026-01-12 15:35:23,680 - INFO - 🌐 Open previews/index.html
+2026-01-12 18:52:21,507 - INFO - ✅ businesses.json generated (7 businesses)
+2026-01-12 18:52:21,509 - INFO - ✅ meta.json generated
+2026-01-12 21:32:31,530 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-12 21:32:31,585 - INFO - ✅ businesses.json generated (7 businesses)
+2026-01-12 21:32:31,585 - INFO - ✅ 7 per-business JSON files created
+2026-01-12 21:32:31,587 - INFO - ✅ meta.json generated
+2026-01-12 21:35:19,878 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-12 21:35:19,906 - INFO - ✅ businesses.json generated (7 businesses)
+2026-01-12 21:35:19,906 - INFO - ✅ 7 per-business JSON files created
+2026-01-12 21:35:19,908 - INFO - ✅ meta.json generated
+2026-01-12 21:42:08,403 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-12 21:42:08,431 - INFO - ✅ businesses.json generated (7 businesses)
+2026-01-12 21:42:08,432 - INFO - ✅ 7 per-business JSON files created
+2026-01-12 21:42:08,433 - INFO - ✅ meta.json generated
+2026-01-12 21:48:08,047 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-12 21:48:08,076 - INFO - ✅ businesses.json generated (7 businesses)
+2026-01-12 21:48:08,076 - INFO - ✅ 7 per-business JSON files created
+2026-01-12 21:48:08,078 - INFO - ✅ meta.json generated
