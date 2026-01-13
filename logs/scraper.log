@@ -3574,3 +3574,7 @@ Symbols not available. Dumping unresolved backtrace:
 2026-01-12 21:48:08,076 - INFO - ✅ businesses.json generated (7 businesses)
 2026-01-12 21:48:08,076 - INFO - ✅ 7 per-business JSON files created
 2026-01-12 21:48:08,078 - INFO - ✅ meta.json generated
+2026-01-13 00:02:50,174 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-13 00:02:50,225 - INFO - ✅ 7 businesses generated
+2026-01-13 00:02:50,226 - INFO - ✅ public/data/businesses/index.json created
+2026-01-13 00:02:50,228 - INFO - ✅ meta.json generated
