@@ -269,3 +269,42 @@ Symbols not available. Dumping unresolved backtrace:
 2026-01-18 17:54:35,929 - INFO - ✅ 5 businesses generated
 2026-01-18 17:54:35,930 - INFO - ✅ public/data/businesses/index.json created
 2026-01-18 17:54:35,936 - INFO - ✅ meta.json generated
+2026-01-18 19:05:59,382 - INFO - Setting up Chrome WebDriver...
+2026-01-18 19:05:59,401 - INFO - ====== WebDriver manager ======
+2026-01-18 19:06:01,963 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-18 19:06:08,814 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-18 19:06:12,747 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-18 19:06:14,967 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-18 19:06:14,970 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-18 19:11:15,003 - ERROR - Scraping failed: Message: timeout: Timed out receiving message from renderer: 293.817
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x601213
+	0x601254
+	0x3ee6dd
+	0x3ded49
+	0x3dea85
+	0x3dc94f
+	0x3dd456
+	0x3ea09b
+	0x3fbe5e
+	0x401976
+	0x3ddad2
+	0x3fbbd5
+	0x47de45
+	0x45b2e6
+	0x42d321
+	0x42e1d4
+	0x855254
+	0x85080b
+	0x86d0ea
+	0x61b118
+	0x62311d
+	0x609518
+	0x6096d9
+	0x5f3a68
+	0x75b0fcc9
+	0x77b782ae
+	0x77b7827e
+
