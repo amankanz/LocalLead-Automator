@@ -109,3 +109,163 @@
 2026-01-18 17:23:58,113 - INFO - ✅ 2 businesses generated
 2026-01-18 17:23:58,115 - INFO - ✅ public/data/businesses/index.json created
 2026-01-18 17:23:58,120 - INFO - ✅ meta.json generated
+2026-01-18 17:42:07,239 - INFO - Setting up Chrome WebDriver...
+2026-01-18 17:42:07,275 - INFO - ====== WebDriver manager ======
+2026-01-18 17:42:09,366 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-18 17:42:12,396 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-18 17:43:10,500 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-18 17:43:12,441 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-18 17:43:12,441 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-18 17:43:40,086 - INFO - Search page loaded - you should see results now
+2026-01-18 17:43:40,149 - INFO - Scrolling to load results...
+2026-01-18 17:43:42,246 - INFO - Scroll 1/3 complete
+2026-01-18 17:43:44,272 - INFO - Scroll 2/3 complete
+2026-01-18 17:43:46,459 - INFO - Scroll 3/3 complete
+2026-01-18 17:43:46,460 - INFO - Finding business listings...
+2026-01-18 17:43:46,554 - INFO - Processing business 1/12...
+2026-01-18 17:44:20,569 - INFO - ✓ Extracted: Dental World Clinic | Phone: 0703337738 | Website: N/A
+2026-01-18 17:44:21,597 - INFO - Processing business 2/12...
+2026-01-18 17:44:26,854 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-18 17:44:27,877 - INFO - Processing business 3/12...
+2026-01-18 17:44:33,448 - INFO - ✓ Extracted: Kay's Dental Clinic | Phone: 0200741500 | Website: http://www.kaysdentalclinic.com/
+2026-01-18 17:44:34,495 - INFO - Processing business 4/12...
+2026-01-18 17:44:39,822 - INFO - ✓ Extracted: Basil's dental clinic kampala | Phone: 0772728222 | Website: http://www.basilsdentalclinic.com/
+2026-01-18 17:44:40,840 - INFO - Processing business 5/12...
+2026-01-18 17:45:06,864 - INFO - ✓ Extracted: Dental and Medical World LTD | Phone: 0703337738 | Website: N/A
+2026-01-18 17:45:07,903 - INFO - Processing business 6/12...
+2026-01-18 17:45:13,156 - INFO - ✓ Extracted: Code Clinic | Phone: 0394836298 | Website: https://www.codeclinic.ug/
+2026-01-18 17:45:14,213 - INFO - Processing business 7/12...
+2026-01-18 17:45:20,454 - INFO - ✓ Extracted: Alisa Dental Services | Phone: 0759021169 | Website: http://www.alisadentalservices.com/
+2026-01-18 17:45:21,492 - INFO - Processing business 8/12...
+2026-01-18 17:45:49,019 - INFO - ✓ Extracted: Magical smiles dental clinic | Phone: 0700644711 | Website: N/A
+2026-01-18 17:45:50,053 - INFO - Processing business 9/12...
+2026-01-18 17:46:16,523 - INFO - ✓ Extracted: The Hub Dental Practice Kampala | Phone: 0779101638 | Website: N/A
+2026-01-18 17:46:17,550 - INFO - Processing business 10/12...
+2026-01-18 17:46:44,503 - INFO - ✓ Extracted: Church Road Clinic and Dental Kamwokya | Phone: 0772669922 | Website: N/A
+2026-01-18 17:46:45,536 - INFO - Processing business 11/12...
+2026-01-18 17:47:13,173 - INFO - ✓ Extracted: Esnan Dental Clinic | Phone: 0773869919 | Website: N/A
+2026-01-18 17:47:14,280 - INFO - Processing business 12/12...
+2026-01-18 17:47:21,789 - INFO - ✓ Extracted: PRIMECARE DENTAL CLINIC UGANDA | Phone: 0765979694 | Website: https://primecaredentalclinics.com/
+2026-01-18 17:47:22,789 - INFO - Scraping complete! Collected 12 businesses
+2026-01-18 17:47:22,790 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-18 17:47:32,277 - INFO - Browser closed
+2026-01-18 17:47:32,359 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-18 17:47:32,361 - INFO - 
+=== DATA PREVIEW ===
+2026-01-18 17:47:32,389 - INFO - 1. Dental World Clinic | Website: N/A | Phone: 0703337738
+2026-01-18 17:47:32,391 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-18 17:47:32,392 - INFO - 3. Kay's Dental Clinic | Website: http://www.kaysdentalclinic.com/ | Phone: 0200741500
+2026-01-18 17:47:32,393 - INFO - 4. Basil's dental clinic kampala | Website: http://www.basilsdentalclinic.com/ | Phone: 0772728222
+2026-01-18 17:47:32,395 - INFO - 5. Dental and Medical World LTD | Website: N/A | Phone: 0703337738
+2026-01-18 17:47:32,396 - INFO - 6. Code Clinic | Website: https://www.codeclinic.ug/ | Phone: 0394836298
+2026-01-18 17:47:32,402 - INFO - 7. Alisa Dental Services | Website: http://www.alisadentalservices.com/ | Phone: 0759021169
+2026-01-18 17:47:32,403 - INFO - 8. Magical smiles dental clinic | Website: N/A | Phone: 0700644711
+2026-01-18 17:47:32,404 - INFO - 9. The Hub Dental Practice Kampala | Website: N/A | Phone: 0779101638
+2026-01-18 17:47:32,405 - INFO - 10. Church Road Clinic and Dental Kamwokya | Website: N/A | Phone: 0772669922
+2026-01-18 17:47:32,406 - INFO - 11. Esnan Dental Clinic | Website: N/A | Phone: 0773869919
+2026-01-18 17:47:32,407 - INFO - 12. PRIMECARE DENTAL CLINIC UGANDA | Website: https://primecaredentalclinics.com/ | Phone: 0765979694
+2026-01-18 17:47:36,483 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-18 17:47:36,503 - INFO - Loaded 12 businesses
+2026-01-18 17:47:36,503 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-18 17:47:36,504 - INFO - Total businesses: 12
+2026-01-18 17:47:36,505 - INFO - Businesses WITH websites: 6
+2026-01-18 17:47:36,506 - INFO - Businesses WITHOUT websites: 6
+2026-01-18 17:47:36,509 - INFO - Businesses with phone: 12
+2026-01-18 17:47:36,510 - INFO - Businesses with email: 12
+2026-01-18 17:47:36,522 - INFO - 
+✓ After NO WEBSITE filter: 6 businesses (removed 6 with websites)
+2026-01-18 17:47:36,523 - INFO - 
+📞 Checking contact info...
+2026-01-18 17:47:36,525 - INFO -   Businesses with phone: 6
+2026-01-18 17:47:36,526 - INFO -   Businesses with email: 6
+2026-01-18 17:47:36,528 - INFO - ✓ After CONTACT filter: 6 businesses (removed 0 without contact)
+2026-01-18 17:47:36,534 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-18 17:47:36,537 - INFO -   - Dental World Clinic | Rating: 5.0
+2026-01-18 17:47:36,538 - INFO -   - Dental and Medical World LTD | Rating: 5.0
+2026-01-18 17:47:36,539 - INFO -   - Magical smiles dental clinic | Rating: 4.8
+2026-01-18 17:47:36,540 - INFO -   - The Hub Dental Practice Kampala | Rating: 4.8
+2026-01-18 17:47:36,541 - INFO -   - Church Road Clinic and Dental Kamwokya | Rating: 4.0
+2026-01-18 17:47:36,541 - INFO -   - Esnan Dental Clinic | Rating: 3.7
+2026-01-18 17:47:36,544 - INFO - ✓ After RATING filter: 6 businesses (removed 0 with low ratings)
+2026-01-18 17:47:36,544 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-18 17:47:36,553 - INFO - ✓ Removed 1 duplicate phone numbers
+2026-01-18 17:47:36,560 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-18 17:47:36,561 - INFO - 📊 SUMMARY: 12 scraped -> 5 QUALIFIED LEADS
+2026-01-18 17:47:36,561 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-18 17:47:36,565 - INFO - 1. Dental World Clinic | Phone: 703337738 | Rating: 5.0
+2026-01-18 17:47:36,566 - INFO - 8. Magical smiles dental clinic | Phone: 700644711 | Rating: 4.8
+2026-01-18 17:47:36,568 - INFO - 9. The Hub Dental Practice Kampala | Phone: 779101638 | Rating: 4.8
+2026-01-18 17:47:36,569 - INFO - 10. Church Road Clinic and Dental Kamwokya | Phone: 772669922 | Rating: 4.0
+2026-01-18 17:47:36,570 - INFO - 11. Esnan Dental Clinic | Phone: 773869919 | Rating: 3.7
+2026-01-18 17:47:36,570 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-18 17:47:36,575 - INFO - Found 5 qualified leads to enrich
+2026-01-18 17:47:36,576 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-18 17:47:36,576 - INFO - ====== WebDriver manager ======
+2026-01-18 17:47:39,022 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-18 17:47:41,790 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-18 17:47:48,617 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-18 17:47:50,346 - INFO - WebDriver ready for enrichment!
+2026-01-18 17:47:50,347 - INFO - 
+--- Enriching 1/5 ---
+2026-01-18 17:47:50,347 - INFO - 🔍 Enriching: Dental World Clinic
+2026-01-18 17:52:50,367 - ERROR - ❌ Error enriching Dental World Clinic: Message: timeout: Timed out receiving message from renderer: 299.397
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x811213
+	0x811254
+	0x5fe6dd
+	0x5eed49
+	0x5eea85
+	0x5ec94f
+	0x5ed456
+	0x5fa09b
+	0x60be5e
+	0x611976
+	0x5edad2
+	0x60bbd5
+	0x68de45
+	0x66b2e6
+	0x63d321
+	0x63e1d4
+	0xa65254
+	0xa6080b
+	0xa7d0ea
+	0x82b118
+	0x83311d
+	0x819518
+	0x8196d9
+	0x803a68
+	0x75b0fcc9
+	0x77b782ae
+	0x77b7827e
+
+2026-01-18 17:52:51,405 - INFO - 
+--- Enriching 2/5 ---
+2026-01-18 17:52:51,406 - INFO - 🔍 Enriching: Magical smiles dental clinic
+2026-01-18 17:53:14,776 - INFO - ✅ Enriched: Magical smiles dental clinic | About: 3 chars | Reviews: 0
+2026-01-18 17:53:15,777 - INFO - 
+--- Enriching 3/5 ---
+2026-01-18 17:53:15,779 - INFO - 🔍 Enriching: The Hub Dental Practice Kampala
+2026-01-18 17:53:38,601 - INFO - ✅ Enriched: The Hub Dental Practice Kampala | About: 3 chars | Reviews: 0
+2026-01-18 17:53:39,602 - INFO - 
+--- Enriching 4/5 ---
+2026-01-18 17:53:39,603 - INFO - 🔍 Enriching: Church Road Clinic and Dental Kamwokya
+2026-01-18 17:54:01,890 - INFO - ✅ Enriched: Church Road Clinic and Dental Kamwokya | About: 3 chars | Reviews: 0
+2026-01-18 17:54:02,895 - INFO - 
+--- Enriching 5/5 ---
+2026-01-18 17:54:02,896 - INFO - 🔍 Enriching: Esnan Dental Clinic
+2026-01-18 17:54:21,174 - INFO - ✅ Enriched: Esnan Dental Clinic | About: 3 chars | Reviews: 0
+2026-01-18 17:54:22,227 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-18 17:54:22,229 - INFO - 📊 Enriched 5 businesses
+2026-01-18 17:54:22,230 - INFO - Keeping browser open for 5 seconds...
+2026-01-18 17:54:31,513 - INFO - Browser closed
+2026-01-18 17:54:35,798 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-18 17:54:35,929 - INFO - ✅ 5 businesses generated
+2026-01-18 17:54:35,930 - INFO - ✅ public/data/businesses/index.json created
+2026-01-18 17:54:35,936 - INFO - ✅ meta.json generated
