@@ -1,29 +1,4 @@
-# # LocalLead Automator/generate_only.py
-#
-# from generator import run_generator
-# from utils import setup_logging
-# import config
-#
-# logger = setup_logging(config.LOG_FILE)
-#
-# if __name__ == "__main__":
-#     logger.info("Generating preview websites...")
-#     run_generator()
-#     logger.info("Done! Open previews/index.html")
-
-
-# LocalLead Automator/generate_only.py
-
-# from generator import run_generator
-# from utils import setup_logging
-# import config
-#
-# logger = setup_logging(config.LOG_FILE)
-#
-# if __name__ == "__main__":
-#     logger.info("Generating preview websites...")
-#     run_generator()
-#     logger.info("Done! Open previews/index.html")
+# locallead/LocalLead Automator/generate_only.py
 
 """
 Phase 4 only: Generate preview websites from existing enriched data.
