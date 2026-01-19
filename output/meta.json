@@ -1,7 +1,7 @@
 {
   "project": "LocalLead Automator",
   "data_version": "1.0",
-  "generated_at": "2026-01-18T14:54:35.931480Z",
+  "generated_at": "2026-01-19T11:38:42.792669Z",
   "source_file": "C:\\Users\\ziha_aman\\Desktop\\locallead\\LocalLead Automator\\data\\leads_enriched.csv",
   "routing": {
     "mode": "slug",

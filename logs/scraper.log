@@ -1,310 +1,1011 @@
-2026-01-18 17:11:39,600 - INFO - Setting up Chrome WebDriver...
-2026-01-18 17:11:39,603 - INFO - ====== WebDriver manager ======
-2026-01-18 17:11:41,768 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:11:43,808 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:11:46,837 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:12:18,345 - INFO - WebDriver version 143.0.7499.192 selected
-2026-01-18 17:12:18,362 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
-2026-01-18 17:12:18,362 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
-2026-01-18 17:12:20,611 - INFO - Driver downloading response is 200
-2026-01-18 17:15:44,869 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:15:47,487 - INFO - Driver has been saved in cache [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192]
-2026-01-18 17:15:52,359 - INFO - WebDriver setup complete - Browser should be visible now!
-2026-01-18 17:15:52,369 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
-2026-01-18 17:16:34,932 - INFO - Search page loaded - you should see results now
-2026-01-18 17:16:34,933 - INFO - Scrolling to load results...
-2026-01-18 17:16:37,052 - INFO - Scroll 1/3 complete
-2026-01-18 17:16:39,333 - INFO - Scroll 2/3 complete
-2026-01-18 17:16:41,468 - INFO - Scroll 3/3 complete
-2026-01-18 17:16:41,485 - INFO - Finding business listings...
-2026-01-18 17:16:41,571 - INFO - Processing business 1/10...
-2026-01-18 17:17:56,457 - INFO - ✓ Extracted: N/A | Phone: 0744000777 | Website: http://victorydentalhub.com/
-2026-01-18 17:17:57,494 - INFO - Processing business 1/10...
-2026-01-18 17:18:24,705 - INFO - ✓ Extracted: Dental World Clinic | Phone: 0703337738 | Website: N/A
-2026-01-18 17:18:25,756 - INFO - Processing business 2/10...
-2026-01-18 17:18:31,165 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
-2026-01-18 17:18:32,212 - INFO - Processing business 3/10...
-2026-01-18 17:18:38,637 - INFO - ✓ Extracted: Kay's Dental Clinic | Phone: 0200741500 | Website: http://www.kaysdentalclinic.com/
-2026-01-18 17:18:39,745 - INFO - Processing business 4/10...
-2026-01-18 17:18:50,671 - INFO - ✓ Extracted: Kay's Dental Clinic | Phone: 0772728222 | Website: http://www.basilsdentalclinic.com/
-2026-01-18 17:18:51,821 - INFO - Processing business 5/10...
-2026-01-18 17:19:25,579 - INFO - ✓ Extracted: Basil's dental clinic kampala | Phone: 0772728222 | Website: N/A
-2026-01-18 17:19:26,611 - INFO - Processing business 6/10...
-2026-01-18 17:19:33,821 - INFO - ✓ Extracted: Code Clinic | Phone: 0394836298 | Website: https://www.codeclinic.ug/
-2026-01-18 17:19:34,879 - INFO - Processing business 7/10...
-2026-01-18 17:19:42,047 - INFO - ✓ Extracted: Code Clinic | Phone: 0759021169 | Website: http://www.alisadentalservices.com/
-2026-01-18 17:19:43,071 - INFO - Processing business 8/10...
-2026-01-18 17:19:48,132 - INFO - ✓ Extracted: Bhandari Dental Care | Phone: 0756721086 | Website: http://www.bhandaridentalcare.co.ug/
-2026-01-18 17:19:49,149 - INFO - Processing business 9/10...
-2026-01-18 17:19:54,085 - INFO - ✓ Extracted: Bhandari Dental Care | Phone: 0756721086 | Website: http://www.bhandaridentalcare.co.ug/
-2026-01-18 17:19:55,103 - INFO - Processing business 10/10...
-2026-01-18 17:20:00,298 - INFO - ✓ Extracted: Bhandari Dental Care | Phone: 0756721086 | Website: http://www.bhandaridentalcare.co.ug/
-2026-01-18 17:20:01,300 - INFO - Scraping complete! Collected 10 businesses
-2026-01-18 17:20:01,306 - INFO - Keeping browser open for 5 seconds so you can see the results...
-2026-01-18 17:20:12,144 - INFO - Browser closed
-2026-01-18 17:20:12,169 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
-2026-01-18 17:20:12,170 - INFO - 
+2026-01-19 08:39:20,922 - INFO - Setting up Chrome WebDriver...
+2026-01-19 08:39:20,927 - INFO - ====== WebDriver manager ======
+2026-01-19 08:39:23,117 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:39:25,396 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:39:27,008 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:39:30,089 - INFO - WebDriver version 143.0.7499.192 selected
+2026-01-19 08:39:30,097 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-19 08:39:30,097 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/win32/chromedriver-win32.zip
+2026-01-19 08:39:31,123 - INFO - Driver downloading response is 200
+2026-01-19 08:39:35,497 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:39:37,165 - INFO - Driver has been saved in cache [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192]
+2026-01-19 08:39:43,178 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 08:39:43,179 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-19 08:39:47,661 - INFO - Search page loaded - you should see results now
+2026-01-19 08:39:48,089 - INFO - Scrolling to load results...
+2026-01-19 08:39:50,488 - INFO - Scroll 1/3 complete
+2026-01-19 08:39:52,527 - INFO - Scroll 2/3 complete
+2026-01-19 08:39:54,707 - INFO - Scroll 3/3 complete
+2026-01-19 08:39:54,708 - INFO - Finding business listings...
+2026-01-19 08:39:55,571 - INFO - Processing business 1/3...
+2026-01-19 08:40:02,385 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 08:40:03,431 - INFO - Processing business 2/3...
+2026-01-19 08:40:08,879 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 08:40:09,901 - INFO - Processing business 3/3...
+2026-01-19 08:40:15,286 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 08:40:16,286 - INFO - Scraping complete! Collected 3 businesses
+2026-01-19 08:40:16,287 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 08:40:26,448 - INFO - Browser closed
+2026-01-19 08:40:26,485 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 08:40:26,508 - INFO - 
 === DATA PREVIEW ===
-2026-01-18 17:20:12,180 - INFO - 1. Dental World Clinic | Website: N/A | Phone: 0703337738
-2026-01-18 17:20:12,184 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
-2026-01-18 17:20:12,185 - INFO - 3. Kay's Dental Clinic | Website: http://www.kaysdentalclinic.com/ | Phone: 0200741500
-2026-01-18 17:20:12,185 - INFO - 4. Kay's Dental Clinic | Website: http://www.basilsdentalclinic.com/ | Phone: 0772728222
-2026-01-18 17:20:12,186 - INFO - 5. Basil's dental clinic kampala | Website: N/A | Phone: 0772728222
-2026-01-18 17:20:12,186 - INFO - 6. Code Clinic | Website: https://www.codeclinic.ug/ | Phone: 0394836298
-2026-01-18 17:20:12,187 - INFO - 7. Code Clinic | Website: http://www.alisadentalservices.com/ | Phone: 0759021169
-2026-01-18 17:20:12,188 - INFO - 8. Bhandari Dental Care | Website: http://www.bhandaridentalcare.co.ug/ | Phone: 0756721086
-2026-01-18 17:20:12,188 - INFO - 9. Bhandari Dental Care | Website: http://www.bhandaridentalcare.co.ug/ | Phone: 0756721086
-2026-01-18 17:20:12,189 - INFO - 10. Bhandari Dental Care | Website: http://www.bhandaridentalcare.co.ug/ | Phone: 0756721086
-2026-01-18 17:20:16,260 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
-2026-01-18 17:20:16,279 - INFO - Loaded 10 businesses
-2026-01-18 17:20:16,283 - INFO - 
+2026-01-19 08:40:26,518 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 08:40:26,533 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 08:40:26,540 - INFO - 3. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 08:40:31,293 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 08:40:31,331 - INFO - Loaded 3 businesses
+2026-01-19 08:40:31,359 - INFO - 
 === BEFORE FILTERING ===
-2026-01-18 17:20:16,287 - INFO - Total businesses: 10
-2026-01-18 17:20:16,292 - INFO - Businesses WITH websites: 8
-2026-01-18 17:20:16,304 - INFO - Businesses WITHOUT websites: 2
-2026-01-18 17:20:16,318 - INFO - Businesses with phone: 10
-2026-01-18 17:20:16,320 - INFO - Businesses with email: 10
-2026-01-18 17:20:16,331 - INFO - 
-✓ After NO WEBSITE filter: 2 businesses (removed 8 with websites)
-2026-01-18 17:20:16,332 - INFO - 
+2026-01-19 08:40:31,369 - INFO - Total businesses: 3
+2026-01-19 08:40:31,371 - INFO - Businesses WITH websites: 3
+2026-01-19 08:40:31,400 - INFO - Businesses WITHOUT websites: 0
+2026-01-19 08:40:31,470 - INFO - Businesses with phone: 3
+2026-01-19 08:40:31,475 - INFO - Businesses with email: 3
+2026-01-19 08:40:31,515 - INFO - 
+✓ After NO WEBSITE filter: 0 businesses (removed 3 with websites)
+2026-01-19 08:40:31,533 - ERROR - ❌ NO BUSINESSES LEFT after website filter! All had websites.
+2026-01-19 08:40:31,555 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 08:40:31,601 - ERROR - No qualified leads to enrich!
+2026-01-19 08:40:31,605 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 08:40:31,699 - INFO - ✅ 5 businesses generated
+2026-01-19 08:40:31,725 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 08:40:31,737 - INFO - ✅ meta.json generated
+2026-01-19 08:44:07,660 - INFO - Setting up Chrome WebDriver...
+2026-01-19 08:44:07,662 - INFO - ====== WebDriver manager ======
+2026-01-19 08:44:09,932 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:44:12,217 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:44:14,150 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 08:44:16,147 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 08:44:16,150 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-19 08:44:29,200 - INFO - Search page loaded - you should see results now
+2026-01-19 08:44:29,203 - INFO - Scrolling to load results...
+2026-01-19 08:44:31,293 - INFO - Scroll 1/3 complete
+2026-01-19 08:44:33,335 - INFO - Scroll 2/3 complete
+2026-01-19 08:44:35,626 - INFO - Scroll 3/3 complete
+2026-01-19 08:44:35,626 - INFO - Finding business listings...
+2026-01-19 08:44:35,661 - INFO - Processing business 1/5...
+2026-01-19 08:44:42,962 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 08:44:43,990 - INFO - Processing business 2/5...
+2026-01-19 08:45:10,823 - INFO - ✓ Extracted: Vani dental clinic | Phone: 0762769408 | Website: N/A
+2026-01-19 08:45:11,909 - INFO - Processing business 3/5...
+2026-01-19 08:45:23,553 - INFO - ✓ Extracted: Vani dental clinic | Phone: 0772642592 | Website: http://www.runfoundationug.org/
+2026-01-19 08:45:24,611 - INFO - Processing business 4/5...
+2026-01-19 08:45:52,341 - INFO - ✓ Extracted: Run Dental Clinic | Phone: 0392002015 | Website: N/A
+2026-01-19 08:45:53,467 - INFO - Processing business 5/5...
+2026-01-19 08:46:24,551 - INFO - ✓ Extracted: Impressions Dental Clinic | Phone: 0706050229 | Website: N/A
+2026-01-19 08:46:25,553 - INFO - Scraping complete! Collected 5 businesses
+2026-01-19 08:46:25,553 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 08:46:33,417 - INFO - Browser closed
+2026-01-19 08:46:33,425 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 08:46:33,426 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 08:46:33,428 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 08:46:33,429 - INFO - 2. Vani dental clinic | Website: N/A | Phone: 0762769408
+2026-01-19 08:46:33,430 - INFO - 3. Vani dental clinic | Website: http://www.runfoundationug.org/ | Phone: 0772642592
+2026-01-19 08:46:33,431 - INFO - 4. Run Dental Clinic | Website: N/A | Phone: 0392002015
+2026-01-19 08:46:33,433 - INFO - 5. Impressions Dental Clinic | Website: N/A | Phone: 0706050229
+2026-01-19 08:46:37,524 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 08:46:37,528 - INFO - Loaded 5 businesses
+2026-01-19 08:46:37,529 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 08:46:37,530 - INFO - Total businesses: 5
+2026-01-19 08:46:37,531 - INFO - Businesses WITH websites: 2
+2026-01-19 08:46:37,531 - INFO - Businesses WITHOUT websites: 3
+2026-01-19 08:46:37,533 - INFO - Businesses with phone: 5
+2026-01-19 08:46:37,534 - INFO - Businesses with email: 5
+2026-01-19 08:46:37,547 - INFO - 
+✓ After NO WEBSITE filter: 3 businesses (removed 2 with websites)
+2026-01-19 08:46:37,548 - INFO - 
 📞 Checking contact info...
-2026-01-18 17:20:16,333 - INFO -   Businesses with phone: 2
-2026-01-18 17:20:16,335 - INFO -   Businesses with email: 2
-2026-01-18 17:20:16,337 - INFO - ✓ After CONTACT filter: 2 businesses (removed 0 without contact)
-2026-01-18 17:20:16,345 - INFO - 
+2026-01-19 08:46:37,550 - INFO -   Businesses with phone: 3
+2026-01-19 08:46:37,551 - INFO -   Businesses with email: 3
+2026-01-19 08:46:37,553 - INFO - ✓ After CONTACT filter: 3 businesses (removed 0 without contact)
+2026-01-19 08:46:37,559 - INFO - 
 ⭐ Checking ratings (minimum: 2.5)...
-2026-01-18 17:20:16,358 - INFO -   - Dental World Clinic | Rating: 5.0
-2026-01-18 17:20:16,365 - INFO -   - Basil's dental clinic kampala | Rating: 4.7
-2026-01-18 17:20:16,375 - INFO - ✓ After RATING filter: 2 businesses (removed 0 with low ratings)
-2026-01-18 17:20:16,376 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
-2026-01-18 17:20:16,438 - INFO - 
+2026-01-19 08:46:37,564 - INFO -   - Vani dental clinic | Rating: 5.0
+2026-01-19 08:46:37,565 - INFO -   - Run Dental Clinic | Rating: 3.7
+2026-01-19 08:46:37,566 - INFO -   - Impressions Dental Clinic | Rating: 3.7
+2026-01-19 08:46:37,574 - INFO - ✓ After RATING filter: 3 businesses (removed 0 with low ratings)
+2026-01-19 08:46:37,577 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 08:46:37,619 - INFO - 
 ✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
-2026-01-18 17:20:16,442 - INFO - 📊 SUMMARY: 10 scraped -> 2 QUALIFIED LEADS
-2026-01-18 17:20:16,453 - INFO - 
+2026-01-19 08:46:37,619 - INFO - 📊 SUMMARY: 5 scraped -> 3 QUALIFIED LEADS
+2026-01-19 08:46:37,619 - INFO - 
 === ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
-2026-01-18 17:20:16,456 - INFO - 1. Dental World Clinic | Phone: 703337738 | Rating: 5.0
-2026-01-18 17:20:16,490 - INFO - 5. Basil's dental clinic kampala | Phone: 772728222 | Rating: 4.7
-2026-01-18 17:20:16,501 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
-2026-01-18 17:20:16,532 - INFO - Found 2 qualified leads to enrich
-2026-01-18 17:20:16,532 - INFO - Setting up Chrome WebDriver for enrichment...
-2026-01-18 17:20:16,542 - INFO - ====== WebDriver manager ======
-2026-01-18 17:20:21,458 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:20:46,585 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:20:56,625 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
-2026-01-18 17:20:59,002 - INFO - WebDriver ready for enrichment!
-2026-01-18 17:20:59,004 - INFO - 
+2026-01-19 08:46:37,625 - INFO - 2. Vani dental clinic | Phone: 762769408 | Rating: 5.0
+2026-01-19 08:46:37,625 - INFO - 4. Run Dental Clinic | Phone: 392002015 | Rating: 3.7
+2026-01-19 08:46:37,626 - INFO - 5. Impressions Dental Clinic | Phone: 706050229 | Rating: 3.7
+2026-01-19 08:46:37,627 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 08:46:37,634 - INFO - Found 3 qualified leads to enrich
+2026-01-19 08:46:37,635 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 08:46:37,636 - INFO - ====== WebDriver manager ======
+2026-01-19 08:46:39,846 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:46:42,393 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 08:46:44,022 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 08:46:46,278 - INFO - WebDriver ready for enrichment!
+2026-01-19 08:46:46,279 - INFO - 
+--- Enriching 1/3 ---
+2026-01-19 08:46:46,280 - INFO - 🔍 Enriching: Vani dental clinic
+2026-01-19 08:48:31,263 - INFO - ✅ Enriched: Vani dental clinic | About: 3 chars | Reviews: 0
+2026-01-19 08:48:32,268 - INFO - 
+--- Enriching 2/3 ---
+2026-01-19 08:48:32,269 - INFO - 🔍 Enriching: Run Dental Clinic
+2026-01-19 08:48:58,403 - INFO - ✅ Enriched: Run Dental Clinic | About: 3 chars | Reviews: 0
+2026-01-19 08:48:59,414 - INFO - 
+--- Enriching 3/3 ---
+2026-01-19 08:48:59,430 - INFO - 🔍 Enriching: Impressions Dental Clinic
+2026-01-19 08:49:21,716 - INFO - ✅ Enriched: Impressions Dental Clinic | About: 3 chars | Reviews: 0
+2026-01-19 08:49:22,742 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 08:49:22,745 - INFO - 📊 Enriched 3 businesses
+2026-01-19 08:49:22,747 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 08:49:30,575 - INFO - Browser closed
+2026-01-19 08:49:34,679 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 08:49:34,701 - INFO - ✅ 3 businesses generated
+2026-01-19 08:49:34,747 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 08:49:34,750 - INFO - ✅ meta.json generated
+2026-01-19 10:34:39,972 - INFO - Setting up Chrome WebDriver...
+2026-01-19 10:34:39,973 - INFO - ====== WebDriver manager ======
+2026-01-19 10:34:42,682 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 10:34:44,707 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 10:34:47,372 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 10:34:50,293 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 10:34:50,305 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+Mbarara, uganda
+2026-01-19 10:34:57,970 - INFO - Search page loaded - you should see results now
+2026-01-19 10:34:58,052 - INFO - Scrolling to load results...
+2026-01-19 10:35:01,051 - INFO - Scroll 1/3 complete
+2026-01-19 10:35:03,343 - INFO - Scroll 2/3 complete
+2026-01-19 10:35:05,745 - INFO - Scroll 3/3 complete
+2026-01-19 10:35:05,755 - INFO - Finding business listings...
+2026-01-19 10:35:05,807 - INFO - Processing business 1/3...
+2026-01-19 10:35:36,554 - INFO - ✓ Extracted: Wright dental clinic kansanga | Phone: 0708546216 | Website: N/A
+2026-01-19 10:35:37,700 - INFO - Processing business 2/3...
+2026-01-19 10:36:21,290 - INFO - ✓ Extracted: Vani dental clinic | Phone: 0762769408 | Website: N/A
+2026-01-19 10:36:22,464 - INFO - Processing business 3/3...
+2026-01-19 10:37:26,140 - INFO - ✓ Extracted: Vani dental clinic | Phone: N/A | Website: N/A
+2026-01-19 10:37:27,141 - INFO - Scraping complete! Collected 3 businesses
+2026-01-19 10:37:27,141 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 10:37:34,739 - INFO - Browser closed
+2026-01-19 10:37:34,746 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 10:37:34,747 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 10:37:34,749 - INFO - 1. Wright dental clinic kansanga | Website: N/A | Phone: 0708546216
+2026-01-19 10:37:34,750 - INFO - 2. Vani dental clinic | Website: N/A | Phone: 0762769408
+2026-01-19 10:37:34,750 - INFO - 3. Vani dental clinic | Website: N/A | Phone: N/A
+2026-01-19 10:37:38,839 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 10:37:38,880 - INFO - Loaded 3 businesses
+2026-01-19 10:37:38,886 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 10:37:38,887 - INFO - Total businesses: 3
+2026-01-19 10:37:38,888 - INFO - Businesses WITH websites: 0
+2026-01-19 10:37:38,889 - INFO - Businesses WITHOUT websites: 3
+2026-01-19 10:37:38,891 - INFO - Businesses with phone: 3
+2026-01-19 10:37:38,894 - INFO - Businesses with email: 3
+2026-01-19 10:37:38,897 - INFO - 
+✓ After NO WEBSITE filter: 3 businesses (removed 0 with websites)
+2026-01-19 10:37:38,898 - INFO - 
+📞 Checking contact info...
+2026-01-19 10:37:38,899 - INFO -   Businesses with phone: 3
+2026-01-19 10:37:38,901 - INFO -   Businesses with email: 3
+2026-01-19 10:37:38,903 - INFO - ✓ After CONTACT filter: 3 businesses (removed 0 without contact)
+2026-01-19 10:37:38,904 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 10:37:38,906 - INFO -   - Wright dental clinic kansanga | Rating: 4.7
+2026-01-19 10:37:38,907 - INFO -   - Vani dental clinic | Rating: 5.0
+2026-01-19 10:37:38,912 - INFO -   - Vani dental clinic | Rating: nan
+2026-01-19 10:37:38,915 - INFO - ✓ After RATING filter: 3 businesses (removed 0 with low ratings)
+2026-01-19 10:37:38,915 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 10:37:38,930 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 10:37:38,931 - INFO - 📊 SUMMARY: 3 scraped -> 3 QUALIFIED LEADS
+2026-01-19 10:37:38,932 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 10:37:38,934 - INFO - 1. Wright dental clinic kansanga | Phone: 708546216.0 | Rating: 4.7
+2026-01-19 10:37:38,935 - INFO - 2. Vani dental clinic | Phone: 762769408.0 | Rating: 5.0
+2026-01-19 10:37:38,941 - INFO - 3. Vani dental clinic | Phone: nan | Rating: nan
+2026-01-19 10:37:38,953 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 10:37:38,965 - INFO - Found 3 qualified leads to enrich
+2026-01-19 10:37:38,971 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 10:37:38,972 - INFO - ====== WebDriver manager ======
+2026-01-19 10:37:40,952 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 10:37:43,084 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 10:37:45,133 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 10:37:47,453 - INFO - WebDriver ready for enrichment!
+2026-01-19 10:37:47,516 - INFO - 
+--- Enriching 1/3 ---
+2026-01-19 10:37:47,518 - INFO - 🔍 Enriching: Wright dental clinic kansanga
+2026-01-19 10:38:16,419 - INFO - ✅ Enriched: Wright dental clinic kansanga | About: 3 chars | Reviews: 0
+2026-01-19 10:38:17,422 - INFO - 
+--- Enriching 2/3 ---
+2026-01-19 10:38:17,423 - INFO - 🔍 Enriching: Vani dental clinic
+2026-01-19 10:38:46,716 - INFO - ✅ Enriched: Vani dental clinic | About: 3 chars | Reviews: 0
+2026-01-19 10:38:47,720 - INFO - 
+--- Enriching 3/3 ---
+2026-01-19 10:38:47,721 - INFO - 🔍 Enriching: Vani dental clinic
+2026-01-19 10:39:09,874 - INFO - ✅ Enriched: Vani dental clinic | About: 3 chars | Reviews: 0
+2026-01-19 10:39:10,896 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 10:39:10,897 - INFO - 📊 Enriched 3 businesses
+2026-01-19 10:39:10,902 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 10:39:18,526 - INFO - Browser closed
+2026-01-19 10:39:22,617 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 10:39:22,750 - INFO - ✅ 3 businesses generated
+2026-01-19 10:39:22,751 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 10:39:22,752 - INFO - ✅ meta.json generated
+2026-01-19 11:45:53,316 - INFO - Setting up Chrome WebDriver...
+2026-01-19 11:45:53,321 - INFO - ====== WebDriver manager ======
+2026-01-19 11:45:55,325 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 11:45:57,238 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 11:45:58,788 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 11:46:03,954 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 11:46:03,954 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+mbarara, uganda
+2026-01-19 11:46:12,041 - INFO - Search page loaded - you should see results now
+2026-01-19 11:46:12,042 - INFO - Scrolling to load results...
+2026-01-19 11:46:14,131 - INFO - Scroll 1/3 complete
+2026-01-19 11:46:16,185 - INFO - Scroll 2/3 complete
+2026-01-19 11:46:18,539 - INFO - Scroll 3/3 complete
+2026-01-19 11:46:18,543 - INFO - Finding business listings...
+2026-01-19 11:46:18,713 - INFO - Processing business 1/2...
+2026-01-19 11:46:24,534 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 11:46:25,559 - INFO - Processing business 2/2...
+2026-01-19 11:46:57,044 - INFO - ✓ Extracted: Wright dental clinic kansanga | Phone: 0708546216 | Website: N/A
+2026-01-19 11:46:58,046 - INFO - Scraping complete! Collected 2 businesses
+2026-01-19 11:46:58,047 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 11:47:05,422 - INFO - Browser closed
+2026-01-19 11:47:05,441 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 11:47:05,441 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 11:47:05,444 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 11:47:05,445 - INFO - 2. Wright dental clinic kansanga | Website: N/A | Phone: 0708546216
+2026-01-19 11:47:09,503 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 11:47:09,532 - INFO - Loaded 2 businesses
+2026-01-19 11:47:09,533 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 11:47:09,534 - INFO - Total businesses: 2
+2026-01-19 11:47:09,539 - INFO - Businesses WITH websites: 1
+2026-01-19 11:47:09,539 - INFO - Businesses WITHOUT websites: 1
+2026-01-19 11:47:09,542 - INFO - Businesses with phone: 2
+2026-01-19 11:47:09,544 - INFO - Businesses with email: 2
+2026-01-19 11:47:09,548 - INFO - 
+✓ After NO WEBSITE filter: 1 businesses (removed 1 with websites)
+2026-01-19 11:47:09,549 - INFO - 
+📞 Checking contact info...
+2026-01-19 11:47:09,550 - INFO -   Businesses with phone: 1
+2026-01-19 11:47:09,550 - INFO -   Businesses with email: 1
+2026-01-19 11:47:09,552 - INFO - ✓ After CONTACT filter: 1 businesses (removed 0 without contact)
+2026-01-19 11:47:09,552 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 11:47:09,554 - INFO -   - Wright dental clinic kansanga | Rating: 4.7
+2026-01-19 11:47:09,556 - INFO - ✓ After RATING filter: 1 businesses (removed 0 with low ratings)
+2026-01-19 11:47:09,556 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 11:47:09,564 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 11:47:09,565 - INFO - 📊 SUMMARY: 2 scraped -> 1 QUALIFIED LEADS
+2026-01-19 11:47:09,566 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 11:47:09,567 - INFO - 2. Wright dental clinic kansanga | Phone: 708546216 | Rating: 4.7
+2026-01-19 11:47:09,567 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 11:47:09,572 - INFO - Found 1 qualified leads to enrich
+2026-01-19 11:47:09,573 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 11:47:09,573 - INFO - ====== WebDriver manager ======
+2026-01-19 11:47:11,262 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 11:47:12,637 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 11:47:14,181 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 11:47:15,779 - INFO - WebDriver ready for enrichment!
+2026-01-19 11:47:15,779 - INFO - 
+--- Enriching 1/1 ---
+2026-01-19 11:47:15,780 - INFO - 🔍 Enriching: Wright dental clinic kansanga
+2026-01-19 11:47:40,559 - INFO - ✅ Enriched: Wright dental clinic kansanga | About: 3 chars | Reviews: 0
+2026-01-19 11:47:41,568 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 11:47:41,568 - INFO - 📊 Enriched 1 businesses
+2026-01-19 11:47:41,569 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 11:47:48,839 - INFO - Browser closed
+2026-01-19 11:47:52,879 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 11:47:52,912 - INFO - ✅ 1 businesses generated
+2026-01-19 11:47:52,924 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 11:47:52,926 - INFO - ✅ meta.json generated
+2026-01-19 12:24:47,139 - INFO - Setting up Chrome WebDriver...
+2026-01-19 12:24:47,140 - INFO - ====== WebDriver manager ======
+2026-01-19 12:24:48,791 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 12:24:50,157 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 12:24:51,475 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 12:24:53,349 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 12:24:53,349 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+mbarara, uganda
+2026-01-19 12:24:59,997 - INFO - Search page loaded - you should see results now
+2026-01-19 12:24:59,998 - INFO - Scrolling to load results...
+2026-01-19 12:25:02,092 - INFO - Scroll 1/3 complete
+2026-01-19 12:25:04,592 - INFO - Scroll 2/3 complete
+2026-01-19 12:25:06,601 - INFO - Scroll 3/3 complete
+2026-01-19 12:25:06,602 - INFO - Finding business listings...
+2026-01-19 12:25:06,655 - INFO - Processing business 1/2...
+2026-01-19 12:25:33,403 - INFO - ✓ Extracted: Wright dental clinic kansanga | Phone: 0708546216 | Website: N/A
+2026-01-19 12:25:34,529 - INFO - Processing business 2/2...
+2026-01-19 12:25:43,095 - INFO - ✓ Extracted: Wright dental clinic kansanga | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 12:25:44,096 - INFO - Scraping complete! Collected 2 businesses
+2026-01-19 12:25:44,096 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 12:25:51,528 - INFO - Browser closed
+2026-01-19 12:25:51,532 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 12:25:51,532 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 12:25:51,533 - INFO - 1. Wright dental clinic kansanga | Website: N/A | Phone: 0708546216
+2026-01-19 12:25:51,533 - INFO - 2. Wright dental clinic kansanga | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 12:25:55,571 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 12:25:55,576 - INFO - Loaded 2 businesses
+2026-01-19 12:25:55,577 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 12:25:55,577 - INFO - Total businesses: 2
+2026-01-19 12:25:55,578 - INFO - Businesses WITH websites: 1
+2026-01-19 12:25:55,579 - INFO - Businesses WITHOUT websites: 1
+2026-01-19 12:25:55,580 - INFO - Businesses with phone: 2
+2026-01-19 12:25:55,581 - INFO - Businesses with email: 2
+2026-01-19 12:25:55,583 - INFO - 
+✓ After NO WEBSITE filter: 1 businesses (removed 1 with websites)
+2026-01-19 12:25:55,583 - INFO - 
+📞 Checking contact info...
+2026-01-19 12:25:55,584 - INFO -   Businesses with phone: 1
+2026-01-19 12:25:55,586 - INFO -   Businesses with email: 1
+2026-01-19 12:25:55,588 - INFO - ✓ After CONTACT filter: 1 businesses (removed 0 without contact)
+2026-01-19 12:25:55,588 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 12:25:55,590 - INFO -   - Wright dental clinic kansanga | Rating: 4.7
+2026-01-19 12:25:55,591 - INFO - ✓ After RATING filter: 1 businesses (removed 0 with low ratings)
+2026-01-19 12:25:55,591 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 12:25:55,595 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 12:25:55,595 - INFO - 📊 SUMMARY: 2 scraped -> 1 QUALIFIED LEADS
+2026-01-19 12:25:55,596 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 12:25:55,597 - INFO - 1. Wright dental clinic kansanga | Phone: 708546216 | Rating: 4.7
+2026-01-19 12:25:55,597 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 12:25:55,600 - INFO - Found 1 qualified leads to enrich
+2026-01-19 12:25:55,601 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 12:25:55,603 - INFO - ====== WebDriver manager ======
+2026-01-19 12:25:58,015 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 12:25:59,341 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 12:26:00,689 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 12:26:02,426 - INFO - WebDriver ready for enrichment!
+2026-01-19 12:26:02,427 - INFO - 
+--- Enriching 1/1 ---
+2026-01-19 12:26:02,428 - INFO - 🔍 Enriching: Wright dental clinic kansanga
+2026-01-19 12:26:26,601 - INFO - ✅ Enriched: Wright dental clinic kansanga | About: 3 chars | Reviews: 0
+2026-01-19 12:26:27,606 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 12:26:27,607 - INFO - 📊 Enriched 1 businesses
+2026-01-19 12:26:27,607 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 12:26:35,036 - INFO - Browser closed
+2026-01-19 12:26:39,088 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 12:26:39,102 - INFO - ✅ 1 businesses generated
+2026-01-19 12:26:39,103 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 12:26:39,104 - INFO - ✅ meta.json generated
+2026-01-19 12:58:35,208 - INFO - Setting up Chrome WebDriver...
+2026-01-19 12:58:35,210 - INFO - ====== WebDriver manager ======
+2026-01-19 12:58:37,256 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 12:58:38,604 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 12:58:39,909 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 12:58:41,815 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 12:58:41,815 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-19 12:58:48,430 - INFO - Search page loaded - you should see results now
+2026-01-19 12:58:48,431 - INFO - Scrolling to load results...
+2026-01-19 12:58:50,505 - INFO - Scroll 1/3 complete
+2026-01-19 12:58:54,174 - INFO - Scroll 2/3 complete
+2026-01-19 12:58:56,190 - INFO - Scroll 3/3 complete
+2026-01-19 12:58:56,192 - INFO - Finding business listings...
+2026-01-19 12:58:56,498 - INFO - Processing business 1/4...
+2026-01-19 12:59:45,074 - INFO - ✓ Extracted: Nex Dental CARE Clinic | Phone: 0706050229 | Website: N/A
+2026-01-19 12:59:46,101 - INFO - Processing business 2/4...
+2026-01-19 12:59:51,267 - INFO - ✓ Extracted: Run Dental Clinic | Phone: 0772642592 | Website: http://www.runfoundationug.org/
+2026-01-19 12:59:52,286 - INFO - Processing business 3/4...
+2026-01-19 12:59:57,317 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://sterlingdentalclinickampala.com/
+2026-01-19 12:59:58,337 - INFO - Processing business 4/4...
+2026-01-19 13:00:25,340 - INFO - ✓ Extracted: Impressions Dental Clinic | Phone: 0392002015 | Website: N/A
+2026-01-19 13:00:26,342 - INFO - Scraping complete! Collected 4 businesses
+2026-01-19 13:00:26,342 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 13:00:33,732 - INFO - Browser closed
+2026-01-19 13:00:33,746 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 13:00:33,747 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 13:00:33,748 - INFO - 1. Nex Dental CARE Clinic | Website: N/A | Phone: 0706050229
+2026-01-19 13:00:33,749 - INFO - 2. Run Dental Clinic | Website: http://www.runfoundationug.org/ | Phone: 0772642592
+2026-01-19 13:00:33,749 - INFO - 3. Sterling Dental Clinic | Website: https://sterlingdentalclinickampala.com/ | Phone: 0766526236
+2026-01-19 13:00:33,750 - INFO - 4. Impressions Dental Clinic | Website: N/A | Phone: 0392002015
+2026-01-19 13:00:37,790 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 13:00:37,799 - INFO - Loaded 4 businesses
+2026-01-19 13:00:37,800 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 13:00:37,800 - INFO - Total businesses: 4
+2026-01-19 13:00:37,801 - INFO - Businesses WITH websites: 2
+2026-01-19 13:00:37,801 - INFO - Businesses WITHOUT websites: 2
+2026-01-19 13:00:37,802 - INFO - Businesses with phone: 4
+2026-01-19 13:00:37,803 - INFO - Businesses with email: 4
+2026-01-19 13:00:37,807 - INFO - 
+✓ After NO WEBSITE filter: 2 businesses (removed 2 with websites)
+2026-01-19 13:00:37,807 - INFO - 
+📞 Checking contact info...
+2026-01-19 13:00:37,808 - INFO -   Businesses with phone: 2
+2026-01-19 13:00:37,809 - INFO -   Businesses with email: 2
+2026-01-19 13:00:37,811 - INFO - ✓ After CONTACT filter: 2 businesses (removed 0 without contact)
+2026-01-19 13:00:37,811 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 13:00:37,812 - INFO -   - Nex Dental CARE Clinic | Rating: nan
+2026-01-19 13:00:37,812 - INFO -   - Impressions Dental Clinic | Rating: 3.7
+2026-01-19 13:00:37,814 - INFO - ✓ After RATING filter: 2 businesses (removed 0 with low ratings)
+2026-01-19 13:00:37,814 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 13:00:37,818 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 13:00:37,819 - INFO - 📊 SUMMARY: 4 scraped -> 2 QUALIFIED LEADS
+2026-01-19 13:00:37,819 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 13:00:37,820 - INFO - 1. Nex Dental CARE Clinic | Phone: 706050229 | Rating: nan
+2026-01-19 13:00:37,821 - INFO - 4. Impressions Dental Clinic | Phone: 392002015 | Rating: 3.7
+2026-01-19 13:00:37,822 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 13:00:37,826 - INFO - Found 2 qualified leads to enrich
+2026-01-19 13:00:37,826 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 13:00:37,826 - INFO - ====== WebDriver manager ======
+2026-01-19 13:00:39,479 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:00:40,857 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:00:42,207 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 13:00:44,211 - INFO - WebDriver ready for enrichment!
+2026-01-19 13:00:44,216 - INFO - 
 --- Enriching 1/2 ---
-2026-01-18 17:20:59,010 - INFO - 🔍 Enriching: Dental World Clinic
-2026-01-18 17:23:22,901 - INFO - ✅ Enriched: Dental World Clinic | About: 3 chars | Reviews: 0
-2026-01-18 17:23:23,903 - INFO - 
+2026-01-19 13:00:44,217 - INFO - 🔍 Enriching: Nex Dental CARE Clinic
+2026-01-19 13:01:03,441 - INFO - ✅ Enriched: Nex Dental CARE Clinic | About: 3 chars | Reviews: 0
+2026-01-19 13:01:04,442 - INFO - 
 --- Enriching 2/2 ---
-2026-01-18 17:23:23,905 - INFO - 🔍 Enriching: Basil's dental clinic kampala
-2026-01-18 17:23:45,285 - INFO - ✅ Enriched: Basil's dental clinic kampala | About: 3 chars | Reviews: 0
-2026-01-18 17:23:46,314 - INFO - 
+2026-01-19 13:01:04,443 - INFO - 🔍 Enriching: Impressions Dental Clinic
+2026-01-19 13:01:25,720 - INFO - ✅ Enriched: Impressions Dental Clinic | About: 3 chars | Reviews: 0
+2026-01-19 13:01:26,743 - INFO - 
 ✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
-2026-01-18 17:23:46,316 - INFO - 📊 Enriched 2 businesses
-2026-01-18 17:23:46,317 - INFO - Keeping browser open for 5 seconds...
-2026-01-18 17:23:53,994 - INFO - Browser closed
-2026-01-18 17:23:58,075 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
-2026-01-18 17:23:58,113 - INFO - ✅ 2 businesses generated
-2026-01-18 17:23:58,115 - INFO - ✅ public/data/businesses/index.json created
-2026-01-18 17:23:58,120 - INFO - ✅ meta.json generated
-2026-01-18 17:42:07,239 - INFO - Setting up Chrome WebDriver...
-2026-01-18 17:42:07,275 - INFO - ====== WebDriver manager ======
-2026-01-18 17:42:09,366 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:42:12,396 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:43:10,500 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
-2026-01-18 17:43:12,441 - INFO - WebDriver setup complete - Browser should be visible now!
-2026-01-18 17:43:12,441 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
-2026-01-18 17:43:40,086 - INFO - Search page loaded - you should see results now
-2026-01-18 17:43:40,149 - INFO - Scrolling to load results...
-2026-01-18 17:43:42,246 - INFO - Scroll 1/3 complete
-2026-01-18 17:43:44,272 - INFO - Scroll 2/3 complete
-2026-01-18 17:43:46,459 - INFO - Scroll 3/3 complete
-2026-01-18 17:43:46,460 - INFO - Finding business listings...
-2026-01-18 17:43:46,554 - INFO - Processing business 1/12...
-2026-01-18 17:44:20,569 - INFO - ✓ Extracted: Dental World Clinic | Phone: 0703337738 | Website: N/A
-2026-01-18 17:44:21,597 - INFO - Processing business 2/12...
-2026-01-18 17:44:26,854 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
-2026-01-18 17:44:27,877 - INFO - Processing business 3/12...
-2026-01-18 17:44:33,448 - INFO - ✓ Extracted: Kay's Dental Clinic | Phone: 0200741500 | Website: http://www.kaysdentalclinic.com/
-2026-01-18 17:44:34,495 - INFO - Processing business 4/12...
-2026-01-18 17:44:39,822 - INFO - ✓ Extracted: Basil's dental clinic kampala | Phone: 0772728222 | Website: http://www.basilsdentalclinic.com/
-2026-01-18 17:44:40,840 - INFO - Processing business 5/12...
-2026-01-18 17:45:06,864 - INFO - ✓ Extracted: Dental and Medical World LTD | Phone: 0703337738 | Website: N/A
-2026-01-18 17:45:07,903 - INFO - Processing business 6/12...
-2026-01-18 17:45:13,156 - INFO - ✓ Extracted: Code Clinic | Phone: 0394836298 | Website: https://www.codeclinic.ug/
-2026-01-18 17:45:14,213 - INFO - Processing business 7/12...
-2026-01-18 17:45:20,454 - INFO - ✓ Extracted: Alisa Dental Services | Phone: 0759021169 | Website: http://www.alisadentalservices.com/
-2026-01-18 17:45:21,492 - INFO - Processing business 8/12...
-2026-01-18 17:45:49,019 - INFO - ✓ Extracted: Magical smiles dental clinic | Phone: 0700644711 | Website: N/A
-2026-01-18 17:45:50,053 - INFO - Processing business 9/12...
-2026-01-18 17:46:16,523 - INFO - ✓ Extracted: The Hub Dental Practice Kampala | Phone: 0779101638 | Website: N/A
-2026-01-18 17:46:17,550 - INFO - Processing business 10/12...
-2026-01-18 17:46:44,503 - INFO - ✓ Extracted: Church Road Clinic and Dental Kamwokya | Phone: 0772669922 | Website: N/A
-2026-01-18 17:46:45,536 - INFO - Processing business 11/12...
-2026-01-18 17:47:13,173 - INFO - ✓ Extracted: Esnan Dental Clinic | Phone: 0773869919 | Website: N/A
-2026-01-18 17:47:14,280 - INFO - Processing business 12/12...
-2026-01-18 17:47:21,789 - INFO - ✓ Extracted: PRIMECARE DENTAL CLINIC UGANDA | Phone: 0765979694 | Website: https://primecaredentalclinics.com/
-2026-01-18 17:47:22,789 - INFO - Scraping complete! Collected 12 businesses
-2026-01-18 17:47:22,790 - INFO - Keeping browser open for 5 seconds so you can see the results...
-2026-01-18 17:47:32,277 - INFO - Browser closed
-2026-01-18 17:47:32,359 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
-2026-01-18 17:47:32,361 - INFO - 
+2026-01-19 13:01:26,744 - INFO - 📊 Enriched 2 businesses
+2026-01-19 13:01:26,745 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 13:01:34,760 - INFO - Browser closed
+2026-01-19 13:01:38,780 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 13:01:38,835 - INFO - ✅ 2 businesses generated
+2026-01-19 13:01:38,835 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 13:01:38,838 - INFO - ✅ meta.json generated
+2026-01-19 13:19:07,210 - INFO - Setting up Chrome WebDriver...
+2026-01-19 13:19:07,211 - INFO - ====== WebDriver manager ======
+2026-01-19 13:19:08,921 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:19:10,254 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:19:11,582 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 13:19:13,390 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 13:19:13,391 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-19 13:19:20,073 - INFO - Search page loaded - you should see results now
+2026-01-19 13:19:20,074 - INFO - Scrolling to load results...
+2026-01-19 13:19:22,199 - INFO - Scroll 1/3 complete
+2026-01-19 13:19:24,705 - INFO - Scroll 2/3 complete
+2026-01-19 13:19:27,322 - INFO - Scroll 3/3 complete
+2026-01-19 13:19:27,322 - INFO - Finding business listings...
+2026-01-19 13:19:27,358 - INFO - Processing business 1/5...
+2026-01-19 13:19:32,875 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 13:19:33,906 - INFO - Processing business 2/5...
+2026-01-19 13:20:01,119 - INFO - ✓ Extracted: Wright dental clinic kansanga | Phone: 0708546216 | Website: N/A
+2026-01-19 13:20:02,148 - INFO - Processing business 3/5...
+2026-01-19 13:20:50,228 - INFO - ✓ Extracted: Nex Dental CARE Clinic | Phone: 0706050229 | Website: N/A
+2026-01-19 13:20:51,276 - INFO - Processing business 4/5...
+2026-01-19 13:20:56,549 - INFO - ✓ Extracted: Run Dental Clinic | Phone: 0772642592 | Website: http://www.runfoundationug.org/
+2026-01-19 13:20:57,576 - INFO - Processing business 5/5...
+2026-01-19 13:21:02,689 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://sterlingdentalclinickampala.com/
+2026-01-19 13:21:03,690 - INFO - Scraping complete! Collected 5 businesses
+2026-01-19 13:21:03,691 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 13:21:11,102 - INFO - Browser closed
+2026-01-19 13:21:11,123 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 13:21:11,124 - INFO - 
 === DATA PREVIEW ===
-2026-01-18 17:47:32,389 - INFO - 1. Dental World Clinic | Website: N/A | Phone: 0703337738
-2026-01-18 17:47:32,391 - INFO - 2. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
-2026-01-18 17:47:32,392 - INFO - 3. Kay's Dental Clinic | Website: http://www.kaysdentalclinic.com/ | Phone: 0200741500
-2026-01-18 17:47:32,393 - INFO - 4. Basil's dental clinic kampala | Website: http://www.basilsdentalclinic.com/ | Phone: 0772728222
-2026-01-18 17:47:32,395 - INFO - 5. Dental and Medical World LTD | Website: N/A | Phone: 0703337738
-2026-01-18 17:47:32,396 - INFO - 6. Code Clinic | Website: https://www.codeclinic.ug/ | Phone: 0394836298
-2026-01-18 17:47:32,402 - INFO - 7. Alisa Dental Services | Website: http://www.alisadentalservices.com/ | Phone: 0759021169
-2026-01-18 17:47:32,403 - INFO - 8. Magical smiles dental clinic | Website: N/A | Phone: 0700644711
-2026-01-18 17:47:32,404 - INFO - 9. The Hub Dental Practice Kampala | Website: N/A | Phone: 0779101638
-2026-01-18 17:47:32,405 - INFO - 10. Church Road Clinic and Dental Kamwokya | Website: N/A | Phone: 0772669922
-2026-01-18 17:47:32,406 - INFO - 11. Esnan Dental Clinic | Website: N/A | Phone: 0773869919
-2026-01-18 17:47:32,407 - INFO - 12. PRIMECARE DENTAL CLINIC UGANDA | Website: https://primecaredentalclinics.com/ | Phone: 0765979694
-2026-01-18 17:47:36,483 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
-2026-01-18 17:47:36,503 - INFO - Loaded 12 businesses
-2026-01-18 17:47:36,503 - INFO - 
+2026-01-19 13:21:11,126 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 13:21:11,127 - INFO - 2. Wright dental clinic kansanga | Website: N/A | Phone: 0708546216
+2026-01-19 13:21:11,128 - INFO - 3. Nex Dental CARE Clinic | Website: N/A | Phone: 0706050229
+2026-01-19 13:21:11,129 - INFO - 4. Run Dental Clinic | Website: http://www.runfoundationug.org/ | Phone: 0772642592
+2026-01-19 13:21:11,131 - INFO - 5. Sterling Dental Clinic | Website: https://sterlingdentalclinickampala.com/ | Phone: 0766526236
+2026-01-19 13:21:15,188 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 13:21:15,225 - INFO - Loaded 5 businesses
+2026-01-19 13:21:15,231 - INFO - 
 === BEFORE FILTERING ===
-2026-01-18 17:47:36,504 - INFO - Total businesses: 12
-2026-01-18 17:47:36,505 - INFO - Businesses WITH websites: 6
-2026-01-18 17:47:36,506 - INFO - Businesses WITHOUT websites: 6
-2026-01-18 17:47:36,509 - INFO - Businesses with phone: 12
-2026-01-18 17:47:36,510 - INFO - Businesses with email: 12
-2026-01-18 17:47:36,522 - INFO - 
-✓ After NO WEBSITE filter: 6 businesses (removed 6 with websites)
-2026-01-18 17:47:36,523 - INFO - 
+2026-01-19 13:21:15,242 - INFO - Total businesses: 5
+2026-01-19 13:21:15,244 - INFO - Businesses WITH websites: 3
+2026-01-19 13:21:15,244 - INFO - Businesses WITHOUT websites: 2
+2026-01-19 13:21:15,246 - INFO - Businesses with phone: 5
+2026-01-19 13:21:15,247 - INFO - Businesses with email: 5
+2026-01-19 13:21:15,250 - INFO - 
+✓ After NO WEBSITE filter: 2 businesses (removed 3 with websites)
+2026-01-19 13:21:15,251 - INFO - 
 📞 Checking contact info...
-2026-01-18 17:47:36,525 - INFO -   Businesses with phone: 6
-2026-01-18 17:47:36,526 - INFO -   Businesses with email: 6
-2026-01-18 17:47:36,528 - INFO - ✓ After CONTACT filter: 6 businesses (removed 0 without contact)
-2026-01-18 17:47:36,534 - INFO - 
+2026-01-19 13:21:15,253 - INFO -   Businesses with phone: 2
+2026-01-19 13:21:15,254 - INFO -   Businesses with email: 2
+2026-01-19 13:21:15,257 - INFO - ✓ After CONTACT filter: 2 businesses (removed 0 without contact)
+2026-01-19 13:21:15,258 - INFO - 
 ⭐ Checking ratings (minimum: 2.5)...
-2026-01-18 17:47:36,537 - INFO -   - Dental World Clinic | Rating: 5.0
-2026-01-18 17:47:36,538 - INFO -   - Dental and Medical World LTD | Rating: 5.0
-2026-01-18 17:47:36,539 - INFO -   - Magical smiles dental clinic | Rating: 4.8
-2026-01-18 17:47:36,540 - INFO -   - The Hub Dental Practice Kampala | Rating: 4.8
-2026-01-18 17:47:36,541 - INFO -   - Church Road Clinic and Dental Kamwokya | Rating: 4.0
-2026-01-18 17:47:36,541 - INFO -   - Esnan Dental Clinic | Rating: 3.7
-2026-01-18 17:47:36,544 - INFO - ✓ After RATING filter: 6 businesses (removed 0 with low ratings)
-2026-01-18 17:47:36,544 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
-2026-01-18 17:47:36,553 - INFO - ✓ Removed 1 duplicate phone numbers
-2026-01-18 17:47:36,560 - INFO - 
+2026-01-19 13:21:15,261 - INFO -   - Wright dental clinic kansanga | Rating: 4.7
+2026-01-19 13:21:15,262 - INFO -   - Nex Dental CARE Clinic | Rating: nan
+2026-01-19 13:21:15,264 - INFO - ✓ After RATING filter: 2 businesses (removed 0 with low ratings)
+2026-01-19 13:21:15,268 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 13:21:15,275 - INFO - 
 ✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
-2026-01-18 17:47:36,561 - INFO - 📊 SUMMARY: 12 scraped -> 5 QUALIFIED LEADS
-2026-01-18 17:47:36,561 - INFO - 
+2026-01-19 13:21:15,276 - INFO - 📊 SUMMARY: 5 scraped -> 2 QUALIFIED LEADS
+2026-01-19 13:21:15,277 - INFO - 
 === ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
-2026-01-18 17:47:36,565 - INFO - 1. Dental World Clinic | Phone: 703337738 | Rating: 5.0
-2026-01-18 17:47:36,566 - INFO - 8. Magical smiles dental clinic | Phone: 700644711 | Rating: 4.8
-2026-01-18 17:47:36,568 - INFO - 9. The Hub Dental Practice Kampala | Phone: 779101638 | Rating: 4.8
-2026-01-18 17:47:36,569 - INFO - 10. Church Road Clinic and Dental Kamwokya | Phone: 772669922 | Rating: 4.0
-2026-01-18 17:47:36,570 - INFO - 11. Esnan Dental Clinic | Phone: 773869919 | Rating: 3.7
-2026-01-18 17:47:36,570 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
-2026-01-18 17:47:36,575 - INFO - Found 5 qualified leads to enrich
-2026-01-18 17:47:36,576 - INFO - Setting up Chrome WebDriver for enrichment...
-2026-01-18 17:47:36,576 - INFO - ====== WebDriver manager ======
-2026-01-18 17:47:39,022 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:47:41,790 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 17:47:48,617 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
-2026-01-18 17:47:50,346 - INFO - WebDriver ready for enrichment!
-2026-01-18 17:47:50,347 - INFO - 
---- Enriching 1/5 ---
-2026-01-18 17:47:50,347 - INFO - 🔍 Enriching: Dental World Clinic
-2026-01-18 17:52:50,367 - ERROR - ❌ Error enriching Dental World Clinic: Message: timeout: Timed out receiving message from renderer: 299.397
-  (Session info: chrome=143.0.7499.193)
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0x811213
-	0x811254
-	0x5fe6dd
-	0x5eed49
-	0x5eea85
-	0x5ec94f
-	0x5ed456
-	0x5fa09b
-	0x60be5e
-	0x611976
-	0x5edad2
-	0x60bbd5
-	0x68de45
-	0x66b2e6
-	0x63d321
-	0x63e1d4
-	0xa65254
-	0xa6080b
-	0xa7d0ea
-	0x82b118
-	0x83311d
-	0x819518
-	0x8196d9
-	0x803a68
-	0x75b0fcc9
-	0x77b782ae
-	0x77b7827e
-
-2026-01-18 17:52:51,405 - INFO - 
---- Enriching 2/5 ---
-2026-01-18 17:52:51,406 - INFO - 🔍 Enriching: Magical smiles dental clinic
-2026-01-18 17:53:14,776 - INFO - ✅ Enriched: Magical smiles dental clinic | About: 3 chars | Reviews: 0
-2026-01-18 17:53:15,777 - INFO - 
---- Enriching 3/5 ---
-2026-01-18 17:53:15,779 - INFO - 🔍 Enriching: The Hub Dental Practice Kampala
-2026-01-18 17:53:38,601 - INFO - ✅ Enriched: The Hub Dental Practice Kampala | About: 3 chars | Reviews: 0
-2026-01-18 17:53:39,602 - INFO - 
---- Enriching 4/5 ---
-2026-01-18 17:53:39,603 - INFO - 🔍 Enriching: Church Road Clinic and Dental Kamwokya
-2026-01-18 17:54:01,890 - INFO - ✅ Enriched: Church Road Clinic and Dental Kamwokya | About: 3 chars | Reviews: 0
-2026-01-18 17:54:02,895 - INFO - 
---- Enriching 5/5 ---
-2026-01-18 17:54:02,896 - INFO - 🔍 Enriching: Esnan Dental Clinic
-2026-01-18 17:54:21,174 - INFO - ✅ Enriched: Esnan Dental Clinic | About: 3 chars | Reviews: 0
-2026-01-18 17:54:22,227 - INFO - 
+2026-01-19 13:21:15,278 - INFO - 2. Wright dental clinic kansanga | Phone: 708546216 | Rating: 4.7
+2026-01-19 13:21:15,279 - INFO - 3. Nex Dental CARE Clinic | Phone: 706050229 | Rating: nan
+2026-01-19 13:21:15,280 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 13:21:15,287 - INFO - Found 2 qualified leads to enrich
+2026-01-19 13:21:15,288 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 13:21:15,288 - INFO - ====== WebDriver manager ======
+2026-01-19 13:21:17,185 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:21:18,492 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:21:19,812 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 13:21:21,835 - INFO - WebDriver ready for enrichment!
+2026-01-19 13:21:21,836 - INFO - 
+--- Enriching 1/2 ---
+2026-01-19 13:21:21,837 - INFO - 🔍 Enriching: Wright dental clinic kansanga
+2026-01-19 13:21:41,266 - INFO - ✅ Enriched: Wright dental clinic kansanga | About: 3 chars | Reviews: 0
+2026-01-19 13:21:42,267 - INFO - 
+--- Enriching 2/2 ---
+2026-01-19 13:21:42,268 - INFO - 🔍 Enriching: Nex Dental CARE Clinic
+2026-01-19 13:22:04,409 - INFO - ✅ Enriched: Nex Dental CARE Clinic | About: 3 chars | Reviews: 0
+2026-01-19 13:22:05,416 - INFO - 
 ✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
-2026-01-18 17:54:22,229 - INFO - 📊 Enriched 5 businesses
-2026-01-18 17:54:22,230 - INFO - Keeping browser open for 5 seconds...
-2026-01-18 17:54:31,513 - INFO - Browser closed
-2026-01-18 17:54:35,798 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
-2026-01-18 17:54:35,929 - INFO - ✅ 5 businesses generated
-2026-01-18 17:54:35,930 - INFO - ✅ public/data/businesses/index.json created
-2026-01-18 17:54:35,936 - INFO - ✅ meta.json generated
-2026-01-18 19:05:59,382 - INFO - Setting up Chrome WebDriver...
-2026-01-18 19:05:59,401 - INFO - ====== WebDriver manager ======
-2026-01-18 19:06:01,963 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 19:06:08,814 - INFO - Get LATEST chromedriver version for google-chrome
-2026-01-18 19:06:12,747 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
-2026-01-18 19:06:14,967 - INFO - WebDriver setup complete - Browser should be visible now!
-2026-01-18 19:06:14,970 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
-2026-01-18 19:11:15,003 - ERROR - Scraping failed: Message: timeout: Timed out receiving message from renderer: 293.817
-  (Session info: chrome=143.0.7499.193)
-Stacktrace:
-Symbols not available. Dumping unresolved backtrace:
-	0x601213
-	0x601254
-	0x3ee6dd
-	0x3ded49
-	0x3dea85
-	0x3dc94f
-	0x3dd456
-	0x3ea09b
-	0x3fbe5e
-	0x401976
-	0x3ddad2
-	0x3fbbd5
-	0x47de45
-	0x45b2e6
-	0x42d321
-	0x42e1d4
-	0x855254
-	0x85080b
-	0x86d0ea
-	0x61b118
-	0x62311d
-	0x609518
-	0x6096d9
-	0x5f3a68
-	0x75b0fcc9
-	0x77b782ae
-	0x77b7827e
-
+2026-01-19 13:22:05,416 - INFO - 📊 Enriched 2 businesses
+2026-01-19 13:22:05,417 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 13:22:12,803 - INFO - Browser closed
+2026-01-19 13:22:16,866 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 13:22:16,883 - INFO - ✅ 2 businesses generated
+2026-01-19 13:22:16,885 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 13:22:16,886 - INFO - ✅ meta.json generated
+2026-01-19 13:38:05,629 - INFO - Setting up Chrome WebDriver...
+2026-01-19 13:38:05,631 - INFO - ====== WebDriver manager ======
+2026-01-19 13:38:07,386 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:38:08,725 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:38:09,961 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 13:38:11,599 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 13:38:11,603 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+mbarara, uganda
+2026-01-19 13:38:18,793 - INFO - Search page loaded - you should see results now
+2026-01-19 13:38:18,798 - INFO - Scrolling to load results...
+2026-01-19 13:38:21,493 - INFO - Scroll 1/3 complete
+2026-01-19 13:38:23,524 - INFO - Scroll 2/3 complete
+2026-01-19 13:38:25,547 - INFO - Scroll 3/3 complete
+2026-01-19 13:38:25,548 - INFO - Finding business listings...
+2026-01-19 13:38:25,575 - INFO - Processing business 1/7...
+2026-01-19 13:38:31,415 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 13:38:32,637 - INFO - Processing business 2/7...
+2026-01-19 13:39:00,926 - INFO - ✓ Extracted: Vani dental clinic | Phone: 0762769408 | Website: N/A
+2026-01-19 13:39:01,946 - INFO - Processing business 3/7...
+2026-01-19 13:40:09,953 - INFO - ✓ Extracted: Palm dental clinic | Phone: N/A | Website: N/A
+2026-01-19 13:40:11,037 - INFO - Processing business 4/7...
+2026-01-19 13:40:16,378 - INFO - ✓ Extracted: Jubilee Dental | Kololo | Phone: 0392713613 | Website: http://www.jubileedentalclinic.com/
+2026-01-19 13:40:17,402 - INFO - Processing business 5/7...
+2026-01-19 13:40:43,429 - INFO - ✓ Extracted: The Dental center - Kololo | Phone: 0393202698 | Website: N/A
+2026-01-19 13:40:44,450 - INFO - Processing business 6/7...
+2026-01-19 13:40:51,829 - INFO - ✓ Extracted: i DENTAL CARE - BWAISE | Phone: 0702801040 | Website: http://www.identalcare.ug/
+2026-01-19 13:40:52,845 - INFO - Processing business 7/7...
+2026-01-19 13:40:57,859 - INFO - ✓ Extracted: iDental Care - Ntinda Branch | Phone: 0704021094 | Website: https://identalcare.ug/
+2026-01-19 13:40:58,860 - INFO - Scraping complete! Collected 7 businesses
+2026-01-19 13:40:58,860 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 13:41:06,267 - INFO - Browser closed
+2026-01-19 13:41:06,280 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 13:41:06,281 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 13:41:06,285 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 13:41:06,287 - INFO - 2. Vani dental clinic | Website: N/A | Phone: 0762769408
+2026-01-19 13:41:06,288 - INFO - 3. Palm dental clinic | Website: N/A | Phone: N/A
+2026-01-19 13:41:06,292 - INFO - 4. Jubilee Dental | Kololo | Website: http://www.jubileedentalclinic.com/ | Phone: 0392713613
+2026-01-19 13:41:06,293 - INFO - 5. The Dental center - Kololo | Website: N/A | Phone: 0393202698
+2026-01-19 13:41:06,294 - INFO - 6. i DENTAL CARE - BWAISE | Website: http://www.identalcare.ug/ | Phone: 0702801040
+2026-01-19 13:41:06,294 - INFO - 7. iDental Care - Ntinda Branch | Website: https://identalcare.ug/ | Phone: 0704021094
+2026-01-19 13:41:10,336 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 13:41:10,343 - INFO - Loaded 7 businesses
+2026-01-19 13:41:10,343 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 13:41:10,344 - INFO - Total businesses: 7
+2026-01-19 13:41:10,345 - INFO - Businesses WITH websites: 4
+2026-01-19 13:41:10,345 - INFO - Businesses WITHOUT websites: 3
+2026-01-19 13:41:10,346 - INFO - Businesses with phone: 7
+2026-01-19 13:41:10,347 - INFO - Businesses with email: 7
+2026-01-19 13:41:10,352 - INFO - 
+✓ After NO WEBSITE filter: 3 businesses (removed 4 with websites)
+2026-01-19 13:41:10,353 - INFO - 
+📞 Checking contact info...
+2026-01-19 13:41:10,359 - INFO -   Businesses with phone: 3
+2026-01-19 13:41:10,360 - INFO -   Businesses with email: 3
+2026-01-19 13:41:10,363 - INFO - ✓ After CONTACT filter: 3 businesses (removed 0 without contact)
+2026-01-19 13:41:10,364 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 13:41:10,381 - INFO -   - Vani dental clinic | Rating: 5.0
+2026-01-19 13:41:10,382 - INFO -   - Palm dental clinic | Rating: nan
+2026-01-19 13:41:10,385 - INFO -   - The Dental center - Kololo | Rating: 3.7
+2026-01-19 13:41:10,390 - INFO - ✓ After RATING filter: 3 businesses (removed 0 with low ratings)
+2026-01-19 13:41:10,391 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 13:41:10,398 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 13:41:10,402 - INFO - 📊 SUMMARY: 7 scraped -> 3 QUALIFIED LEADS
+2026-01-19 13:41:10,403 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 13:41:10,404 - INFO - 2. Vani dental clinic | Phone: 762769408.0 | Rating: 5.0
+2026-01-19 13:41:10,405 - INFO - 3. Palm dental clinic | Phone: nan | Rating: nan
+2026-01-19 13:41:10,406 - INFO - 5. The Dental center - Kololo | Phone: 393202698.0 | Rating: 3.7
+2026-01-19 13:41:10,406 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 13:41:10,412 - INFO - Found 3 qualified leads to enrich
+2026-01-19 13:41:10,413 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 13:41:10,414 - INFO - ====== WebDriver manager ======
+2026-01-19 13:41:12,087 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:41:13,406 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 13:41:14,663 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 13:41:16,579 - INFO - WebDriver ready for enrichment!
+2026-01-19 13:41:16,582 - INFO - 
+--- Enriching 1/3 ---
+2026-01-19 13:41:16,584 - INFO - 🔍 Enriching: Vani dental clinic
+2026-01-19 13:41:39,378 - INFO - ✅ Enriched: Vani dental clinic | About: 3 chars | Reviews: 0
+2026-01-19 13:41:40,382 - INFO - 
+--- Enriching 2/3 ---
+2026-01-19 13:41:40,384 - INFO - 🔍 Enriching: Palm dental clinic
+2026-01-19 13:41:59,499 - INFO - ✅ Enriched: Palm dental clinic | About: 3 chars | Reviews: 0
+2026-01-19 13:42:00,500 - INFO - 
+--- Enriching 3/3 ---
+2026-01-19 13:42:00,501 - INFO - 🔍 Enriching: The Dental center - Kololo
+2026-01-19 13:42:21,302 - INFO - ✅ Enriched: The Dental center - Kololo | About: 3 chars | Reviews: 0
+2026-01-19 13:42:22,318 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 13:42:22,319 - INFO - 📊 Enriched 3 businesses
+2026-01-19 13:42:22,319 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 13:42:29,723 - INFO - Browser closed
+2026-01-19 13:42:33,757 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 13:42:33,777 - INFO - ✅ 3 businesses generated
+2026-01-19 13:42:33,777 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 13:42:33,779 - INFO - ✅ meta.json generated
+2026-01-19 14:03:17,410 - INFO - Setting up Chrome WebDriver...
+2026-01-19 14:03:17,412 - INFO - ====== WebDriver manager ======
+2026-01-19 14:03:19,420 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:03:20,729 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:03:21,974 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:03:23,572 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 14:03:23,572 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-19 14:03:30,731 - INFO - Search page loaded - you should see results now
+2026-01-19 14:03:30,744 - INFO - Scrolling to load results...
+2026-01-19 14:03:33,001 - INFO - Scroll 1/3 complete
+2026-01-19 14:03:35,384 - INFO - Scroll 2/3 complete
+2026-01-19 14:03:37,787 - INFO - Scroll 3/3 complete
+2026-01-19 14:03:37,830 - INFO - Finding business listings...
+2026-01-19 14:03:38,538 - INFO - Processing business 1/6...
+2026-01-19 14:04:26,482 - INFO - ✓ Extracted: Nex Dental CARE Clinic | Phone: 0706050229 | Website: N/A
+2026-01-19 14:04:27,506 - INFO - Processing business 2/6...
+2026-01-19 14:04:32,578 - INFO - ✓ Extracted: Run Dental Clinic | Phone: 0772642592 | Website: http://www.runfoundationug.org/
+2026-01-19 14:04:33,600 - INFO - Processing business 3/6...
+2026-01-19 14:04:38,636 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://sterlingdentalclinickampala.com/
+2026-01-19 14:04:39,653 - INFO - Processing business 4/6...
+2026-01-19 14:05:05,639 - INFO - ✓ Extracted: Impressions Dental Clinic | Phone: 0392002015 | Website: N/A
+2026-01-19 14:05:06,664 - INFO - Processing business 5/6...
+2026-01-19 14:05:32,409 - INFO - ✓ Extracted: The Hub Dental Practice Kampala | Phone: 0779101638 | Website: N/A
+2026-01-19 14:05:33,429 - INFO - Processing business 6/6...
+2026-01-19 14:05:38,529 - INFO - ✓ Extracted: Max dental clinics , Nakasero clinic | Phone: 0200906509 | Website: https://www.maxdentalclinics.com/
+2026-01-19 14:05:39,531 - INFO - Scraping complete! Collected 6 businesses
+2026-01-19 14:05:39,531 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 14:05:46,872 - INFO - Browser closed
+2026-01-19 14:05:46,891 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 14:05:46,892 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 14:05:46,893 - INFO - 1. Nex Dental CARE Clinic | Website: N/A | Phone: 0706050229
+2026-01-19 14:05:46,894 - INFO - 2. Run Dental Clinic | Website: http://www.runfoundationug.org/ | Phone: 0772642592
+2026-01-19 14:05:46,894 - INFO - 3. Sterling Dental Clinic | Website: https://sterlingdentalclinickampala.com/ | Phone: 0766526236
+2026-01-19 14:05:46,895 - INFO - 4. Impressions Dental Clinic | Website: N/A | Phone: 0392002015
+2026-01-19 14:05:46,896 - INFO - 5. The Hub Dental Practice Kampala | Website: N/A | Phone: 0779101638
+2026-01-19 14:05:46,897 - INFO - 6. Max dental clinics , Nakasero clinic | Website: https://www.maxdentalclinics.com/ | Phone: 0200906509
+2026-01-19 14:05:50,950 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 14:05:50,968 - INFO - Loaded 6 businesses
+2026-01-19 14:05:50,970 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 14:05:50,972 - INFO - Total businesses: 6
+2026-01-19 14:05:50,974 - INFO - Businesses WITH websites: 3
+2026-01-19 14:05:50,974 - INFO - Businesses WITHOUT websites: 3
+2026-01-19 14:05:50,976 - INFO - Businesses with phone: 6
+2026-01-19 14:05:50,977 - INFO - Businesses with email: 6
+2026-01-19 14:05:50,979 - INFO - 
+✓ After NO WEBSITE filter: 3 businesses (removed 3 with websites)
+2026-01-19 14:05:50,980 - INFO - 
+📞 Checking contact info...
+2026-01-19 14:05:50,983 - INFO -   Businesses with phone: 3
+2026-01-19 14:05:50,984 - INFO -   Businesses with email: 3
+2026-01-19 14:05:50,989 - INFO - ✓ After CONTACT filter: 3 businesses (removed 0 without contact)
+2026-01-19 14:05:50,991 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 14:05:50,993 - INFO -   - Nex Dental CARE Clinic | Rating: nan
+2026-01-19 14:05:50,994 - INFO -   - Impressions Dental Clinic | Rating: 3.7
+2026-01-19 14:05:50,995 - INFO -   - The Hub Dental Practice Kampala | Rating: 4.8
+2026-01-19 14:05:50,996 - INFO - ✓ After RATING filter: 3 businesses (removed 0 with low ratings)
+2026-01-19 14:05:50,998 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 14:05:51,005 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 14:05:51,005 - INFO - 📊 SUMMARY: 6 scraped -> 3 QUALIFIED LEADS
+2026-01-19 14:05:51,006 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 14:05:51,007 - INFO - 1. Nex Dental CARE Clinic | Phone: 706050229 | Rating: nan
+2026-01-19 14:05:51,008 - INFO - 4. Impressions Dental Clinic | Phone: 392002015 | Rating: 3.7
+2026-01-19 14:05:51,008 - INFO - 5. The Hub Dental Practice Kampala | Phone: 779101638 | Rating: 4.8
+2026-01-19 14:05:51,009 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 14:05:51,013 - INFO - Found 3 qualified leads to enrich
+2026-01-19 14:05:51,013 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 14:05:51,014 - INFO - ====== WebDriver manager ======
+2026-01-19 14:05:52,637 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:05:54,043 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:05:55,269 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:05:56,828 - INFO - WebDriver ready for enrichment!
+2026-01-19 14:05:56,833 - INFO - 
+--- Enriching 1/3 ---
+2026-01-19 14:05:56,835 - INFO - 🔍 Enriching: Nex Dental CARE Clinic
+2026-01-19 14:06:14,420 - INFO - ✅ Enriched: Nex Dental CARE Clinic | About: 3 chars | Reviews: 0
+2026-01-19 14:06:15,421 - INFO - 
+--- Enriching 2/3 ---
+2026-01-19 14:06:15,422 - INFO - 🔍 Enriching: Impressions Dental Clinic
+2026-01-19 14:06:37,040 - INFO - ✅ Enriched: Impressions Dental Clinic | About: 3 chars | Reviews: 0
+2026-01-19 14:06:38,041 - INFO - 
+--- Enriching 3/3 ---
+2026-01-19 14:06:38,041 - INFO - 🔍 Enriching: The Hub Dental Practice Kampala
+2026-01-19 14:06:58,772 - INFO - ✅ Enriched: The Hub Dental Practice Kampala | About: 3 chars | Reviews: 0
+2026-01-19 14:06:59,777 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:06:59,778 - INFO - 📊 Enriched 3 businesses
+2026-01-19 14:06:59,778 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 14:07:07,117 - INFO - Browser closed
+2026-01-19 14:07:11,142 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:07:11,178 - INFO - ✅ 3 businesses generated
+2026-01-19 14:07:11,179 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 14:07:11,181 - INFO - ✅ meta.json generated
+2026-01-19 14:11:04,628 - INFO - Setting up Chrome WebDriver...
+2026-01-19 14:11:04,629 - INFO - ====== WebDriver manager ======
+2026-01-19 14:11:06,402 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:11:07,675 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:11:08,929 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:11:10,618 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 14:11:10,618 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+mbarara, uganda
+2026-01-19 14:11:17,181 - INFO - Search page loaded - you should see results now
+2026-01-19 14:11:17,609 - INFO - Scrolling to load results...
+2026-01-19 14:11:21,033 - INFO - Scroll 1/3 complete
+2026-01-19 14:11:23,044 - INFO - Scroll 2/3 complete
+2026-01-19 14:11:25,641 - INFO - Scroll 3/3 complete
+2026-01-19 14:11:25,641 - INFO - Finding business listings...
+2026-01-19 14:11:25,662 - INFO - Processing business 1/2...
+2026-01-19 14:11:51,535 - INFO - ✓ Extracted: MK Dental Hub Clinic | Phone: 0771435963 | Website: N/A
+2026-01-19 14:11:52,556 - INFO - Processing business 2/2...
+2026-01-19 14:11:57,524 - INFO - ✓ Extracted: Afri Pyramids Eygpt dental care clinic's | Phone: 0756414998 | Website: https://www.afripyramid.com/
+2026-01-19 14:11:58,525 - INFO - Scraping complete! Collected 2 businesses
+2026-01-19 14:11:58,526 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 14:12:05,844 - INFO - Browser closed
+2026-01-19 14:12:05,860 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 14:12:05,865 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 14:12:05,869 - INFO - 1. MK Dental Hub Clinic | Website: N/A | Phone: 0771435963
+2026-01-19 14:12:05,871 - INFO - 2. Afri Pyramids Eygpt dental care clinic's | Website: https://www.afripyramid.com/ | Phone: 0756414998
+2026-01-19 14:12:09,946 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 14:12:09,951 - INFO - Loaded 2 businesses
+2026-01-19 14:12:09,951 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 14:12:09,952 - INFO - Total businesses: 2
+2026-01-19 14:12:09,952 - INFO - Businesses WITH websites: 1
+2026-01-19 14:12:09,953 - INFO - Businesses WITHOUT websites: 1
+2026-01-19 14:12:09,954 - INFO - Businesses with phone: 2
+2026-01-19 14:12:09,955 - INFO - Businesses with email: 2
+2026-01-19 14:12:09,956 - INFO - 
+✓ After NO WEBSITE filter: 1 businesses (removed 1 with websites)
+2026-01-19 14:12:09,957 - INFO - 
+📞 Checking contact info...
+2026-01-19 14:12:09,958 - INFO -   Businesses with phone: 1
+2026-01-19 14:12:09,958 - INFO -   Businesses with email: 1
+2026-01-19 14:12:09,960 - INFO - ✓ After CONTACT filter: 1 businesses (removed 0 without contact)
+2026-01-19 14:12:09,961 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 14:12:09,963 - INFO -   - MK Dental Hub Clinic | Rating: 4.9
+2026-01-19 14:12:09,964 - INFO - ✓ After RATING filter: 1 businesses (removed 0 with low ratings)
+2026-01-19 14:12:09,965 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 14:12:09,970 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 14:12:09,971 - INFO - 📊 SUMMARY: 2 scraped -> 1 QUALIFIED LEADS
+2026-01-19 14:12:09,971 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 14:12:09,972 - INFO - 1. MK Dental Hub Clinic | Phone: 771435963 | Rating: 4.9
+2026-01-19 14:12:09,972 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 14:12:09,978 - INFO - Found 1 qualified leads to enrich
+2026-01-19 14:12:09,979 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 14:12:09,979 - INFO - ====== WebDriver manager ======
+2026-01-19 14:12:11,561 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:12:12,871 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:12:14,245 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:12:16,108 - INFO - WebDriver ready for enrichment!
+2026-01-19 14:12:16,109 - INFO - 
+--- Enriching 1/1 ---
+2026-01-19 14:12:16,109 - INFO - 🔍 Enriching: MK Dental Hub Clinic
+2026-01-19 14:12:44,232 - INFO - ✅ Enriched: MK Dental Hub Clinic | About: 3 chars | Reviews: 0
+2026-01-19 14:12:45,260 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:12:45,261 - INFO - 📊 Enriched 1 businesses
+2026-01-19 14:12:45,262 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 14:12:53,704 - INFO - Browser closed
+2026-01-19 14:12:57,777 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:12:57,814 - INFO - ✅ 1 businesses generated
+2026-01-19 14:12:57,815 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 14:12:57,817 - INFO - ✅ meta.json generated
+2026-01-19 14:17:28,972 - INFO - Setting up Chrome WebDriver...
+2026-01-19 14:17:28,974 - INFO - ====== WebDriver manager ======
+2026-01-19 14:17:30,972 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:17:32,283 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:17:33,599 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:17:35,913 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 14:17:35,913 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-19 14:17:42,493 - INFO - Search page loaded - you should see results now
+2026-01-19 14:17:42,833 - INFO - Scrolling to load results...
+2026-01-19 14:17:45,095 - INFO - Scroll 1/3 complete
+2026-01-19 14:17:47,147 - INFO - Scroll 2/3 complete
+2026-01-19 14:17:49,597 - INFO - Scroll 3/3 complete
+2026-01-19 14:17:49,598 - INFO - Finding business listings...
+2026-01-19 14:17:49,886 - INFO - Processing business 1/4...
+2026-01-19 14:18:39,750 - INFO - ✓ Extracted: Nex Dental CARE Clinic | Phone: 0706050229 | Website: N/A
+2026-01-19 14:18:40,776 - INFO - Processing business 2/4...
+2026-01-19 14:18:45,908 - INFO - ✓ Extracted: Run Dental Clinic | Phone: 0772642592 | Website: http://www.runfoundationug.org/
+2026-01-19 14:18:46,930 - INFO - Processing business 3/4...
+2026-01-19 14:18:52,064 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://sterlingdentalclinickampala.com/
+2026-01-19 14:18:53,129 - INFO - Processing business 4/4...
+2026-01-19 14:19:19,299 - INFO - ✓ Extracted: Impressions Dental Clinic | Phone: 0392002015 | Website: N/A
+2026-01-19 14:19:20,299 - INFO - Scraping complete! Collected 4 businesses
+2026-01-19 14:19:20,300 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 14:19:27,698 - INFO - Browser closed
+2026-01-19 14:19:27,713 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 14:19:27,716 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 14:19:27,718 - INFO - 1. Nex Dental CARE Clinic | Website: N/A | Phone: 0706050229
+2026-01-19 14:19:27,720 - INFO - 2. Run Dental Clinic | Website: http://www.runfoundationug.org/ | Phone: 0772642592
+2026-01-19 14:19:27,721 - INFO - 3. Sterling Dental Clinic | Website: https://sterlingdentalclinickampala.com/ | Phone: 0766526236
+2026-01-19 14:19:27,722 - INFO - 4. Impressions Dental Clinic | Website: N/A | Phone: 0392002015
+2026-01-19 14:19:31,778 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 14:19:31,781 - INFO - Loaded 4 businesses
+2026-01-19 14:19:31,781 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 14:19:31,782 - INFO - Total businesses: 4
+2026-01-19 14:19:31,783 - INFO - Businesses WITH websites: 2
+2026-01-19 14:19:31,783 - INFO - Businesses WITHOUT websites: 2
+2026-01-19 14:19:31,784 - INFO - Businesses with phone: 4
+2026-01-19 14:19:31,785 - INFO - Businesses with email: 4
+2026-01-19 14:19:31,786 - INFO - 
+✓ After NO WEBSITE filter: 2 businesses (removed 2 with websites)
+2026-01-19 14:19:31,786 - INFO - 
+📞 Checking contact info...
+2026-01-19 14:19:31,787 - INFO -   Businesses with phone: 2
+2026-01-19 14:19:31,788 - INFO -   Businesses with email: 2
+2026-01-19 14:19:31,789 - INFO - ✓ After CONTACT filter: 2 businesses (removed 0 without contact)
+2026-01-19 14:19:31,789 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 14:19:31,790 - INFO -   - Nex Dental CARE Clinic | Rating: nan
+2026-01-19 14:19:31,791 - INFO -   - Impressions Dental Clinic | Rating: 3.7
+2026-01-19 14:19:31,792 - INFO - ✓ After RATING filter: 2 businesses (removed 0 with low ratings)
+2026-01-19 14:19:31,792 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 14:19:31,798 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 14:19:31,799 - INFO - 📊 SUMMARY: 4 scraped -> 2 QUALIFIED LEADS
+2026-01-19 14:19:31,799 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 14:19:31,801 - INFO - 1. Nex Dental CARE Clinic | Phone: 706050229 | Rating: nan
+2026-01-19 14:19:31,801 - INFO - 4. Impressions Dental Clinic | Phone: 392002015 | Rating: 3.7
+2026-01-19 14:19:31,802 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 14:19:31,807 - INFO - Found 2 qualified leads to enrich
+2026-01-19 14:19:31,808 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 14:19:31,808 - INFO - ====== WebDriver manager ======
+2026-01-19 14:19:33,362 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:19:34,701 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:19:35,964 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:19:37,852 - INFO - WebDriver ready for enrichment!
+2026-01-19 14:19:37,853 - INFO - 
+--- Enriching 1/2 ---
+2026-01-19 14:19:37,854 - INFO - 🔍 Enriching: Nex Dental CARE Clinic
+2026-01-19 14:20:00,532 - INFO - ✅ Enriched: Nex Dental CARE Clinic | About: 3 chars | Reviews: 0
+2026-01-19 14:20:01,534 - INFO - 
+--- Enriching 2/2 ---
+2026-01-19 14:20:01,534 - INFO - 🔍 Enriching: Impressions Dental Clinic
+2026-01-19 14:20:28,360 - INFO - ✅ Enriched: Impressions Dental Clinic | About: 3 chars | Reviews: 0
+2026-01-19 14:20:29,372 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:20:29,374 - INFO - 📊 Enriched 2 businesses
+2026-01-19 14:20:29,376 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 14:20:37,072 - INFO - Browser closed
+2026-01-19 14:20:41,113 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:20:41,129 - INFO - ✅ 2 businesses generated
+2026-01-19 14:20:41,131 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 14:20:41,132 - INFO - ✅ meta.json generated
+2026-01-19 14:34:16,223 - INFO - Setting up Chrome WebDriver...
+2026-01-19 14:34:16,224 - INFO - ====== WebDriver manager ======
+2026-01-19 14:34:18,522 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:34:19,933 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:34:21,286 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:34:23,540 - INFO - WebDriver setup complete - Browser should be visible now!
+2026-01-19 14:34:23,541 - INFO - Searching: https://www.google.com/maps/search/dental clinics+in+kampala, uganda
+2026-01-19 14:34:28,237 - INFO - Search page loaded - you should see results now
+2026-01-19 14:34:28,238 - INFO - Scrolling to load results...
+2026-01-19 14:34:33,289 - INFO - Scroll 1/3 complete
+2026-01-19 14:34:35,571 - INFO - Scroll 2/3 complete
+2026-01-19 14:34:39,006 - INFO - Scroll 3/3 complete
+2026-01-19 14:34:39,007 - INFO - Finding business listings...
+2026-01-19 14:34:39,036 - INFO - Processing business 1/8...
+2026-01-19 14:34:45,922 - INFO - ✓ Extracted: Dental clinic in kampala - Victory dental hub | Phone: 0744000777 | Website: http://victorydentalhub.com/
+2026-01-19 14:34:47,295 - INFO - Processing business 2/8...
+2026-01-19 14:34:53,529 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://sterlingdentalclinickampala.com/
+2026-01-19 14:34:54,582 - INFO - Processing business 3/8...
+2026-01-19 14:35:42,029 - INFO - ✓ Extracted: Nex Dental CARE Clinic | Phone: 0706050229 | Website: N/A
+2026-01-19 14:35:43,063 - INFO - Processing business 4/8...
+2026-01-19 14:35:48,313 - INFO - ✓ Extracted: Run Dental Clinic | Phone: 0772642592 | Website: http://www.runfoundationug.org/
+2026-01-19 14:35:49,351 - INFO - Processing business 5/8...
+2026-01-19 14:35:55,716 - INFO - ✓ Extracted: Sterling Dental Clinic | Phone: 0766526236 | Website: https://sterlingdentalclinickampala.com/
+2026-01-19 14:35:56,764 - INFO - Processing business 6/8...
+2026-01-19 14:36:22,892 - INFO - ✓ Extracted: Impressions Dental Clinic | Phone: 0392002015 | Website: N/A
+2026-01-19 14:36:23,911 - INFO - Processing business 7/8...
+2026-01-19 14:36:49,710 - INFO - ✓ Extracted: The Hub Dental Practice Kampala | Phone: 0779101638 | Website: N/A
+2026-01-19 14:36:50,752 - INFO - Processing business 8/8...
+2026-01-19 14:36:55,973 - INFO - ✓ Extracted: Max dental clinics , Nakasero clinic | Phone: 0200906509 | Website: https://www.maxdentalclinics.com/
+2026-01-19 14:36:56,975 - INFO - Scraping complete! Collected 8 businesses
+2026-01-19 14:36:56,985 - INFO - Keeping browser open for 5 seconds so you can see the results...
+2026-01-19 14:37:04,512 - INFO - Browser closed
+2026-01-19 14:37:04,547 - INFO - Data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv
+2026-01-19 14:37:04,550 - INFO - 
+=== DATA PREVIEW ===
+2026-01-19 14:37:04,553 - INFO - 1. Dental clinic in kampala - Victory dental hub | Website: http://victorydentalhub.com/ | Phone: 0744000777
+2026-01-19 14:37:04,554 - INFO - 2. Sterling Dental Clinic | Website: https://sterlingdentalclinickampala.com/ | Phone: 0766526236
+2026-01-19 14:37:04,555 - INFO - 3. Nex Dental CARE Clinic | Website: N/A | Phone: 0706050229
+2026-01-19 14:37:04,556 - INFO - 4. Run Dental Clinic | Website: http://www.runfoundationug.org/ | Phone: 0772642592
+2026-01-19 14:37:04,556 - INFO - 5. Sterling Dental Clinic | Website: https://sterlingdentalclinickampala.com/ | Phone: 0766526236
+2026-01-19 14:37:04,557 - INFO - 6. Impressions Dental Clinic | Website: N/A | Phone: 0392002015
+2026-01-19 14:37:04,558 - INFO - 7. The Hub Dental Practice Kampala | Website: N/A | Phone: 0779101638
+2026-01-19 14:37:04,559 - INFO - 8. Max dental clinics , Nakasero clinic | Website: https://www.maxdentalclinics.com/ | Phone: 0200906509
+2026-01-19 14:37:08,658 - INFO - Loading data from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_raw.csv...
+2026-01-19 14:37:08,694 - INFO - Loaded 8 businesses
+2026-01-19 14:37:08,696 - INFO - 
+=== BEFORE FILTERING ===
+2026-01-19 14:37:08,697 - INFO - Total businesses: 8
+2026-01-19 14:37:08,698 - INFO - Businesses WITH websites: 5
+2026-01-19 14:37:08,699 - INFO - Businesses WITHOUT websites: 3
+2026-01-19 14:37:08,700 - INFO - Businesses with phone: 8
+2026-01-19 14:37:08,702 - INFO - Businesses with email: 8
+2026-01-19 14:37:08,705 - INFO - 
+✓ After NO WEBSITE filter: 3 businesses (removed 5 with websites)
+2026-01-19 14:37:08,705 - INFO - 
+📞 Checking contact info...
+2026-01-19 14:37:08,707 - INFO -   Businesses with phone: 3
+2026-01-19 14:37:08,708 - INFO -   Businesses with email: 3
+2026-01-19 14:37:08,713 - INFO - ✓ After CONTACT filter: 3 businesses (removed 0 without contact)
+2026-01-19 14:37:08,714 - INFO - 
+⭐ Checking ratings (minimum: 2.5)...
+2026-01-19 14:37:08,717 - INFO -   - Nex Dental CARE Clinic | Rating: nan
+2026-01-19 14:37:08,717 - INFO -   - Impressions Dental Clinic | Rating: 3.7
+2026-01-19 14:37:08,718 - INFO -   - The Hub Dental Practice Kampala | Rating: 4.8
+2026-01-19 14:37:08,719 - INFO - ✓ After RATING filter: 3 businesses (removed 0 with low ratings)
+2026-01-19 14:37:08,719 - INFO - ✓ Review filter skipped (MIN_REVIEWS = 0)
+2026-01-19 14:37:08,725 - INFO - 
+✓ Filtered data saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv
+2026-01-19 14:37:08,725 - INFO - 📊 SUMMARY: 8 scraped -> 3 QUALIFIED LEADS
+2026-01-19 14:37:08,725 - INFO - 
+=== ✅ QUALIFIED LEADS (NO WEBSITE + HAS CONTACT) ===
+2026-01-19 14:37:08,729 - INFO - 3. Nex Dental CARE Clinic | Phone: 706050229 | Rating: nan
+2026-01-19 14:37:08,730 - INFO - 6. Impressions Dental Clinic | Phone: 392002015 | Rating: 3.7
+2026-01-19 14:37:08,730 - INFO - 7. The Hub Dental Practice Kampala | Phone: 779101638 | Rating: 4.8
+2026-01-19 14:37:08,730 - INFO - Loading qualified leads from C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_qualified.csv...
+2026-01-19 14:37:08,734 - INFO - Found 3 qualified leads to enrich
+2026-01-19 14:37:08,734 - INFO - Setting up Chrome WebDriver for enrichment...
+2026-01-19 14:37:08,735 - INFO - ====== WebDriver manager ======
+2026-01-19 14:37:10,686 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:37:12,016 - INFO - Get LATEST chromedriver version for google-chrome
+2026-01-19 14:37:13,324 - INFO - Driver [C:\Users\ziha_aman\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe] found in cache
+2026-01-19 14:37:15,636 - INFO - WebDriver ready for enrichment!
+2026-01-19 14:37:15,637 - INFO - 
+--- Enriching 1/3 ---
+2026-01-19 14:37:15,638 - INFO - 🔍 Enriching: Nex Dental CARE Clinic
+2026-01-19 14:37:37,547 - INFO - ✅ Enriched: Nex Dental CARE Clinic | About: 3 chars | Reviews: 0
+2026-01-19 14:37:38,548 - INFO - 
+--- Enriching 2/3 ---
+2026-01-19 14:37:38,549 - INFO - 🔍 Enriching: Impressions Dental Clinic
+2026-01-19 14:38:07,334 - INFO - ✅ Enriched: Impressions Dental Clinic | About: 3 chars | Reviews: 0
+2026-01-19 14:38:08,335 - INFO - 
+--- Enriching 3/3 ---
+2026-01-19 14:38:08,336 - INFO - 🔍 Enriching: The Hub Dental Practice Kampala
+2026-01-19 14:38:30,150 - INFO - ✅ Enriched: The Hub Dental Practice Kampala | About: 3 chars | Reviews: 0
+2026-01-19 14:38:31,167 - INFO - 
+✅ Enrichment complete! Saved to C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:38:31,169 - INFO - 📊 Enriched 3 businesses
+2026-01-19 14:38:31,169 - INFO - Keeping browser open for 5 seconds...
+2026-01-19 14:38:38,708 - INFO - Browser closed
+2026-01-19 14:38:42,760 - INFO - Reading enriched CSV: C:\Users\ziha_aman\Desktop\locallead\LocalLead Automator\data\leads_enriched.csv
+2026-01-19 14:38:42,789 - INFO - ✅ 3 businesses generated
+2026-01-19 14:38:42,792 - INFO - ✅ public/data/businesses/index.json created
+2026-01-19 14:38:42,793 - INFO - ✅ meta.json generated
